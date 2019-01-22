@@ -20,7 +20,7 @@ body, html {
 }
 
 div.transbox {
-    padding: 60px;
+    padding: 64px;
     background-color: #ffffffaa;
     border: 1px solid black;
     opacity: 1.0;
@@ -99,52 +99,28 @@ div.transbox {
   </div>
 </div>
 
-<!-- First Parallax Image with Logo Text -->
+<!-- First Parallax Image with Logo -->
 <div class="bgimg-1 w3-display-container" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-
-  <div class="transbox">
-    <img style="width:100%" src="img/logo_print_sq.png">
-  </div>
-
-    <!-- <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span> -->
-    <!-- <span class="w3-center w3-white w3-xlarge w3-wide w3-animate-opacity"> <span class="w3-hide-small"></span></span> -->
-    <!-- <img width = '90%' src="img/logo.png"> -->
+    <div class="transbox">
+      <img style="width:100%" src="img/logo_print_sq.png">
+    </div>
+    <div class="w3-center w3-padding-64" >
+      <a href="#menu">
+        <i class="fa fa-4x fa-arrow-circle-down" style="color: #ffffffaa"></i>
+      </a>
+    </div>
   </div>
 </div>
 
 <!-- Second Parallax Image with Menu Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="menu">
   <div class="w3-display-middle">
     <span class="w3-center w3-padding-large w3-white w3-xxlarge w3-wide w3-opacity-min">MENU</span>
   </div>
 </div>
 
-<!-- Container (Menu Section) -->
-<!--
-<div class="w3-content w3-container w3-padding-64" id="menu">
-  <h2 class="w3-center">soft bread.</h2>
-  <p class="w3-center">
-  <em>white flour. whole milk. heavy cream. eggs. sugar. yeast. salt.</em>
-  </p>
-  <p class="w3-center"> $5 </p><br>
-
-  <h2 class="w3-center">chocolate soft bread.</h2>
-  <p class="w3-center">
-  <em>white flour. whole milk. semi-sweet chocolate. heavy cream. eggs. sugar. yeast. salt.</em>
-  </p>
-  <p class="w3-center"> $6 </p><br>
-
-  <h2 class="w3-center">cheese soft bread.</h3>
-  <p class="w3-center">
-  <em>white flour. whole milk. cheddar cheese. heavy cream. eggs. sugar. yeast. salt.</em>
-  </p>
-  <p class="w3-center"> $7 </p><br>
-
-</div>
--->
-
-<div class="w3-content w3-container w3-padding-32" id="menu">
+<div class="w3-content w3-container w3-padding-32">
   <div class="w3-row w3-section">
     <div class="w3-col w3-third w3-centered w3-container">
       <div class="card">
@@ -172,28 +148,25 @@ div.transbox {
 
 
 <!-- Third Parallax Image with Contact Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
+<div class="bgimg-3 w3-display-container w3-opacity-min" id="contact">
   <div class="w3-display-middle">
     <span class="w3-center w3-padding-large w3-white w3-xxlarge w3-wide w3-opacity-min">CONTACT</span>
   </div>
 </div>
 
 <!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-32" id="contact">
+<div class="w3-content w3-container w3-padding-32">
   <div class="w3-row w3-section">
     <div class="w3-col w3-half w3-panel">
       <h2 class="w3-center">order by reservation.</h2>
       <br>
       <div class="w3-center w3-large w3-margin-bottom">
-        <!-- <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Los Alamos, NM, USA<br> -->
         <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>412-315-5956<br><br>
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><a href="mailto:owner@url.com?Subject=Reservation%20Request" target="_top">minyoung.baker@gmail.com</a><br><br>
         <i class="fa fa-building fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 54 Canyon View Los Alamos, NM 87544 <br>
       </div>
     </div>
     <div class="w3-col w3-half w3-container">
-      <!-- Add Google Maps
--->
       <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:300px;"></div>
     </div>
   </div>
@@ -201,14 +174,20 @@ div.transbox {
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-32 w3-opacity">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <!-- <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a> -->
   <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com"><i class="fab fa-facebook w3-hover-opacity"></i></a>
     <!-- <a href="https://www.facebook.com"><i class="fab fa-facebook w3-hover-opacity"></i></a> -->
     <!-- <i class="fa fa-instagram w3-hover-opacity"></i> -->
     <!-- <i class="fa fa-snapchat w3-hover-opacity"></i> -->
     <!-- <i class="fa fa-pinterest-p w3-hover-opacity"></i> -->
     <!-- <i class="fa fa-twitter w3-hover-opacity"></i> -->
     <!-- <i class="fa fa-linkedin w3-hover-opacity"></i> -->
+  </div>
+  <div class="w3-text-white w3-small w3-lighter">
+    Copyright <i class="far fa-copyright"></i> 2019 minnie bakery LLC.  All rights reserved.
+    <br>
+    Both our menu and our website are cookie free.
   </div>
 </footer>
 
@@ -259,11 +238,8 @@ function toggleFunction() {
     }
 }
 </script>
+
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9KoT_IA8yG7HO0Mh7bjM50QcUyYiU6tM&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
 
 </body>
 </html>
