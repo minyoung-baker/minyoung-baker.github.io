@@ -41,24 +41,30 @@ div.transbox {
 
 /* First image (Logo) */
 .bgimg-1 {
-    background-image: url('img/b1.jpg');
+    background-image: url('img/header.jpg');
     min-height: 100%;
 }
 
 /* Second image (Menu) */
 .bgimg-2 {
-    background-image: url("img/b2.jpg");
+    background-image: url("img/br_ch_02.jpg");
     min-height: 150px;
 }
 
 /* Third image (Order) */
 .bgimg-3 {
-    background-image: url("img/b3.jpg");
+    background-image: url("img/br_cz_02.jpg");
     min-height: 150px;
 }
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 5%;
+}
 
 .price {
   color: grey;
@@ -66,14 +72,108 @@ div.transbox {
 }
 
 .ingredients{
-  color: #734332;
+  margin: 5%;
+  color: #000000;
   align: center;
+  padding-bottom: 32px;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
+    }
+}
+
+ /* Style the Image Used to Trigger the Modal */
+.modal_img {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.modal_img:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.0s;
+    animation-name: zoom;
+    animation-duration: 0.0s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.0s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
     }
 }
 
@@ -89,9 +189,6 @@ div.transbox {
     <a href="#top" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-long-arrow-alt-up"></i> TOP</a>
     <a href="#menu" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-utensils"></i> MENU</a>
     <a href="#order" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-shopping-cart"></i> ORDER</a>
-    <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"> -->
-    <!--   <i class="fa fa-search"></i> -->
-    <!-- </a> -->
   </div>
 
   <!-- Navbar on small screens -->
@@ -99,7 +196,6 @@ div.transbox {
     <a href="#top" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">TOP</a>
     <a href="#menu" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">MENU</a>
     <a href="#order" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">ORDER</a>
-    <!-- <a href="#" class="w3-bar-item w3-button">SEARCH</a> -->
   </div>
 </div>
 
@@ -128,10 +224,12 @@ div.transbox {
   </div>
 </div>
 
-<div class="w3-content w3-container w3-padding-32">
-  <div class="w3-row w3-section">
+<div class="w3-white w3-display-container w3-padding-32">
+  <div class="w3-row">
+
     <div class="w3-col w3-third w3-centered w3-container">
       <div class="card">
+        <img class="modal_img" src="img/br_so_01.jpg" alt="soft bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
         <h2>soft bread.</h2>
         <p class="price">$5</p>
         <p class="ingredients">white flour. whole milk. heavy cream. eggs. sugar. yeast. salt.</p>
@@ -139,6 +237,7 @@ div.transbox {
     </div>
     <div class="w3-col w3-third w3-centered w3-container">
       <div class="card">
+        <img class="modal_img" src="img/br_ch_01.jpg" alt="chocolate soft bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
         <h2>chocolate soft bread.</h2>
         <p class="price">$6</p>
         <p class="ingredients">white flour. whole milk. semi-sweet chocolate. heavy cream. eggs. sugar. yeast. salt.</p>
@@ -146,14 +245,20 @@ div.transbox {
     </div>
     <div class="w3-col w3-third w3-centered w3-container">
       <div class="card">
+        <img class="modal_img" src="img/br_cz_01.jpg" alt="cheese soft bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
         <h2>cheese soft bread.</h2>
         <p class="price">$7</p>
         <p class="ingredients">white flour. whole milk. cheddar cheese. heavy cream. eggs. sugar. yeast. salt.</p>
       </div>
     </div>
-  </div>
-</div>
 
+  <div class="w3-row">
+</div>
+<div id="myModal" class="modal">
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
 
 <!-- Third Parallax Image with Order Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min" id="order">
@@ -170,7 +275,7 @@ div.transbox {
       <br>
       <div class="w3-center w3-large w3-margin-bottom">
         <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>505-663-6202<br><br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><a href="mailto:minyoung.baker@gmail.com?Subject=Order%20Reservation" target="_top">minyoung.baker@gmail.com</a><br><br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><a href="mailto:minyoung.baker@gmail.com?Subject=Minnie%20Bakery%20Order%20Reservation" target="_top">minyoung.baker@gmail.com</a><br><br>
       </div>
       <h2 class="w3-center">receive by pickup.</h2>
       <br>
@@ -202,10 +307,9 @@ div.transbox {
   </div>
 </footer>
 
-<!-- Add Google Maps -->
+<!-- Google Maps -->
 <script>
-function myMap()
-{
+function myMap() {
   myCenter=new google.maps.LatLng( 35.881884, -106.310765 );
   var mapOptions= {
     center:myCenter,
@@ -229,7 +333,7 @@ function onClick(element) {
 }
 
 // Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
+window.onscroll = function() { myFunction() };
 function myFunction() {
     var navbar = document.getElementById("myNavbar");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
@@ -249,9 +353,54 @@ function toggleFunction() {
     }
 }
 </script>
-
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9KoT_IA8yG7HO0Mh7bjM50QcUyYiU6tM&callback=myMap"></script>
 
+<!-- Modal zooming -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = $('.modal_img');
+var modalImg = $("#img01");
+var captionText = document.getElementById("caption");
+$('.modal_img').click( function() {
+    modal.style.display = "block";
+    var newSrc = this.src;
+    modalImg.attr('src', newSrc);
+    captionText.innerHTML = this.alt;
+});
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+<!-- Swap images on mouseover -->
+<script>
+function hover(element) {
+  var src = element.src;
+  element.setAttribute('src', src.replace("_01", "_02"));
+}
+
+function unhover(element) {
+  var src = element.src;
+  element.setAttribute('src', src.replace("_02", "_01"));
+}
+
+</script>
 </body>
 </html>
 
