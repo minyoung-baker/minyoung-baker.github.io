@@ -177,6 +177,33 @@ a:link {
     }
 }
 
+#overlay{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    opacity:.80;
+    z-index:1001;
+}
+#announcement{
+    display: none;
+    position: absolute;
+    width: 80%;
+    padding: 0 16px;
+    border: 16px solid #734332;
+    background-color: white;
+    z-index:1002;
+}
+#close{
+    display: inline;
+    float: right;
+    padding: 16px 16px;
+}
+
 </style>
 <body id="#top">
 
@@ -198,6 +225,37 @@ a:link {
     <a href="#order" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">ORDER</a>
   </div>
 </div>
+
+<!-- From: https://hibbard.eu/display-ui-blocking-overlay-on-page-load/ -->
+<div id="announcement">
+  <h2>temporary closure.</h2>
+  <p>We're temporarily closed to take a small vacation.</p>
+  <p>We will be back to baking on <b>June 10</b>, and look forward to serving you then!</p>
+  <p>In the meantime, we apologize for any inconvenience this causes.</p>
+  <a id="close" href="#">Close</a>
+</div>
+
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script>
+  jQuery.fn.center = function () {
+    var w = $(window);
+    this.css("position","absolute");
+    this.css("top", Math.max(0, (
+      (w.height() - $(this).outerHeight()) / 2) + w.scrollTop()
+    ) + "px");
+    this.css("left", Math.max(0, (
+      (w.width() - $(this).outerWidth()) / 2) + w.scrollLeft()
+    ) + "px");
+    return this;
+  }
+  $('<div>', {id : 'overlay'}).appendTo('body');
+  $("#announcement").fadeIn('slow').center();
+  $("#close").click(function(e){
+    $("#announcement").remove();
+    $("#overlay").remove();
+    e.preventDefault();
+  });
+</script>
 
 <!-- First Parallax Image with Logo -->
 <div class="bgimg-1 w3-display-container w3-padding-64">
@@ -390,98 +448,99 @@ a:link {
 
 <!-- Google Maps -->
 <script>
-function myMap() {
-  myCenter=new google.maps.LatLng( 35.881884, -106.310765 );
-  var mapOptions= {
-    center:myCenter,
-    zoom:15, scrollwheel: false, draggable: true,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+  function myMap() {
+    myCenter=new google.maps.LatLng( 35.881884, -106.310765 );
+    var mapOptions= {
+      center:myCenter,
+      zoom:15, scrollwheel: false, draggable: true,
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+    };
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
 
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
+    var marker = new google.maps.Marker({
+      position: myCenter,
+    });
+    marker.setMap(map);
+  }
 
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
+  // Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
 
-// Change style of navbar on scroll
-window.onscroll = function() { myFunction() };
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white" + " w3-text-black";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white w3-text-black", " w3-text-white");
-    }
-}
+  // Change style of navbar on scroll
+  window.onscroll = function() { myFunction() };
+  function myFunction() {
+      var navbar = document.getElementById("myNavbar");
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white" + " w3-text-black";
+      } else {
+          navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white w3-text-black", " w3-text-white");
+      }
+  }
 
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("menubar");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function toggleFunction() {
+      var x = document.getElementById("menubar");
+      if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+      } else {
+          x.className = x.className.replace(" w3-show", "");
+      }
+  }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9KoT_IA8yG7HO0Mh7bjM50QcUyYiU6tM&callback=myMap"></script>
 
 <!-- Modal zooming -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 <script>
-// Get the modal
-var modal = document.getElementById('myModal');
+  // Get the modal
+  var modal = document.getElementById('myModal');
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = $('.modal_img');
-var modalImg = $("#img01");
-var captionText = document.getElementById("caption");
-$('.modal_img').click( function() {
-    modal.style.display = "block";
-    var newSrc = this.src;
-    modalImg.attr('src', newSrc);
-    captionText.innerHTML = this.alt;
-});
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = $('.modal_img');
+  var modalImg = $("#img01");
+  var captionText = document.getElementById("caption");
+  $('.modal_img').click( function() {
+      modal.style.display = "block";
+      var newSrc = this.src;
+      modalImg.attr('src', newSrc);
+      captionText.innerHTML = this.alt;
+  });
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
     modal.style.display = "none";
   }
-}
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
 </script>
 
 <!-- Swap images on mouseover -->
 <script>
-function hover(element) {
-  var src = element.src;
-  element.setAttribute('src', src.replace("_01", "_02"));
-}
+  function hover(element) {
+    var src = element.src;
+    element.setAttribute('src', src.replace("_01", "_02"));
+  }
 
-function unhover(element) {
-  var src = element.src;
-  element.setAttribute('src', src.replace("_02", "_01"));
-}
-
+  function unhover(element) {
+    var src = element.src;
+    element.setAttribute('src', src.replace("_02", "_01"));
+  }
 </script>
+
 </body>
 </html>
 
