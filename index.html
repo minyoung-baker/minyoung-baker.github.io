@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>minnie bakery</title>
+<link rel="icon" href="https://minyoung-baker.github.io/stg/img/logo_print_sq.png">
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3mod.css">
+<link rel="stylesheet" href="css/lato.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<style>
+
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato", sans-serif;
+    color: #734332;
+}
+
+body, html {
+    height: 100%;
+    color: #734332;
+    line-height: 1.8;
+}
+
+div.transbox {
+    padding: 64px;
+    background-color: #ffffffaa;
+    border: 1px solid black;
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    width: calc(66vmin);
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo) */
+.bgimg-1 {
+    background-image: url('img/header.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Menu) */
+.bgimg-2 {
+    background-image: url("img/br_ch_02.jpg");
+    min-height: 150px;
+}
+
+/* Third image (Order) */
+.bgimg-3 {
+    background-image: url("img/br_al_02.jpg");
+    min-height: 150px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 5%;
+}
+
+.price {
+  color: grey;
+  align: center;
+}
+
+.ingredients{
+  margin: 5%;
+  color: #000000;
+  align: center;
+  padding-bottom: 32px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+ /* Style the Image Used to Trigger the Modal */
+.modal_img {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.modal_img:hover {
+  opacity: 0.8;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.0s;
+    animation-name: zoom;
+    animation-duration: 0.0s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.0s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+#overlay{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    opacity:.80;
+    z-index:1001;
+}
+#announcement{
+    display: none;
+    position: absolute;
+    width: 80%;
+    padding: 0 16px;
+    border: 16px solid #734332;
+    background-color: white;
+    z-index:1002;
+}
+#close{
+    display: inline;
+    float: right;
+    padding: 16px 16px;
+}
+
+</style>
+<body id="#top">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-text-white" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#top" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-long-arrow-alt-up"></i> TOP</a>
+    <a href="#menu" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-utensils"></i> MENU</a>
+    <a href="#order" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-shopping-cart"></i> ORDER</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="menubar" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#top" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">TOP</a>
+    <a href="#menu" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">MENU</a>
+    <a href="#order" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">ORDER</a>
+  </div>
+</div>
+
+<!-- From: https://hibbard.eu/display-ui-blocking-overlay-on-page-load/ -->
+<!-- To disable, comment out until ... -->
+<!-- <div id="announcement"> -->
+<!--   <h2>temporary closure.</h2> -->
+<!--   <p>We're temporarily closed.</p> -->
+<!--   <p>We will be back to baking on <b>August 12</b>, and we look forward to serving you then!</p> -->
+<!--   <p>In the meantime, we apologize for any inconvenience this causes.</p> -->
+<!--   <a id="close" href="#">Close</a> -->
+<!-- </div> -->
+<!-- <script src="https://code.jquery.com/jquery-latest.js"></script> -->
+<!-- <script> -->
+<!--   jQuery.fn.center = function () { -->
+<!--     var w = $(window); -->
+<!--     this.css("position","absolute"); -->
+<!--     this.css("top", Math.max(0, ( -->
+<!--       (w.height() - $(this).outerHeight()) / 2) + w.scrollTop() -->
+<!--     ) + "px"); -->
+<!--     this.css("left", Math.max(0, ( -->
+<!--       (w.width() - $(this).outerWidth()) / 2) + w.scrollLeft() -->
+<!--     ) + "px"); -->
+<!--     return this; -->
+<!--   } -->
+<!--   $('<div>', {id : 'overlay'}).appendTo('body'); -->
+<!--   $("#announcement").fadeIn('slow').center(); -->
+<!--   $("#close").click(function(e){ -->
+<!--     $("#announcement").remove(); -->
+<!--     $("#overlay").remove(); -->
+<!--     e.preventDefault(); -->
+<!--   }); -->
+<!-- </script> -->
+<!-- ... here. -->
+
+<!-- First Parallax Image with Logo -->
+<div class="bgimg-1 w3-display-container w3-padding-64">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <div class="transbox">
+      <img style="width:100%" src="img/logo_print_sq.png">
+    </div>
+    <div class="w3-center w3-padding-32" >
+      <a href="#menu">
+        <i class="fa fa-4x fa-arrow-circle-down" style="color: #ffffffaa"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Gap between Logo and First Section -->
+<div class="w3-white w3-display-container w3-padding-32">
+</div>
+
+<!-- Second Parallax Image with Menu Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="menu">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large w3-white w3-xxlarge w3-wide w3-opacity-min">MENU</span>
+  </div>
+</div>
+
+<div class="w3-white w3-display-container w3-padding-32">
+
+  <div class="w3-row">
+    <div class="w3-col w3-half w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/pc_orange_01.jpg" alt="orange pound cake." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>orange pound cake.</h2>
+        <p class="price">$14</p>
+        <p class="ingredients">sugar. white flour. unsalted butter. orange. eggs. sour cream. water. orange marmalade. orange peel. orange juice. orange zest. baking powder. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-half w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/tigre_cakes.jpg" alt="tigre cakes." style="width:100%">
+        <h2>tigre cakes.</h2>
+        <p class="price">$15&nbsp;&nbsp;&nbsp;(for 9)</p>
+        <p class="ingredients">unsalted butter. egg whites. sugar. almond powder. semi-sweet chocolate. white flour. semi-sweet chocolate chips. gold leaf.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/pc_pumpkin_01.jpg" alt="pumpkin pound cake." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>pumpkin pound cake.</h2>
+        <p class="price">$13</p>
+        <p class="ingredients">pumpkin. sugar. white flour. canola oil. walnuts. eggs. buttermilk. pumpkin seeds. pumpkin spice. vanilla extract. baking powder. salt. cinnamon powder.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/tart_pumpkin_01.jpg" alt="pumpkin tart." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>pumpkin tart.</h2>
+        <p class="price">$20</p>
+        <p class="ingredients">pumpkin. white flour. sugar. powdered sugar. heavy whipping cream. condensed milk. egg. unsalted butter. almond powder. cornstarch. cinnamon powder. pumpkin spice. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_kouign_amann_01.jpg" alt="kouign amann." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>kouign amann.</h2>
+        <p class="price">$15&nbsp;&nbsp;&nbsp;(2 chocolate, 2 cinnamon sugar, 2 plain)</p>
+        <p class="ingredients">water. white flour. bread flour. unsalted butter. sugar. semi-sweet chocolate. egg. salt. yeast. cinnamon.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/crumble_apple_01.jpg" alt="apple crumble bar." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>apple crumble bar.</h2>
+        <p class="price">$18</p>
+        <p class="ingredients">sugar. white flour. apple. unsalted butter. egg. cinnamon powder. lemon juice. baking powder. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/crumble_blueberry_01.jpg" alt="blueberry crumble bar." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>blueberry crumble bar.</h2>
+        <p class="price">$18</p>
+        <p class="ingredients">white flour. sugar. blueberries. unsalted butter. egg. lemon juice. cornstarch. baking powder. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/tart_lemon_01.jpg" alt="tart lemon tart." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>tart lemon tart.</h2>
+        <p class="price">$20</p>
+        <p class="ingredients">sugar. water. white flour. lemon juice. unsalted butter. powdered sugar. egg. cornstarch. almond powder. lemon zest. salt.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/tart_almond_florentine_01.jpg" alt="almond florentine." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>almond florentine.</h2>
+        <p class="price">$20</p>
+        <p class="ingredients">sugar. white flour. sliced almond. unsalted butter. egg. heavy whipping cream. honey. rice syrup. water. almond powder. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_sourdough_01.jpg" alt="sourdough bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>sourdough bread.</h2>
+        <p class="price">$7&nbsp;&nbsp;&nbsp;(limited quantities daily)</p>
+        <p class="ingredients">water. bread flour. white flour. wheat flour. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_sticky_bun_01.jpg" alt="caramel &amp; pecan sticky puns." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>caramel &amp; pecan sticky buns.</h2>
+        <p class="price">$9</p>
+        <p class="ingredients">white flour. brown sugar. whole milk. unsalted butter. honey. pecans. heavy whipping cream. egg. sugar. yeast. salt. cinnamon powder.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_roti_boy_01.jpg" alt="roti boy (mocha bread)." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>roti boy (mocha bread).</h2>
+        <p class="price">$9</p>
+        <p class="ingredients">white flour. sugar. unsalted butter. whole milk. heavy whipping cream. egg. almond flour. coffee. water. vanilla extract. yeast. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_pastry_01.jpg" alt="pastry bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>pastry bread.</h2>
+        <p class="price">$9</p>
+        <p class="ingredients">water. unsalted butter. white flour. bread flour. sugar. egg yolk. salt. yeast.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_spiral_01.jpg" alt="spiral chocolate bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>spiral chocolate bread.</h2>
+        <p class="price">$8</p>
+        <p class="ingredients">white flour. whole milk. sugar. semi-sweet chocolate chips. heavy whipping cream. egg. unsalted butter. yeast. salt.</p>
+      </div>
+    </div>
+    <!--
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/bars_choco_01.jpg" alt="bark chocolate bars." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>bark chocolate bars.</h2>
+        <p class="price">$20</p>
+        <p class="ingredients">white chocolate. dark chocolate. milk chocolate. dried grapefruit. dried orange. dried lemon. dried strawberry. dried cranberry. pecans. almonds. walnuts. cashews.</p>
+      </div>
+    </div>
+    -->
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/bars_choco_02.jpg" alt="bark chocolate bars." style="width:100%;opacity:0.2">
+        <h2>bark chocolate bars.</h2>
+        <p class="price">temporarily unavailable.</p>
+        <p class="ingredients">white chocolate. dark chocolate. milk chocolate. dried grapefruit. dried orange. dried lemon. dried strawberry. dried cranberry. pecans. almonds. walnuts. cashews.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/tart_choco_almond_01.jpg" alt="chocolate ganache almond tart." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>chocolate ganache almond tart.</h2>
+        <p class="price">$20</p>
+        <p class="ingredients">unsalted butter. semi-sweet chocolate. powdered sugar. white flour. almond powder. egg. heavy whipping cream. cocoa powder. vanilla extract.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third  w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_banana_01.jpg" alt="banana walnut bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>banana walnut bread.</h2>
+        <p class="price">$13</p>
+        <p class="ingredients">bananas. white flour. sugar. canola oil. walnut. egg. buttermilk. vanilla extract. baking soda. salt. cinnamon powder.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_lemonpoppy_01.jpg" alt="lemon &amp; poppy seed pound cake with lemon-sugar glaze." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>lemon &amp; poppy seed pound cake with lemon-sugar glaze.</h2>
+        <p class="price">$13</p>
+        <p class="ingredients">sugar. white flour. unsalted butter. egg. heavy whipping cream. lemon juice. poppy seeds. baking powder. lemon zest. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/ck_tripleberry_01.jpg" alt="very berry coffee cake." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>very berry coffee cake.</h2>
+        <p class="price">$22</p>
+        <p class="ingredients">white flour. sugar. unsalted butter. egg. milk. sour cream. blueberries. raspberries. blackberries. baking powder. vanilla extract. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/pc_earlgrey_01.jpg" alt="earl grey pound cake." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>earl grey pound cake.</h2>
+        <p class="price">$13</p>
+        <p class="ingredients">white flour. unsalted butter. sugar. egg. heavy whipping cream. earl grey tea leaves. baking powder. salt.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_limecoconut_01.jpg" alt="lime &amp; coconut bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>lime &amp; coconut bread.</h2>
+        <p class="price">$7</p>
+        <p class="ingredients">white flour. whole milk. sugar. heavy cream. sweetened coconut flakes. egg. unsalted butter. lime juice. yeast. salt. lime zest. apricot jam. water.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_honeybutter_01.jpg" alt="honey &amp; butter bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>honey &amp; butter bread.</h2>
+        <p class="price">$7</p>
+        <p class="ingredients">white flour. water. unsalted butter. honey. salt. sugar.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_dinner_rolls_01.jpg" alt="dinner rolls." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>dinner rolls.</h2>
+        <p class="price">$6</p>
+        <p class="ingredients">white flour. whole milk. heavy cream. eggs. sugar. yeast. salt.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_dulce_01.jpg" alt="dulce de leche twist bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>dulce de leche twist bread.</h2>
+        <p class="price">$7</p>
+        <p class="ingredients">white flour. whole milk. sugar. dulce de leche. unsalted butter. heavy cream. egg. yeast. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_rustic_01.jpg" alt="rustic round bread." style="width:100%">
+        <h2>rustic round bread.</h2>
+        <p class="price">$5</p>
+        <p class="ingredients">bread flour. water. salt. yeast.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_rosemaryseed_01.jpg" alt="rosemary &amp; seed bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>rosemary &amp; seed bread.</h2>
+        <p class="price">$6</p>
+        <p class="ingredients">bread flour. water. flax seeds. chia seeds. crushed dried rosemary. salt. yeast.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_painsuisse_01.jpg" alt="pain suisse." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>pain suisse.</h2>
+        <p class="price">$9&nbsp;&nbsp;&nbsp;(four pieces)</p>
+        <p class="ingredients">whole milk. white flour. egg. semi-sweet chocolate chips. sugar. heavy cream. unsalted butter. cornstarch. vanilla extract. yeast. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_challah_01.jpg" alt="challah bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>challah bread.</h2>
+        <p class="price">$8</p>
+        <p class="ingredients">white flour. egg. water. honey. canola oil. yeast. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_matcha_01.jpg" alt="matcha spread twist bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>matcha spread twist bread.</h2>
+        <p class="price">$7</p>
+        <p class="ingredients">white flour. white sugar. whole milk. unsalted butter. heavy cream. eggs. canola oil. matcha powder. yeast. salt.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_ciabatta_01.jpg" alt="ciabatta." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>ciabatta.</h2>
+        <p class="price">$7&nbsp;&nbsp;&nbsp;(four small loaves)</p>
+        <p class="ingredients">bread flour. water. salt. yeast.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_focaccia_01.jpg" alt="focaccia." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>focaccia.</h2>
+        <p class="price">$6</p>
+        <p class="ingredients">bread flour. water. olive oil. sliced black olives. white sugar. bread crumbs. yeast. salt. garlic powder.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/bn_mm_01.jpg" alt="marshmallow brownie." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>marshmallow brownie.</h2>
+        <p class="price">$11</p>
+        <p class="ingredients">unsalted butter. eggs. white sugar. semi-sweet chocolate chips. marshmallows. brown sugar. white flour. cocoa powder. baking powder. salt.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/bn_cc_01.jpg" alt="chocolate-chip brownie." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>chocolate-chip brownie.</h2>
+        <p class="price">$12</p>
+        <p class="ingredients">white sugar. unsalted butter. semi-sweet chocolate chips. eggs. cocoa powder. white flour. vanilla extract. salt. powdered sugar.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_co_01.jpg" alt="coconut spread twist bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>coconut spread twist bread.</h2>
+        <p class="price">$7</p>
+        <p class="ingredients">white flour. whole milk. sugar. coconut flakes. heavy whipping cream. eggs. unsalted butter. coconut powder. salt. yeast.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_cr_01.jpg" alt="cinnamon and raisin bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>cinnamon and raisin bread.</h2>
+        <p class="price">$6</p>
+        <p class="ingredients">white flour. sugar. whole milk. heavy whipping cream. raisins. eggs. cinnamon powder. yeast. salt.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/pi_ap_01.jpg" alt="lattice apple pie." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>lattice apple pie.</h2>
+        <p class="price">$25&nbsp;&nbsp;&nbsp;(9&Prime; / 23&nbsp;cm)</p>
+        <p class="ingredients">apple. water. white flour. unsalted butter. sugar. cornstarch. egg yolk. cinnamon powder. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/tart_pc_01.jpg" alt="pecan tart." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>pecan tart.</h2>
+        <p class="price">$20&nbsp;&nbsp;&nbsp;(8&Prime; / 20&nbsp;cm)</p>
+        <p class="ingredients">white flour. powdered sugar. unsalted butter. eggs. vanilla extract. salt. sugar. pecans. rice syrup. water.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_pe_01.jpg" alt="peanut butter twist bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>peanut butter twist bread.</h2>
+        <p class="price">$7</p>
+        <p class="ingredients">white flour. whole milk. sugar. peanut butter. unsalted butter. heavy whipping cream. peanuts. eggs. yeast. salt.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_mc_01.jpg" alt="milk cream bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>milk cream bread.</h2>
+        <p class="price">$8</p>
+        <p class="ingredients">whole milk. white flour. sugar. heavy whipping cream. eggs. unsalted butter. cornstarch. vanilla extract. yeast. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/pc_mb_01.jpg" alt="marble pound cake." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>marble pound cake.</h2>
+        <p class="price">$11</p>
+        <p class="ingredients">white flour. sugar. eggs. whole milk. canola oil. water. cocoa powder. vanilla extract. baking powder. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/pc_cn_01.jpg" alt="cinnamon pound cake." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>cinnamon pound cake.</h2>
+        <p class="price">$11</p>
+        <p class="ingredients">white flour. whole milk. sugar. canola oil. eggs. vanilla extract. baking powder. salt. cinnamon.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_lm_01.jpg" alt="lemon sweet roll bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>lemon sweet roll bread.</h2>
+        <p class="price">$7</p>
+        <p class="ingredients">white flour. whole milk. sugar. unsalted butter. heavy whipping cream. eggs. lemon juice. almond powder. lemon zest. water. apricot jam. yeast. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_cm_01.jpg" alt="condensed milk bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>condensed milk bread.</h2>
+        <p class="price">$7</p>
+        <p class="ingredients">white flour. whole milk. heavy whipping cream. unsalted butter. condensed milk. eggs. sugar. yeast. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_cn_01.jpg" alt="cinnamon rolls." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>cinnamon rolls.</h2>
+        <p class="price">$7</p>
+        <p class="ingredients">white flour. whole milk. brown sugar. heavy whipping cream. powdered sugar. condensed milk. eggs. sugar. unsalted butter. cinnamon. water. yeast. salt.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_nu_01.jpg" alt="nutella&reg; bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>nutella<sup>&reg;</sup> bread.</h2>
+        <p class="price">$8</p>
+        <p class="ingredients">white flour. whole milk. Nutella. heavy whipping cream. sugar. water. eggs. chocolate syrup. yeast. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/tart_apple.jpg" alt="apple &amp; almond tart." style="width:100%">
+        <h2>apple &amp; almond tart.</h2>
+        <p class="price">$23&nbsp;&nbsp;&nbsp;(8&Prime; / 20&nbsp;cm)</p>
+        <p class="ingredients">apple. white flour. eggs. unsalted butter. powdered sugar. almond powder. sugar. vanilla extract. baking powder. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/cake_choco.jpg" alt="chocolate cake." style="width:100%">
+        <h2>chocolate cake.</h2>
+        <p class="price">$20&nbsp;&nbsp;&nbsp;(8&Prime; / 20&nbsp;cm)</p>
+        <p class="ingredients">sugar. white flour. eggs. unsalted butter. heavy cream. cocoa powder. semi-sweet chocolate. chopped pistachios. vanilla extract. baking powder. salt.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_ac_01.jpg" alt="apple &amp; cranberry bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>apple &amp; cranberry bread.</h2>
+        <p class="price">$8</p>
+        <p class="ingredients">white flour. apple. whole milk. sugar. heavy cream. eggs. dried cranberries. almonds. yeast. salt. cinnamon.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_bb_01.jpg" alt="blueberry bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>blueberry bread.</h2>
+        <p class="price">$8</p>
+        <p class="ingredients">white flour. blueberries. whole milk. sugar. heavy cream. eggs. unsalted butter. cornstarch. yeast. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_fw_01.jpg" alt="fig &amp; walnut bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>fig &amp; walnut bread.</h2>
+        <p class="price">$9</p>
+        <p class="ingredients">white flour. sugar. whole milk. sliced figs. unsalted butter. almond powder. heavy cream. eggs. walnuts. yeast. salt. cinnamon.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_so_01.jpg" alt="soft bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>soft bread.</h2>
+        <p class="price">$5</p>
+        <p class="ingredients">white flour. whole milk. heavy cream. eggs. sugar. yeast. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_ch_01.jpg" alt="chocolate soft bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>chocolate soft bread.</h2>
+        <p class="price">$6</p>
+        <p class="ingredients">white flour. whole milk. semi-sweet chocolate. heavy cream. eggs. sugar. yeast. salt.</p>
+      </div>
+    </div>
+    <div class="w3-col w3-third w3-centered w3-container">
+      <div class="card">
+        <img class="modal_img" src="img/br_al_01.jpg" alt="almond twist bread." style="width:100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <h2>almond twist bread.</h2>
+        <p class="price">$8</p>
+        <p class="ingredients">white flour. whole milk. unsalted butter. almond powder. heavy cream. eggs. sugar. yeast. salt. vanilla extract.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div id="myModal" class="modal">
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<!-- Third Parallax Image with Order Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min" id="order">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large w3-white w3-xxlarge w3-wide w3-opacity-min">ORDER</span>
+  </div>
+</div>
+
+<!-- Container (Order Section) -->
+<div class="w3-content w3-container w3-padding-32">
+  <div class="w3-row w3-section">
+    <div class="w3-col w3-half w3-panel">
+      <h2 class="w3-center">order by reservation.</h2>
+      <br>
+      <div class="w3-center w3-large w3-margin-bottom">
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>505-663-6202<br><br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><a href="mailto:minyoung.baker@gmail.com?Subject=Minnie%20Bakery%20Order%20Reservation" target="_top">minyoung.baker@gmail.com</a><br><br>
+      </div>
+      <h2 class="w3-center">receive by pickup.</h2>
+      <br>
+      <div class="w3-center w3-large w3-margin-bottom">
+        <i class="fa fa-building fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>54 Canyon View Los Alamos, NM 87544 <br>
+      </div>
+    </div>
+    <div class="w3-col w3-half w3-container">
+      <img style="width:100%;height:400px" src="img/map_static.png">
+      <!-- <div id="googleMap" class="w3-round-large w3-greyscale-min" style="width:100%;height:400px;"></div> -->
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-32 w3-opacity">
+  <!-- <a href="#top" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a> -->
+  <div class="w3-xlarge w3-section">
+    <!-- <a href="https://www.facebook.com"><i class="fab fa-facebook w3-hover-opacity"></i></a> -->
+    <!-- <i class="fa fa-instagram w3-hover-opacity"></i> -->
+    <!-- <i class="fa fa-snapchat w3-hover-opacity"></i> -->
+    <!-- <i class="fa fa-pinterest-p w3-hover-opacity"></i> -->
+    <!-- <i class="fa fa-twitter w3-hover-opacity"></i> -->
+    <!-- <i class="fa fa-linkedin w3-hover-opacity"></i> -->
+  </div>
+  <div class="w3-text-white w3-small w3-lighter">
+    Copyright <i class="far fa-copyright"></i> 2020 minnie bakery LLC.  All rights reserved.
+    <br>
+    Both our menu and our website are cookie free.
+  </div>
+</footer>
+
+<!-- Google Maps -->
+<script>
+  function myMap() {
+    myCenter=new google.maps.LatLng( 35.881884, -106.310765 );
+    var mapOptions= {
+      center:myCenter,
+      zoom:15, scrollwheel: false, draggable: true,
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+    };
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+    var marker = new google.maps.Marker({
+      position: myCenter,
+    });
+    marker.setMap(map);
+  }
+
+  // Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+
+  // Change style of navbar on scroll
+  window.onscroll = function() { myFunction() };
+  function myFunction() {
+      var navbar = document.getElementById("myNavbar");
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white" + " w3-text-black";
+      } else {
+          navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white w3-text-black", " w3-text-white");
+      }
+  }
+
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function toggleFunction() {
+      var x = document.getElementById("menubar");
+      if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+      } else {
+          x.className = x.className.replace(" w3-show", "");
+      }
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9KoT_IA8yG7HO0Mh7bjM50QcUyYiU6tM&callback=myMap"></script>
+
+<!-- Modal zooming -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = $('.modal_img');
+  var modalImg = $("#img01");
+  var captionText = document.getElementById("caption");
+  $('.modal_img').click( function() {
+      modal.style.display = "block";
+      var newSrc = this.src;
+      modalImg.attr('src', newSrc);
+      captionText.innerHTML = this.alt;
+  });
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+
+<!-- Swap images on mouseover -->
+<script>
+  function hover(element) {
+    var src = element.src;
+    element.setAttribute('src', src.replace("_01", "_02"));
+  }
+
+  function unhover(element) {
+    var src = element.src;
+    element.setAttribute('src', src.replace("_02", "_01"));
+  }
+</script>
+
+</body>
+</html>
+
