@@ -1,0 +1,241 @@
+:root {
+  --brown: #734332;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--brown);
+}
+
+body, html {
+    height: 100%;
+    color: var(--brown);
+    line-height: 1.75;
+}
+
+div.transbox {
+    padding: 64px;
+    background-color: #ffffffaa;
+    border-radius: 2rem;
+    border: 1px solid black;
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    width: calc(66vmin);
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo) */
+.bgimg-1 {
+    background-image: url('../img/header.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Menu) */
+.bgimg-2 {
+    background-image: url("../img/menu.jpg");
+    min-height: 150px;
+}
+
+/* Third image (Order) */
+.bgimg-3 {
+    background-image: url("../img/order.jpg");
+    min-height: 150px;
+}
+
+.w3-wide {
+  letter-spacing: 10px;
+  border-radius: 2rem;
+}
+.w3-hover-opacity {cursor: pointer;}
+
+.price {
+  color: grey;
+  align: center;
+}
+
+.ingredients{
+  margin: 5%;
+  color: #000000;
+  align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+ /* Style the Image Used to Trigger the Modal */
+.modal_img {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.modal_img:hover {
+  opacity: 0.8;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.0s;
+    animation-name: zoom;
+    animation-duration: 0.0s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.0s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* The scroll to menu top  button */
+.top-link {
+  transition: all .25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3em 3em 0;
+  border-radius: 50%;
+  padding: .25em;
+  width: 80px;
+  height: 80px;
+  background-color: #F8F8F8;
+
+  &.show {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  &.hide {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  svg {
+    fill: #000;
+    width: 24px;
+    height: 12px;
+  }
+
+  &:hover {
+    background-color: #E8E8E8;
+
+    svg {
+      fill: #000000;
+    }
+  }
+}
+
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+#overlay{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    opacity:.80;
+    z-index:1001;
+}
+
+#announcement{
+    display: none;
+    position: absolute;
+    width: 80%;
+    padding: 0 16px;
+    border: 16px solid var(--brown);
+    background-color: white;
+    z-index:1002;
+}
+
+#close{
+    display: inline;
+    float: right;
+    padding: 16px 16px;
+}

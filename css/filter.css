@@ -1,0 +1,97 @@
+
+ol {
+  list-style: none;
+}
+
+input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.menuitems {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat( auto-fill, minmax(400px, 1fr) );
+}
+
+.menuitems .menuitem {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 5%;
+}
+
+/* FILTERS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.filters {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.filters * {
+  display: inline-block;
+}
+
+.filters label {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.25rem;
+  border-radius: 2rem;
+  min-width: 50px;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.1s;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--brown);
+}
+
+.filters label:hover {
+  background: var(--brown);
+  color: #ffffff;
+}
+
+/* FILTERING RULES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+[value="all"]:checked ~ .filters [for="all"],
+[value="almond"]:checked ~ .filters [for="almond"],
+[value="apple"]:checked ~ .filters [for="apple"],
+[value="blueberry"]:checked ~ .filters [for="blueberry"],
+[value="bread"]:checked ~ .filters [for="bread"],
+[value="chocolate"]:checked ~ .filters [for="chocolate"],
+[value="cinnamon"]:checked ~ .filters [for="cinnamon"],
+[value="coconut"]:checked ~ .filters [for="coconut"],
+[value="dessert"]:checked ~ .filters [for="dessert"],
+[value="international"]:checked ~ .filters [for="international"],
+[value="lemon"]:checked ~ .filters [for="lemon"],
+[value="mocha"]:checked ~ .filters [for="mocha"],
+[value="peanut"]:checked ~ .filters [for="peanut"],
+[value="pecan"]:checked ~ .filters [for="pecan"],
+[value="poundcake"]:checked ~ .filters [for="poundcake"],
+[value="pumpkin"]:checked ~ .filters [for="pumpkin"],
+[value="tart"]:checked ~ .filters [for="tart"] {
+  background: var(--brown);
+  color: #ffffff;
+}
+
+[value="all"]:checked ~ .menuitems [data-category] {
+  display: block;
+}
+
+[value="almond"]:checked ~ .menuitems .menuitem:not([data-category~="almond"]),
+[value="apple"]:checked ~ .menuitems .menuitem:not([data-category~="apple"]),
+[value="blueberry"]:checked ~ .menuitems .menuitem:not([data-category~="blueberry"]),
+[value="bread"]:checked ~ .menuitems .menuitem:not([data-category~="bread"]),
+[value="chocolate"]:checked ~ .menuitems .menuitem:not([data-category~="chocolate"]),
+[value="cinnamon"]:checked ~ .menuitems .menuitem:not([data-category~="cinnamon"]),
+[value="coconut"]:checked ~ .menuitems .menuitem:not([data-category~="coconut"]),
+[value="dessert"]:checked ~ .menuitems .menuitem:not([data-category~="dessert"]),
+[value="international"]:checked ~ .menuitems .menuitem:not([data-category~="international"]),
+[value="lemon"]:checked ~ .menuitems .menuitem:not([data-category~="lemon"]),
+[value="mocha"]:checked ~ .menuitems .menuitem:not([data-category~="mocha"]),
+[value="peanut"]:checked ~ .menuitems .menuitem:not([data-category~="peanut"]),
+[value="pecan"]:checked ~ .menuitems .menuitem:not([data-category~="pecan"]),
+[value="poundcake"]:checked ~ .menuitems .menuitem:not([data-category~="poundcake"]),
+[value="pumpkin"]:checked ~ .menuitems .menuitem:not([data-category~="pumpkin"]),
+[value="tart"]:checked ~ .menuitems .menuitem:not([data-category~="tart"]) {
+  display: none;
+}
