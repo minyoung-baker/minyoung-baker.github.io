@@ -1,4 +1,29 @@
 {
+    "minnie cookie quartet.": {
+        "categories": [
+            "chocolate",
+            "peanut"
+        ],
+        "price": "$15",
+        "notes": "4 cookies, each 4\u2033 / 10\u00a0cm",
+        "ingredients": [
+            "white flour", "unsalted butter", "brown sugar", "semi-sweet chocolate chips", "white sugar", "egg", "peanut-butter chips", "raisins", "walnuts", "cocoa powder", "rolled oats", "baking powder", "baking soda", "cornstarch", "salt"
+        ],
+        "figure": "<img alt=\"minnie cookie quartet.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cookie_quartet_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "apple galette with salted caramel.": {
+        "categories": [
+            "apple",
+            "dessert",
+            "international"
+        ],
+        "price": "$20",
+        "notes": "",
+        "ingredients": [
+            "apple", "white sugar", "white flour", "heavy whipping cream", "unsalted butter", "water", "egg yolk", "salt", "cinnamon powder"
+        ],
+        "figure": "<img alt=\"apple galette with salted caramel.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/galette_apple_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "chocolate madeleines.": {
         "categories": [
             "chocolate",

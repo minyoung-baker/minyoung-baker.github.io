@@ -224,7 +224,7 @@ MyInventory
   <div class="w3-text-white w3-small w3-lighter">
     Copyright <i class="far fa-copyright"></i> 2021 minnie bakery LLC.  All rights reserved.
     <br>
-    Both our menu and our website are cookie free.
+    Our website is cookie free (except for the edible variety).
   </div>
 </footer>
 
@@ -366,6 +366,7 @@ def generate_css(inv):
     template = """
 ol {
   list-style: none;
+  padding: 0;
 }
 
 input[type="radio"] {
