@@ -54,6 +54,7 @@ def get_inventory_html(inv):
             .encode("ascii", "xmlcharrefreplace")
             .decode("utf-8")
         )
+        ingredients += '.'
 
         s += f"""
     <li class="menuitem" data-category="MyCategories">

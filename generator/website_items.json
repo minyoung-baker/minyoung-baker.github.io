@@ -1,4 +1,27 @@
 {
+    "engadiner nusstorte": {
+        "categories": [
+            "dessert",
+            "international"
+        ],
+        "price": "$28",
+        "notes": "",
+        "ingredients": [
+            "white flour", "walnuts", "sugar", "heavy whipping cream", "powdered sugar", "unsalted butter", "almond powder", "water", "egg", "egg yolk", "salt"
+        ],
+        "figure": "<img alt=\"engadiner nusstorte.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/engadiner_nusstorte_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "roll cake (apricot or strawberry)": {
+        "categories": [
+            "dessert"
+        ],
+        "price": "$18",
+        "notes": "",
+        "ingredients": [
+            "egg", "sugar", "white flour", "milk", "canola oil", "jam", "honey", "vanilla extract", "baking powder", "salt"
+        ],
+        "figure": "<img alt=\"roll cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/roll_cake_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "minnie cookie quartet.": {
         "categories": [
             "chocolate",
