@@ -1,5 +1,5 @@
 {
-    "engadiner nusstorte": {
+    "engadiner nusstorte (salted-caramel walnut tart)": {
         "categories": [
             "dessert",
             "international"
@@ -9,7 +9,7 @@
         "ingredients": [
             "white flour", "walnuts", "sugar", "heavy whipping cream", "powdered sugar", "unsalted butter", "almond powder", "water", "egg", "egg yolk", "salt"
         ],
-        "figure": "<img alt=\"engadiner nusstorte.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/engadiner_nusstorte_01_th400.jpg\" style=\"width:100%\"/>"
+        "figure": "<img alt=\"engadiner nusstorte (salted-caramel walnut tart).\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/engadiner_nusstorte_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "roll cake (apricot or strawberry)": {
         "categories": [
