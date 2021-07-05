@@ -390,32 +390,12 @@
         ],
         "figure": "<img alt=\"kouign amann.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_kouign_amann_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "apple crumble bar.": {
-        "categories": [
-            "apple",
-            "dessert"
-        ],
-        "price": "$18",
-        "notes": "",
-        "ingredients": [
-            "sugar",
-            "white flour",
-            "apple",
-            "unsalted butter",
-            "egg",
-            "cinnamon powder",
-            "lemon juice",
-            "baking powder",
-            "salt"
-        ],
-        "figure": "<img alt=\"apple crumble bar.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/crumble_apple_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "blueberry crumble bar.": {
         "categories": [
             "blueberry",
             "dessert"
         ],
-        "price": "$18",
+        "price": "$20",
         "notes": "",
         "ingredients": [
             "white flour",
@@ -559,7 +539,7 @@
             "bread",
             "chocolate"
         ],
-        "price": "$8",
+        "price": "$9",
         "notes": "",
         "ingredients": [
             "white flour",
@@ -579,7 +559,7 @@
             "pound cake",
             "lemon"
         ],
-        "price": "$13",
+        "price": "$14",
         "notes": "",
         "ingredients": [
             "sugar",
@@ -621,7 +601,7 @@
         "categories": [
             "pound cake"
         ],
-        "price": "$13",
+        "price": "$14",
         "notes": "",
         "ingredients": [
             "white flour",
@@ -696,7 +676,7 @@
         "categories": [
             "bread"
         ],
-        "price": "$7",
+        "price": "$8",
         "notes": "",
         "ingredients": [
             "white flour",
@@ -784,7 +764,7 @@
         "categories": [
             "bread"
         ],
-        "price": "$7",
+        "price": "$8",
         "notes": "",
         "ingredients": [
             "white flour",
@@ -799,39 +779,6 @@
             "salt"
         ],
         "figure": "<img alt=\"matcha spread twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_matcha_twist_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "ciabatta.": {
-        "categories": [
-            "bread"
-        ],
-        "price": "$7",
-        "notes": "four small loaves",
-        "ingredients": [
-            "bread flour",
-            "water",
-            "salt",
-            "yeast"
-        ],
-        "figure": "<img alt=\"ciabatta.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_ciabatta_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "focaccia.": {
-        "categories": [
-            "bread"
-        ],
-        "price": "$6",
-        "notes": "",
-        "ingredients": [
-            "bread flour",
-            "water",
-            "olive oil",
-            "sliced black olives",
-            "white sugar",
-            "bread crumbs",
-            "yeast",
-            "salt",
-            "garlic powder"
-        ],
-        "figure": "<img alt=\"focaccia.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_focaccia_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "marshmallow brownie.": {
         "categories": [
@@ -879,7 +826,7 @@
             "coconut",
             "bread"
         ],
-        "price": "$7",
+        "price": "$8",
         "notes": "",
         "ingredients": [
             "white flour",
@@ -894,26 +841,6 @@
             "yeast"
         ],
         "figure": "<img alt=\"coconut spread twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_coconut_twist_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "cinnamon and raisin bread.": {
-        "categories": [
-            "cinnamon",
-            "bread"
-        ],
-        "price": "$6",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "sugar",
-            "whole milk",
-            "heavy whipping cream",
-            "raisins",
-            "eggs",
-            "cinnamon powder",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"cinnamon and raisin bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_cinnamon_raisin_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "lattice apple pie.": {
         "categories": [
@@ -941,7 +868,7 @@
             "tart",
             "dessert"
         ],
-        "price": "$20",
+        "price": "$22",
         "notes": "8\u2033 / 20\u00a0cm",
         "ingredients": [
             "white flour",
@@ -962,7 +889,7 @@
             "bread",
             "peanut"
         ],
-        "price": "$7",
+        "price": "$8",
         "notes": "",
         "ingredients": [
             "white flour",
@@ -1175,7 +1102,7 @@
             "apple",
             "bread"
         ],
-        "price": "$8",
+        "price": "$9",
         "notes": "",
         "ingredients": [
             "white flour",
@@ -1197,7 +1124,7 @@
             "blueberry",
             "bread"
         ],
-        "price": "$8",
+        "price": "$9",
         "notes": "",
         "ingredients": [
             "white flour",
@@ -1217,7 +1144,7 @@
         "categories": [
             "bread"
         ],
-        "price": "$9",
+        "price": "$10",
         "notes": "",
         "ingredients": [
             "white flour",
@@ -1257,7 +1184,7 @@
             "chocolate",
             "bread"
         ],
-        "price": "$6",
+        "price": "$7",
         "notes": "",
         "ingredients": [
             "white flour",
