@@ -1,4 +1,59 @@
 {
+    "maple &amp; pecan madeleines.": {
+        "categories": [
+            "pecan",
+            "international"
+        ],
+        "price": "$16",
+        "notes": "",
+        "ingredients": [
+          "unsalted butter",
+          "egg",
+          "white flour",
+          "sugar",
+          "maple syrup",
+          "pecans",
+          "maple extract",
+          "baking powder",
+          "salt"
+        ],
+        "figure": "<img alt=\"maple &amp; pecan madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_maple_pecan_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "glazed earl grey madeleines.": {
+        "categories": [
+            "international"
+        ],
+        "price": "$15",
+        "notes": "",
+        "ingredients": [
+          "unsalted butter",
+          "egg",
+          "sugar",
+          "white flour",
+          "powdered sugar",
+          "water",
+          "earl grey tea leaves",
+          "baking powder",
+          "salt"
+        ],
+        "figure": "<img alt=\"earl grey madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_earl_grey_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "madeleines.": {
+        "categories": [
+            "international"
+        ],
+        "price": "$14",
+        "notes": "",
+        "ingredients": [
+          "unsalted butter",
+          "egg",
+          "sugar",
+          "white flour",
+          "baking powder",
+          "salt"
+        ],
+        "figure": "<img alt=\"madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "engadiner nusstorte (salted-caramel walnut tart)": {
         "categories": [
             "dessert",
