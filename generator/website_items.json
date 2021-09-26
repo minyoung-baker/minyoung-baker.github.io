@@ -1,4 +1,60 @@
 {
+    "cinnamon apple scones.": {
+        "categories": [
+            "apple"
+        ],
+        "price": "$15",
+        "notes": "for 4",
+        "ingredients": [
+          "white flour",
+          "unsalted butter",
+          "apple jam",
+          "sugar",
+          "whole milk",
+          "heavy whipping cream",
+          "baking powder",
+          "cinnamon powder",
+          "salt"
+        ],
+        "figure": "<img alt=\"cinnamon apple scones.\" class=\"modal_img\" src=\"img_menu/scone_cinnamon_apple_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "chocolate scones.": {
+        "categories": [
+            "chocolate"
+        ],
+        "price": "$15",
+        "notes": "for 4",
+        "ingredients": [
+          "white flour",
+          "semi-sweet chocolate chips",
+          "unsalted butter",
+          "whole milk",
+          "sugar",
+          "cocoa powder",
+          "chocolate syrup",
+          "baking powder",
+          "egg",
+          "salt"
+        ],
+        "figure": "<img alt=\"chocolate scones.\" class=\"modal_img\" src=\"img_menu/scone_chocolate_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "scones.": {
+        "categories": [
+        ],
+        "price": "$13",
+        "notes": "for 4",
+        "ingredients": [
+          "white flour",
+          "unsalted butter",
+          "whole milk",
+          "heavy whipping cream",
+          "sugar",
+          "egg",
+          "baking powder",
+          "salt"
+        ],
+        "figure": "<img alt=\"scones.\" class=\"modal_img\" src=\"img_menu/scone_plain_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "maple & pecan madeleines.": {
         "categories": [
             "pecan",
