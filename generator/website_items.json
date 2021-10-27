@@ -1,4 +1,70 @@
 {
+    "mini pumpkin tarts.": {
+        "categories": [
+            "tart",
+            "pumpkin",
+            "dessert"
+        ],
+        "price": "$22",
+        "notes": "for 4",
+        "ingredients": [
+            "pumpkin",
+            "white flour",
+            "sugar",
+            "powdered sugar",
+            "heavy whipping cream",
+            "condensed milk",
+            "egg",
+            "unsalted butter",
+            "almond powder",
+            "cornstarch",
+            "cinnamon powder",
+            "pumpkin spice",
+            "salt"
+        ],
+        "figure": "<img alt=\"mini pumpkin tarts.\" class=\"modal_img\" src=\"img_menu/tart_pumpkin_mini_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "pumpkin madeleines with pumpkin-spice glaze.": {
+        "categories": [
+          "international",
+          "pumpkin"
+        ],
+        "price": "$15",
+        "notes": "",
+        "ingredients": [
+          "unsalted butter",
+          "egg",
+          "sugar",
+          "white flour",
+          "powdered sugar",
+          "water",
+          "pumpkin powder",
+          "pumpkin spice",
+          "cinnamon powder",
+          "baking powder",
+          "salt"
+        ],
+        "figure": "<img alt=\"pumpkin madeleines with pumpkin-spice glaze.\" class=\"modal_img\" src=\"img_menu/madeleines_pumpkin_spice_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "glassate scones.": {
+        "categories": [
+        ],
+        "price": "$15",
+        "notes": "for 4",
+        "ingredients": [
+          "white flour",
+          "unsalted butter",
+          "powdered sugar",
+          "whole milk",
+          "heavy whipping cream",
+          "sugar",
+          "apricot jam",
+          "baking powder",
+          "water",
+          "salt"
+        ],
+        "figure": "<img alt=\"glassate scones.\" class=\"modal_img\" src=\"img_menu/scone_glassate_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "cinnamon apple scones.": {
         "categories": [
             "apple"
