@@ -816,22 +816,6 @@
         ],
         "figure": "<img alt=\"lime &amp; coconut bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_lime_coconut_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "honey & butter bread.": {
-        "categories": [
-            "bread"
-        ],
-        "price": "$7",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "water",
-            "unsalted butter",
-            "honey",
-            "salt",
-            "sugar"
-        ],
-        "figure": "<img alt=\"honey &amp; butter bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_honey_butter_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "dinner rolls.": {
         "categories": [
             "bread"
@@ -919,23 +903,6 @@
             "salt"
         ],
         "figure": "<img alt=\"pain suisse.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_painsuisse_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "challah bread.": {
-        "categories": [
-            "bread"
-        ],
-        "price": "$8",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "egg",
-            "water",
-            "honey",
-            "canola oil",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"challah bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_challah_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "matcha spread twist bread.": {
         "categories": [
