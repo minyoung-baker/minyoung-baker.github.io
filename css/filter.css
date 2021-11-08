@@ -69,7 +69,8 @@ input[type="radio"] {
 [value="pecan"]:checked ~ .filters [for="pecan"],
 [value="poundcake"]:checked ~ .filters [for="poundcake"],
 [value="pumpkin"]:checked ~ .filters [for="pumpkin"],
-[value="tart"]:checked ~ .filters [for="tart"] {
+[value="tart"]:checked ~ .filters [for="tart"],
+[value="twistbread"]:checked ~ .filters [for="twistbread"] {
   background: var(--brown);
   color: #ffffff;
 }
@@ -93,6 +94,7 @@ input[type="radio"] {
 [value="pecan"]:checked ~ .menuitems .menuitem:not([data-category~="pecan"]),
 [value="poundcake"]:checked ~ .menuitems .menuitem:not([data-category~="poundcake"]),
 [value="pumpkin"]:checked ~ .menuitems .menuitem:not([data-category~="pumpkin"]),
-[value="tart"]:checked ~ .menuitems .menuitem:not([data-category~="tart"]) {
+[value="tart"]:checked ~ .menuitems .menuitem:not([data-category~="tart"]),
+[value="twistbread"]:checked ~ .menuitems .menuitem:not([data-category~="twistbread"]) {
   display: none;
 }

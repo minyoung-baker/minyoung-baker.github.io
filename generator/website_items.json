@@ -835,7 +835,8 @@
     },
     "dulce de leche twist bread.": {
         "categories": [
-            "bread"
+            "bread",
+            "twist bread"
         ],
         "price": "$8",
         "notes": "",
@@ -906,7 +907,8 @@
     },
     "matcha spread twist bread.": {
         "categories": [
-            "bread"
+            "bread",
+            "twist bread"
         ],
         "price": "$8",
         "notes": "",
@@ -968,7 +970,8 @@
     "coconut spread twist bread.": {
         "categories": [
             "coconut",
-            "bread"
+            "bread",
+            "twist bread"
         ],
         "price": "$8",
         "notes": "",
@@ -1031,7 +1034,8 @@
     "peanut butter twist bread.": {
         "categories": [
             "bread",
-            "peanut"
+            "peanut",
+            "twist bread"
         ],
         "price": "$8",
         "notes": "",
@@ -1345,7 +1349,8 @@
     "almond twist bread.": {
         "categories": [
             "almond",
-            "bread"
+            "bread",
+            "twist bread"
         ],
         "price": "$8",
         "notes": "",
