@@ -27,6 +27,7 @@
     "pumpkin madeleines with pumpkin-spice glaze.": {
         "categories": [
           "international",
+          "madeleines",
           "pumpkin"
         ],
         "price": "$15",
@@ -124,6 +125,7 @@
     "maple & pecan madeleines.": {
         "categories": [
             "pecan",
+            "madeleines",
             "international"
         ],
         "price": "$16",
@@ -143,7 +145,8 @@
     },
     "glazed earl grey madeleines.": {
         "categories": [
-            "international"
+            "international",
+            "madeleines"
         ],
         "price": "$15",
         "notes": "",
@@ -162,7 +165,8 @@
     },
     "madeleines.": {
         "categories": [
-            "international"
+            "international",
+            "madeleines"
         ],
         "price": "$14",
         "notes": "",
@@ -199,18 +203,6 @@
         ],
         "figure": "<img alt=\"roll cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/roll_cake_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "minnie cookie quartet.": {
-        "categories": [
-            "chocolate",
-            "peanut"
-        ],
-        "price": "$15",
-        "notes": "4 cookies, each 4\u2033 / 10\u00a0cm",
-        "ingredients": [
-            "white flour", "unsalted butter", "brown sugar", "semi-sweet chocolate chips", "white sugar", "egg", "peanut-butter chips", "raisins", "walnuts", "cocoa powder", "rolled oats", "baking powder", "baking soda", "cornstarch", "salt"
-        ],
-        "figure": "<img alt=\"minnie cookie quartet.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cookie_quartet_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "apple galette with salted caramel.": {
         "categories": [
             "apple",
@@ -227,7 +219,8 @@
     "chocolate madeleines.": {
         "categories": [
             "chocolate",
-            "international"
+            "international",
+            "madeleines"
         ],
         "price": "$15",
         "notes": "",
@@ -246,7 +239,8 @@
     "lemon madeleines.": {
         "categories": [
             "lemon",
-            "international"
+            "international",
+            "madeleines"
         ],
         "price": "$15",
         "notes": "",
@@ -547,26 +541,6 @@
         ],
         "figure": "<img alt=\"pumpkin tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_pumpkin_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "kouign amann.": {
-        "categories": [
-            "international"
-        ],
-        "price": "$15",
-        "notes": "2 chocolate, 2 cinnamon sugar, 2 plain",
-        "ingredients": [
-            "water",
-            "white flour",
-            "bread flour",
-            "unsalted butter",
-            "sugar",
-            "semi-sweet chocolate",
-            "egg",
-            "salt",
-            "yeast",
-            "cinnamon"
-        ],
-        "figure": "<img alt=\"kouign amann.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_kouign_amann_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "blueberry crumble bar.": {
         "categories": [
             "blueberry",
@@ -711,26 +685,6 @@
         ],
         "figure": "<img alt=\"pastry bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_pastry_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "spiral chocolate bread.": {
-        "categories": [
-            "bread",
-            "chocolate"
-        ],
-        "price": "$9",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "whole milk",
-            "sugar",
-            "semi-sweet chocolate chips",
-            "heavy whipping cream",
-            "egg",
-            "unsalted butter",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"spiral chocolate bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_chocolate_spiral_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "lemon & poppy seed pound cake with lemon-sugar glaze.": {
         "categories": [
             "pound cake",
@@ -866,23 +820,6 @@
             "yeast"
         ],
         "figure": "<img alt=\"rustic round bread.\" class=\"modal_img\" src=\"img_menu/bread_rustic_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "rosemary & seed bread.": {
-        "categories": [
-            "bread"
-        ],
-        "price": "$6",
-        "notes": "",
-        "ingredients": [
-            "bread flour",
-            "water",
-            "flax seeds",
-            "chia seeds",
-            "crushed dried rosemary",
-            "salt",
-            "yeast"
-        ],
-        "figure": "<img alt=\"rosemary &amp; seed bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_rosemary_seed_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "pain suisse.": {
         "categories": [
