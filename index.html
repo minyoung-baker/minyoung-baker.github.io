@@ -21,6 +21,7 @@
       <i class="fa fa-bars"></i>
     </a>
     <a href="#top" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-long-arrow-alt-up"></i> TOP</a>
+    <a href="#intro" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-concierge-bell"></i> INTRO</a>
     <a href="#menu" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-utensils"></i> MENU</a>
     <a href="#order" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-shopping-cart"></i> ORDER</a>
   </div>
@@ -28,6 +29,7 @@
   <!-- Navbar on small screens -->
   <div id="menubar" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#top" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">TOP</a>
+    <a href="#intro" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">INTRO</a>
     <a href="#menu" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">MENU</a>
     <a href="#order" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">ORDER</a>
   </div>
@@ -65,7 +67,7 @@
 <!-- </script> -->
 <!-- ... here. -->
 
-<!-- First Parallax Image with Logo -->
+<!-- Parallax Image with Logo -->
 <div class="bgimg-1 w3-display-container w3-padding-64">
   <div class="w3-display-middle" style="white-space:nowrap;">
     <div class="transbox">
@@ -83,7 +85,35 @@
 <div class="w3-white w3-display-container w3-padding-32">
 </div>
 
-<!-- Second Parallax Image with Menu Text -->
+<!-- Parallax Image with Intro Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="intro">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large w3-white w3-xxlarge w3-wide w3-opacity-min">INTRO</span>
+  </div>
+</div>
+
+<!-- Container (Intro Section) -->
+<div class="w3-content w3-padding-32" id="intro">
+  <div class="w3-row">
+    <div class="w3-col w3-half w3-panel">
+      <h2>welcome!</h2>
+      <p class="ingredients">I'm Minyoung (Minnie) and I'm happy you're here!  This website is for my home-based small business in Los Alamos, NM, which offers reservation-based baked goods from an expansive menu developed over many years.  My goal is to provide <b>delicious</b>, <b>healthy</b>, and <b>memorable</b> baked goods suitable for enjoyment alone, sharing with friends, or as gifts.</p>
+      <p class="ingredients">Next, you'll find some helpful information for ordering, then my <a href="#menu" class="internal">menu</a>, and then <a href="#order" class="internal">how to reach me</a>.</p>
+    </div>
+    <div class="w3-col w3-half w3-panel">
+      <h2>helpful information.</h2>
+      <ul class="ingredients">
+        <li>All orders are made using <a href="tel:505-663-6202" class="internal">phone</a> or <a href="mailto:minyoung.baker@gmail.com?Subject=Minnie%20Bakery%20Order%20Reservation" target="_top" class="internal">email</a> and are available when we agree.</li>
+        <li>I have no set business hours, but please order at least a day before you wish to pickup.</li>
+        <li>Sorry, but I can only offer what is on my menu.</li>
+        <li>I can take payment by cash or check made out to "minnie bakery LLC".</li>
+        <li>I'm active on <a href="https://www.facebook.com/minniebakeryLLC" class="internal">Facebook</a> and <a href="https://www.instagram.com/minniebakeryLLC/" class="internal">Instagram</a>, which is where I tend to post news.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Parallax Image with Menu Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min" id="menu">
   <div class="w3-display-middle">
     <span class="w3-center w3-padding-large w3-white w3-xxlarge w3-wide w3-opacity-min">MENU</span>
@@ -592,7 +622,7 @@
   <div id="caption"></div>
 </div>
 
-<!-- Third Parallax Image with Order Text -->
+<!-- Parallax Image with Order Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min" id="order">
   <div class="w3-display-middle">
     <span class="w3-center w3-padding-large w3-white w3-xxlarge w3-wide w3-opacity-min">ORDER</span>
