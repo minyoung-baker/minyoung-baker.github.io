@@ -1,4 +1,62 @@
 {
+    "sourdough bread with rosemary &amp; seeds.": {
+        "categories": [
+            "bread"
+        ],
+        "price": "$8",
+        "notes": "",
+        "ingredients": [
+          "water",
+          "white flour",
+          "bread flour",
+          "wheat flour",
+          "rosemary",
+          "flax seed",
+          "chia seed",
+          "salt"
+        ],
+        "figure": "<img alt=\"sourdough bread with rosemary &amp; seeds.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_sourdough_rosemary_seed_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "sourdough bread with olives.": {
+        "categories": [
+            "bread"
+        ],
+        "price": "$8",
+        "notes": "",
+        "ingredients": [
+          "water",
+          "white flour",
+          "bread flour",
+          "black olives",
+          "wheat flour",
+          "salt"
+        ],
+        "figure": "<img alt=\"sourdough bread with olives.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_sourdough_olive_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "oreo cake.": {
+        "categories": [
+            "chocolate",
+            "dessert"
+        ],
+        "price": "$22",
+        "notes": "",
+        "ingredients": [
+          "crumbled Oreo cookies",
+          "unsalted butter",
+          "sugar",
+          "eggs",
+          "white flour",
+          "powdered sugar",
+          "heavy whipping cream",
+          "cocoa powder",
+          "water",
+          "baking powder",
+          "salt"
+        ],
+        "figure": "<img alt=\"oreo cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_oreo_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+
+
     "mini pumpkin tarts.": {
         "categories": [
             "tart",
