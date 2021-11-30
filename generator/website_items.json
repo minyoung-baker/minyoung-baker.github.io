@@ -1,4 +1,26 @@
 {
+    "oreo madeleines with glaze.": {
+        "categories": [
+          "madeleines",
+          "chocolate"
+        ],
+        "price": "$15",
+        "notes": "",
+        "ingredients": [
+          "sugar",
+          "unsalted butter",
+          "egg",
+          "white flour",
+          "powdered sugar",
+          "crumbled Oreo cookies",
+          "water",
+          "cocoa powder",
+          "baking powder",
+          "Oreo cookie dust",
+          "salt"
+        ],
+        "figure": "<img alt=\"oreo madeleines with glaze.\" class=\"modal_img\" src=\"img_menu/madeleines_oreo_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "sourdough bread with rosemary &amp; seeds.": {
         "categories": [
             "bread"
@@ -55,8 +77,6 @@
         ],
         "figure": "<img alt=\"oreo cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_oreo_01_th400.jpg\" style=\"width:100%\"/>"
     },
-
-
     "mini pumpkin tarts.": {
         "categories": [
             "tart",
