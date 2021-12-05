@@ -1,4 +1,33 @@
 {
+    "Gift Card.": {
+        "categories": [
+        ],
+        "price": "varies.",
+        "notes": "",
+        "ingredients": [
+          "great for gifts"
+        ],
+        "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
+    },
+    "mini strawberry tarts.": {
+        "categories": [
+          "dessert",
+          "tart"
+        ],
+        "price": "$25",
+        "notes": "",
+        "ingredients": [
+          "strawberries",
+          "unsalted butter",
+          "white flour",
+          "powdered sugar",
+          "almond powder",
+          "strawberry jam",
+          "eggs",
+          "vanilla extract"
+        ],
+        "figure": "<img alt=\"mini strawberry tarts.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\"  src=\"img_menu/tart_strawberry_mini_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "oreo madeleines with glaze.": {
         "categories": [
           "madeleines",
