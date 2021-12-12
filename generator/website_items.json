@@ -1,5 +1,5 @@
 {
-    "Gift Card.": {
+    "gift card.": {
         "categories": [
         ],
         "price": "varies.",
@@ -8,6 +8,27 @@
           "great for gifts"
         ],
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
+    },
+    "mini triple chocolate tarts.": {
+        "categories": [
+          "chocolate",
+          "dessert",
+          "tart"
+        ],
+        "price": "$24",
+        "notes": "",
+        "ingredients": [
+          "powdered sugar",
+          "unsalted butter",
+          "eggs",
+          "semi-sweet chocolate",
+          "white flour",
+          "sugar",
+          "almond powder",
+          "cocoa powder",
+          "heavy whipping cream"
+        ],
+        "figure": "<img alt=\"mini triple chocolate tarts.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\"  src=\"img_menu/tart_triple_chocolate_mini_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "mini strawberry tarts.": {
         "categories": [
