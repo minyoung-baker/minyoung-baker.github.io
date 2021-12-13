@@ -30,6 +30,23 @@
         ],
         "figure": "<img alt=\"mini triple chocolate tarts.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\"  src=\"img_menu/tart_triple_chocolate_mini_01_th400.jpg\" style=\"width:100%\"/>"
     },
+    "salted caramel scones.": {
+        "categories": [
+          "scones"
+        ],
+        "price": "$15",
+        "notes": "for 4",
+        "ingredients": [
+          "white flour",
+          "sugar",
+          "heavy whipping cream",
+          "unsalted butter",
+          "water",
+          "baking powder",
+          "salt"
+        ],
+        "figure": "<img alt=\"salted caramel scones.\" class=\"modal_img\" src=\"img_menu/scone_caramel_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "mini strawberry tarts.": {
         "categories": [
           "dessert",
