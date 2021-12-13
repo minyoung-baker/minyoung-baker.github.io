@@ -177,6 +177,7 @@
     },
     "glassate scones.": {
         "categories": [
+          "scones"
         ],
         "price": "$15",
         "notes": "for 4",
@@ -196,7 +197,8 @@
     },
     "cinnamon apple scones.": {
         "categories": [
-            "apple"
+          "apple",
+          "scones"
         ],
         "price": "$15",
         "notes": "for 4",
@@ -215,7 +217,8 @@
     },
     "chocolate scones.": {
         "categories": [
-            "chocolate"
+          "chocolate",
+          "scones"
         ],
         "price": "$15",
         "notes": "for 4",
@@ -235,6 +238,7 @@
     },
     "scones.": {
         "categories": [
+          "scones"
         ],
         "price": "$13",
         "notes": "for 4",
