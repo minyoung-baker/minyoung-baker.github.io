@@ -512,27 +512,6 @@
         ],
         "figure": "<img alt=\"nanaimo bar.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/nanaimo_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "chocolate pastry bread.": {
-        "categories": [
-            "chocolate",
-            "bread",
-            "international"
-        ],
-        "price": "$10",
-        "notes": "",
-        "ingredients": [
-            "water",
-            "unsalted butter",
-            "white flour",
-            "bread flour",
-            "semi-sweet chocolate chips",
-            "sugar",
-            "egg yolk",
-            "salt",
-            "yeast"
-        ],
-        "figure": "<img alt=\"chocolate pastry bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_chocolate_pastry_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "bark chocolate bars.": {
         "categories": [
             "chocolate",
@@ -770,70 +749,6 @@
         ],
         "figure": "<img alt=\"sourdough bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_sourdough_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "caramel & pecan sticky buns.": {
-        "categories": [
-            "pecan"
-        ],
-        "price": "$9",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "brown sugar",
-            "whole milk",
-            "unsalted butter",
-            "honey",
-            "pecans",
-            "heavy whipping cream",
-            "egg",
-            "sugar",
-            "yeast",
-            "salt",
-            "cinnamon powder"
-        ],
-        "figure": "<img alt=\"caramel &amp; pecan sticky puns.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_sticky_bun_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "roti boy (mocha bread).": {
-        "categories": [
-            "bread",
-            "mocha"
-        ],
-        "price": "$9",
-        "notes": "for 6",
-        "ingredients": [
-            "white flour",
-            "sugar",
-            "unsalted butter",
-            "whole milk",
-            "heavy whipping cream",
-            "egg",
-            "almond flour",
-            "coffee",
-            "water",
-            "vanilla extract",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"roti boy (mocha bread).\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_roti_boy_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "pastry bread.": {
-        "categories": [
-            "international",
-            "bread"
-        ],
-        "price": "$9",
-        "notes": "",
-        "ingredients": [
-            "water",
-            "unsalted butter",
-            "white flour",
-            "bread flour",
-            "sugar",
-            "egg yolk",
-            "salt",
-            "yeast"
-        ],
-        "figure": "<img alt=\"pastry bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_pastry_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "lemon & poppy seed pound cake with lemon-sugar glaze.": {
         "categories": [
             "pound cake",
@@ -895,30 +810,6 @@
         ],
         "figure": "<img alt=\"earl grey pound cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/pound_cake_earl_grey_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "lime & coconut bread.": {
-        "categories": [
-            "coconut",
-            "bread"
-        ],
-        "price": "$7",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "whole milk",
-            "sugar",
-            "heavy cream",
-            "sweetened coconut flakes",
-            "egg",
-            "unsalted butter",
-            "lime juice",
-            "yeast",
-            "salt",
-            "lime zest",
-            "apricot jam",
-            "water"
-        ],
-        "figure": "<img alt=\"lime &amp; coconut bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_lime_coconut_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "dinner rolls.": {
         "categories": [
             "bread"
@@ -955,62 +846,6 @@
             "salt"
         ],
         "figure": "<img alt=\"dulce de leche twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_dulce_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "rustic round bread.": {
-        "categories": [
-            "bread"
-        ],
-        "price": "$5",
-        "notes": "",
-        "ingredients": [
-            "bread flour",
-            "water",
-            "salt",
-            "yeast"
-        ],
-        "figure": "<img alt=\"rustic round bread.\" class=\"modal_img\" src=\"img_menu/bread_rustic_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "pain suisse.": {
-        "categories": [
-            "international"
-        ],
-        "price": "$9",
-        "notes": "four pieces",
-        "ingredients": [
-            "whole milk",
-            "white flour",
-            "egg",
-            "semi-sweet chocolate chips",
-            "sugar",
-            "heavy cream",
-            "unsalted butter",
-            "cornstarch",
-            "vanilla extract",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"pain suisse.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_painsuisse_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "matcha spread twist bread.": {
-        "categories": [
-            "bread",
-            "twist bread"
-        ],
-        "price": "$8",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "white sugar",
-            "whole milk",
-            "unsalted butter",
-            "heavy cream",
-            "eggs",
-            "canola oil",
-            "matcha powder",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"matcha spread twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_matcha_twist_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "marshmallow brownie.": {
         "categories": [
@@ -1117,28 +952,6 @@
         ],
         "figure": "<img alt=\"pecan tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_pecan_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "peanut butter twist bread.": {
-        "categories": [
-            "bread",
-            "peanut",
-            "twist bread"
-        ],
-        "price": "$8",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "whole milk",
-            "sugar",
-            "peanut butter",
-            "unsalted butter",
-            "heavy whipping cream",
-            "peanuts",
-            "eggs",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"peanut butter twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_peanut_twist_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "milk cream bread.": {
         "categories": [
             "bread"
@@ -1159,26 +972,6 @@
         ],
         "figure": "<img alt=\"milk cream bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_milk_cream_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "marble pound cake.": {
-        "categories": [
-            "pound cake"
-        ],
-        "price": "$11",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "sugar",
-            "eggs",
-            "whole milk",
-            "canola oil",
-            "water",
-            "cocoa powder",
-            "vanilla extract",
-            "baking powder",
-            "salt"
-        ],
-        "figure": "<img alt=\"marble pound cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/pound_cake_marble_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "cinnamon pound cake.": {
         "categories": [
             "cinnamon",
@@ -1198,49 +991,6 @@
             "cinnamon"
         ],
         "figure": "<img alt=\"cinnamon pound cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/pound_cake_cinnamon_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "lemon sweet roll bread.": {
-        "categories": [
-            "lemon",
-            "bread"
-        ],
-        "price": "$7",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "whole milk",
-            "sugar",
-            "unsalted butter",
-            "heavy whipping cream",
-            "eggs",
-            "lemon juice",
-            "almond powder",
-            "lemon zest",
-            "water",
-            "apricot jam",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"lemon sweet roll bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_lemon_rolls_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "condensed milk bread.": {
-        "categories": [
-            "bread"
-        ],
-        "price": "$7",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "whole milk",
-            "heavy whipping cream",
-            "unsalted butter",
-            "condensed milk",
-            "eggs",
-            "sugar",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"condensed milk bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_condensed_milk_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "cinnamon rolls.": {
         "categories": [
@@ -1331,49 +1081,6 @@
         ],
         "figure": "<img alt=\"orange pound cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/pound_cake_orange_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "apple & cranberry bread.": {
-        "categories": [
-            "apple",
-            "bread"
-        ],
-        "price": "$9",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "apple",
-            "whole milk",
-            "sugar",
-            "heavy cream",
-            "eggs",
-            "dried cranberries",
-            "almonds",
-            "yeast",
-            "salt",
-            "cinnamon"
-        ],
-        "figure": "<img alt=\"apple &amp; cranberry bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_apple_cranberry_almond_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "blueberry bread.": {
-        "categories": [
-            "blueberry",
-            "bread"
-        ],
-        "price": "$9",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "blueberries",
-            "whole milk",
-            "sugar",
-            "heavy cream",
-            "eggs",
-            "unsalted butter",
-            "cornstarch",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"blueberry bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_blueberry_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "fig & walnut bread.": {
         "categories": [
             "bread"
@@ -1412,46 +1119,5 @@
             "salt"
         ],
         "figure": "<img alt=\"soft bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_soft_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "chocolate soft bread.": {
-        "categories": [
-            "chocolate",
-            "bread"
-        ],
-        "price": "$7",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "whole milk",
-            "semi-sweet chocolate",
-            "heavy cream",
-            "eggs",
-            "sugar",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"chocolate soft bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_soft_chocolate_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "almond twist bread.": {
-        "categories": [
-            "almond",
-            "bread",
-            "twist bread"
-        ],
-        "price": "$8",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "whole milk",
-            "unsalted butter",
-            "almond powder",
-            "heavy cream",
-            "eggs",
-            "sugar",
-            "yeast",
-            "salt",
-            "vanilla extract"
-        ],
-        "figure": "<img alt=\"almond twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_almond_twist_01_th400.jpg\" style=\"width:100%\"/>"
     }
 }
