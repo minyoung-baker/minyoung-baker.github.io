@@ -490,28 +490,6 @@
         ],
         "figure": "<img alt=\"sacher torte.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/sacher_torte_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "nanaimo bar.": {
-        "categories": [
-            "dessert"
-        ],
-        "price": "$23",
-        "notes": "",
-        "ingredients": [
-            "powdered sugar",
-            "unsalted butter",
-            "graham cracker crumbs",
-            "semi-sweet chocolate chips",
-            "sweetened coconut flakes",
-            "walnut",
-            "egg",
-            "whole milk",
-            "vanilla custard powder",
-            "cocoa powder",
-            "vanilla extract",
-            "salt"
-        ],
-        "figure": "<img alt=\"nanaimo bar.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/nanaimo_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "bark chocolate bars.": {
         "categories": [
             "chocolate",
@@ -534,25 +512,6 @@
             "cashews"
         ],
         "figure": "<img alt=\"bark chocolate bars.\" class=\"modal_img\" src=\"img_menu/bark_chocolate_02_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "tigre cakes.": {
-        "categories": [
-            "dessert",
-            "international"
-        ],
-        "price": "$15",
-        "notes": "for 9",
-        "ingredients": [
-            "unsalted butter",
-            "egg whites",
-            "sugar",
-            "almond powder",
-            "semi-sweet chocolate",
-            "white flour",
-            "semi-sweet chocolate chips",
-            "gold leaf"
-        ],
-        "figure": "<img alt=\"tigre cakes.\" class=\"modal_img\" src=\"img_menu/tigre_cakes_th400.jpg\" style=\"width:100%\"/>"
     },
     "chocolate cake.": {
         "categories": [
@@ -625,7 +584,7 @@
             "pound cake",
             "pumpkin"
         ],
-        "price": "$13",
+        "price": "$14",
         "notes": "",
         "ingredients": [
             "pumpkin",
@@ -754,7 +713,7 @@
             "pound cake",
             "lemon"
         ],
-        "price": "$14",
+        "price": "$15",
         "notes": "",
         "ingredients": [
             "sugar",
@@ -915,7 +874,7 @@
             "apple",
             "dessert"
         ],
-        "price": "$25",
+        "price": "$27",
         "notes": "9\u2033 / 23\u00a0cm",
         "ingredients": [
             "apple",
@@ -977,7 +936,7 @@
             "cinnamon",
             "pound cake"
         ],
-        "price": "$11",
+        "price": "$12",
         "notes": "",
         "ingredients": [
             "white flour",
@@ -1062,7 +1021,7 @@
         "categories": [
             "pound cake"
         ],
-        "price": "$14",
+        "price": "$15",
         "notes": "",
         "ingredients": [
             "sugar",
