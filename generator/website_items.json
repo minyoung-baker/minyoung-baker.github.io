@@ -1061,22 +1061,5 @@
             "cinnamon"
         ],
         "figure": "<img alt=\"fig &amp; walnut bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_fig_walnut_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "soft bread.": {
-        "categories": [
-            "bread"
-        ],
-        "price": "$5",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "whole milk",
-            "heavy cream",
-            "eggs",
-            "sugar",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"soft bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_soft_01_th400.jpg\" style=\"width:100%\"/>"
     }
 }
