@@ -88,40 +88,6 @@
         ],
         "figure": "<img alt=\"oreo madeleines with glaze.\" class=\"modal_img\" src=\"img_menu/madeleines_oreo_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "sourdough bread with rosemary & seeds.": {
-        "categories": [
-            "bread"
-        ],
-        "price": "$8",
-        "notes": "",
-        "ingredients": [
-          "water",
-          "white flour",
-          "bread flour",
-          "wheat flour",
-          "rosemary",
-          "flax seed",
-          "chia seed",
-          "salt"
-        ],
-        "figure": "<img alt=\"sourdough bread with rosemary &amp; seeds.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_sourdough_rosemary_seed_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "sourdough bread with olives.": {
-        "categories": [
-            "bread"
-        ],
-        "price": "$8",
-        "notes": "",
-        "ingredients": [
-          "water",
-          "white flour",
-          "bread flour",
-          "black olives",
-          "wheat flour",
-          "salt"
-        ],
-        "figure": "<img alt=\"sourdough bread with olives.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_sourdough_olive_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "oreo cake.": {
         "categories": [
             "chocolate",
@@ -693,21 +659,6 @@
         ],
         "figure": "<img alt=\"almond florentine.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_almond_florentine_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "sourdough bread.": {
-        "categories": [
-            "bread"
-        ],
-        "price": "$7",
-        "notes": "limited quantities daily",
-        "ingredients": [
-            "water",
-            "bread flour",
-            "white flour",
-            "wheat flour",
-            "salt"
-        ],
-        "figure": "<img alt=\"sourdough bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_sourdough_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "lemon & poppy seed pound cake with lemon-sugar glaze.": {
         "categories": [
             "pound cake",
@@ -769,43 +720,6 @@
         ],
         "figure": "<img alt=\"earl grey pound cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/pound_cake_earl_grey_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "dinner rolls.": {
-        "categories": [
-            "bread"
-        ],
-        "price": "$6",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "whole milk",
-            "heavy cream",
-            "eggs",
-            "sugar",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"dinner rolls.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_dinner_rolls_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "dulce de leche twist bread.": {
-        "categories": [
-            "bread",
-            "twist bread"
-        ],
-        "price": "$8",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "whole milk",
-            "sugar",
-            "dulce de leche",
-            "unsalted butter",
-            "heavy cream",
-            "egg",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"dulce de leche twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_dulce_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "marshmallow brownie.": {
         "categories": [
             "chocolate",
@@ -846,28 +760,6 @@
             "powdered sugar"
         ],
         "figure": "<img alt=\"chocolate-chip brownie.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/brownie_chocolate_chip_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "coconut spread twist bread.": {
-        "categories": [
-            "coconut",
-            "bread",
-            "twist bread"
-        ],
-        "price": "$8",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "whole milk",
-            "sugar",
-            "coconut flakes",
-            "heavy whipping cream",
-            "eggs",
-            "unsalted butter",
-            "coconut powder",
-            "salt",
-            "yeast"
-        ],
-        "figure": "<img alt=\"coconut spread twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_coconut_twist_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "lattice apple pie.": {
         "categories": [
@@ -911,26 +803,6 @@
         ],
         "figure": "<img alt=\"pecan tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_pecan_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "milk cream bread.": {
-        "categories": [
-            "bread"
-        ],
-        "price": "$8",
-        "notes": "",
-        "ingredients": [
-            "whole milk",
-            "white flour",
-            "sugar",
-            "heavy whipping cream",
-            "eggs",
-            "unsalted butter",
-            "cornstarch",
-            "vanilla extract",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"milk cream bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_milk_cream_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "cinnamon pound cake.": {
         "categories": [
             "cinnamon",
@@ -950,50 +822,6 @@
             "cinnamon"
         ],
         "figure": "<img alt=\"cinnamon pound cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/pound_cake_cinnamon_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "cinnamon rolls.": {
-        "categories": [
-            "cinnamon",
-            "bread"
-        ],
-        "price": "$8",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "whole milk",
-            "brown sugar",
-            "heavy whipping cream",
-            "powdered sugar",
-            "condensed milk",
-            "eggs",
-            "sugar",
-            "unsalted butter",
-            "cinnamon",
-            "water",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"cinnamon rolls.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cinnamon_rolls_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "nutella\u00ae bread.": {
-        "categories": [
-            "bread"
-        ],
-        "price": "$8",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "whole milk",
-            "Nutella",
-            "heavy whipping cream",
-            "sugar",
-            "water",
-            "eggs",
-            "chocolate syrup",
-            "yeast",
-            "salt"
-        ],
-        "figure": "<img alt=\"nutella\u00ae bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_nutella_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "apple & almond tart.": {
         "categories": [
@@ -1039,27 +867,5 @@
             "salt"
         ],
         "figure": "<img alt=\"orange pound cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/pound_cake_orange_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "fig & walnut bread.": {
-        "categories": [
-            "bread"
-        ],
-        "price": "$10",
-        "notes": "",
-        "ingredients": [
-            "white flour",
-            "sugar",
-            "whole milk",
-            "sliced figs",
-            "unsalted butter",
-            "almond powder",
-            "heavy cream",
-            "eggs",
-            "walnuts",
-            "yeast",
-            "salt",
-            "cinnamon"
-        ],
-        "figure": "<img alt=\"fig &amp; walnut bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_fig_walnut_01_th400.jpg\" style=\"width:100%\"/>"
     }
 }
