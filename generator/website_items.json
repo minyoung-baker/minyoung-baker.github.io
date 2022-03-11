@@ -71,7 +71,7 @@
           "madeleines",
           "chocolate"
         ],
-        "price": "$15",
+        "price": "$16",
         "notes": "",
         "ingredients": [
           "sugar",
@@ -93,7 +93,7 @@
             "chocolate",
             "dessert"
         ],
-        "price": "$22",
+        "price": "$24",
         "notes": "",
         "ingredients": [
           "crumbled Oreo cookies",
@@ -141,7 +141,7 @@
           "madeleines",
           "pumpkin"
         ],
-        "price": "$15",
+        "price": "$16",
         "notes": "",
         "ingredients": [
           "unsalted butter",
@@ -243,7 +243,7 @@
             "madeleines",
             "international"
         ],
-        "price": "$16",
+        "price": "$17",
         "notes": "",
         "ingredients": [
           "unsalted butter",
@@ -263,7 +263,7 @@
             "international",
             "madeleines"
         ],
-        "price": "$15",
+        "price": "$16",
         "notes": "",
         "ingredients": [
           "unsalted butter",
@@ -283,7 +283,7 @@
             "international",
             "madeleines"
         ],
-        "price": "$14",
+        "price": "$15",
         "notes": "",
         "ingredients": [
           "unsalted butter",
@@ -300,7 +300,7 @@
             "dessert",
             "international"
         ],
-        "price": "$28",
+        "price": "$30",
         "notes": "",
         "ingredients": [
             "white flour", "walnuts", "sugar", "heavy whipping cream", "powdered sugar", "unsalted butter", "almond powder", "water", "egg", "egg yolk", "salt"
@@ -311,7 +311,7 @@
         "categories": [
             "dessert"
         ],
-        "price": "$18",
+        "price": "$19",
         "notes": "",
         "ingredients": [
             "egg", "sugar", "white flour", "milk", "canola oil", "jam", "honey", "vanilla extract", "baking powder", "salt"
@@ -324,7 +324,7 @@
             "dessert",
             "international"
         ],
-        "price": "$20",
+        "price": "$22",
         "notes": "",
         "ingredients": [
             "apple", "white sugar", "white flour", "heavy whipping cream", "unsalted butter", "water", "egg yolk", "salt", "cinnamon powder"
@@ -337,7 +337,7 @@
             "international",
             "madeleines"
         ],
-        "price": "$15",
+        "price": "$16",
         "notes": "",
         "ingredients": [
             "sugar",
@@ -357,7 +357,7 @@
             "international",
             "madeleines"
         ],
-        "price": "$15",
+        "price": "$16",
         "notes": "",
         "ingredients": [
             "sugar",
@@ -377,7 +377,7 @@
             "pound cake",
             "mocha"
         ],
-        "price": "$15",
+        "price": "$17",
         "notes": "",
         "ingredients": [
             "white flour",
@@ -399,7 +399,7 @@
             "chocolate",
             "international"
         ],
-        "price": "$15",
+        "price": "$16",
         "notes": "for 12",
         "ingredients": [
             "rolled oats",
@@ -420,7 +420,7 @@
             "coconut",
             "international"
         ],
-        "price": "$15",
+        "price": "$16",
         "notes": "for 12",
         "ingredients": [
             "rolled oats",
@@ -440,7 +440,7 @@
             "dessert",
             "international"
         ],
-        "price": "$28",
+        "price": "$30",
         "notes": "",
         "ingredients": [
             "semi-sweet chocolate",
@@ -461,7 +461,7 @@
             "chocolate",
             "dessert"
         ],
-        "price": "$25",
+        "price": "$27",
         "notes": "",
         "ingredients": [
             "white chocolate",
@@ -484,7 +484,7 @@
             "chocolate",
             "dessert"
         ],
-        "price": "$20",
+        "price": "$22",
         "notes": "8\u2033 / 20\u00a0cm",
         "ingredients": [
             "sugar",
@@ -508,7 +508,7 @@
             "almond",
             "tart"
         ],
-        "price": "$20",
+        "price": "$22",
         "notes": "",
         "ingredients": [
             "unsalted butter",
@@ -528,7 +528,7 @@
             "pound cake",
             "bread"
         ],
-        "price": "$13",
+        "price": "$15",
         "notes": "",
         "ingredients": [
             "bananas",
@@ -550,7 +550,7 @@
             "pound cake",
             "pumpkin"
         ],
-        "price": "$14",
+        "price": "$16",
         "notes": "",
         "ingredients": [
             "pumpkin",
@@ -575,7 +575,7 @@
             "pumpkin",
             "dessert"
         ],
-        "price": "$20",
+        "price": "$22",
         "notes": "",
         "ingredients": [
             "pumpkin",
@@ -599,7 +599,7 @@
             "blueberry",
             "dessert"
         ],
-        "price": "$20",
+        "price": "$22",
         "notes": "",
         "ingredients": [
             "white flour",
@@ -620,7 +620,7 @@
             "tart",
             "dessert"
         ],
-        "price": "$20",
+        "price": "$22",
         "notes": "",
         "ingredients": [
             "sugar",
@@ -642,7 +642,7 @@
             "almond",
             "dessert"
         ],
-        "price": "$20",
+        "price": "$22",
         "notes": "",
         "ingredients": [
             "sugar",
@@ -664,7 +664,7 @@
             "pound cake",
             "lemon"
         ],
-        "price": "$15",
+        "price": "$17",
         "notes": "",
         "ingredients": [
             "sugar",
@@ -684,7 +684,7 @@
         "categories": [
             "dessert"
         ],
-        "price": "$22",
+        "price": "$24",
         "notes": "",
         "ingredients": [
             "white flour",
@@ -706,7 +706,7 @@
         "categories": [
             "pound cake"
         ],
-        "price": "$14",
+        "price": "$16",
         "notes": "",
         "ingredients": [
             "white flour",
@@ -725,7 +725,7 @@
             "chocolate",
             "dessert"
         ],
-        "price": "$12",
+        "price": "$15",
         "notes": "",
         "ingredients": [
             "unsalted butter",
@@ -746,7 +746,7 @@
             "chocolate",
             "dessert"
         ],
-        "price": "$13",
+        "price": "$15",
         "notes": "",
         "ingredients": [
             "white sugar",
@@ -766,7 +766,7 @@
             "apple",
             "dessert"
         ],
-        "price": "$27",
+        "price": "$29",
         "notes": "9\u2033 / 23\u00a0cm",
         "ingredients": [
             "apple",
@@ -787,7 +787,7 @@
             "tart",
             "dessert"
         ],
-        "price": "$22",
+        "price": "$24",
         "notes": "8\u2033 / 20\u00a0cm",
         "ingredients": [
             "white flour",
@@ -808,7 +808,7 @@
             "cinnamon",
             "pound cake"
         ],
-        "price": "$12",
+        "price": "$14",
         "notes": "",
         "ingredients": [
             "white flour",
@@ -829,7 +829,7 @@
             "apple",
             "dessert"
         ],
-        "price": "$23",
+        "price": "$25",
         "notes": "8\u2033 / 20\u00a0cm",
         "ingredients": [
             "apple",
@@ -849,7 +849,7 @@
         "categories": [
             "pound cake"
         ],
-        "price": "$15",
+        "price": "$17",
         "notes": "",
         "ingredients": [
             "sugar",
