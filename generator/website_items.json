@@ -9,6 +9,53 @@
         ],
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "mini egg pies.": {
+        "categories": [
+          "dessert"
+        ],
+        "price": "$23",
+        "notes": "",
+        "ingredients": [
+          "white flour",
+          "heavy whipping cream",
+          "whole milk",
+          "unsalted butter",
+          "sugar",
+          "egg yolk",
+          "water",
+          "corn starch",
+          "vanilla extract",
+          "salt"
+        ],
+        "figure": "<img alt=\"mini egg pies.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\"  src=\"img_menu/pie_egg_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "nutella\u00ae spiral cake.": {
+        "categories": [
+          "chocolate",
+          "dessert"
+        ],
+        "price": "$30",
+        "notes": "",
+        "ingredients": [
+          "egg",
+          "sugar",
+          "white flour",
+          "whole milk",
+          "Lindt Lindor balls",
+          "canola oil",
+          "Nutella",
+          "chocolate syrup",
+          "semi-sweet chocolate",
+          "cocoa powder",
+          "vanilla extract",
+          "heavy whipping cream",
+          "unsalted butter",
+          "rice syrup",
+          "baking powder",
+          "salt"
+        ],
+        "figure": "<img alt=\"nutella\u00ae spiral cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\"  src=\"img_menu/cake_spiral_nutella_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "churros madeleines.": {
         "categories": [
           "madeleines"
