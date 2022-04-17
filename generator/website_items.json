@@ -9,6 +9,42 @@
         ],
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "raspberry scones.": {
+        "categories": [
+          "scones"
+        ],
+        "price": "$15",
+        "notes": "",
+        "ingredients": [
+          "white flour",
+          "raspberry jam",
+          "unsalted butter",
+          "whole milk",
+          "heavy whipping cream",
+          "sugar",
+          "baking powder",
+          "salt"
+        ],
+        "figure": "<img alt=\"raspberry scones.\" class=\"modal_img\" src=\"img_menu/scone_raspberry_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "blueberry scones.": {
+        "categories": [
+          "scones"
+        ],
+        "price": "$15",
+        "notes": "",
+        "ingredients": [
+          "white flour",
+          "blueberry jam",
+          "unsalted butter",
+          "whole milk",
+          "heavy whipping cream",
+          "sugar",
+          "baking powder",
+          "salt"
+        ],
+        "figure": "<img alt=\"blueberry scones.\" class=\"modal_img\" src=\"img_menu/scone_blueberry_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "mini egg pies.": {
         "categories": [
           "dessert"
