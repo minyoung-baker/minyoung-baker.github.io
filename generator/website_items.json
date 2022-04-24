@@ -9,6 +9,173 @@
         ],
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "dulce de leche twist bread.": {
+        "categories": [
+            "bread",
+            "twist bread"
+        ],
+        "price": "$11",
+        "notes": "Friday only",
+        "ingredients": [
+            "white flour",
+            "whole milk",
+            "sugar",
+            "dulce de leche",
+            "unsalted butter",
+            "heavy cream",
+            "egg",
+            "yeast",
+            "salt"
+        ],
+        "figure": "<img alt=\"dulce de leche twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_dulce_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "almond twist bread.": {
+         "categories": [
+             "almond",
+             "bread",
+             "twist bread"
+         ],
+         "price": "$11",
+         "notes": "Friday only",
+         "ingredients": [
+             "white flour",
+             "whole milk",
+             "unsalted butter",
+             "almond powder",
+             "heavy cream",
+             "eggs",
+             "sugar",
+             "yeast",
+             "salt",
+             "vanilla extract"
+         ],
+         "figure": "<img alt=\"almond twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_almond_twist_01_th400.jpg\" style=\"width:100%\"/>"
+     },
+    "cinnamon rolls.": {
+        "categories": [
+            "cinnamon",
+            "bread"
+        ],
+        "price": "$11",
+        "notes": "Friday only",
+        "ingredients": [
+            "white flour",
+            "whole milk",
+            "brown sugar",
+            "heavy whipping cream",
+            "powdered sugar",
+            "condensed milk",
+            "eggs",
+            "sugar",
+            "unsalted butter",
+            "cinnamon",
+            "water",
+            "yeast",
+            "salt"
+        ],
+        "figure": "<img alt=\"cinnamon rolls.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cinnamon_rolls_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "milk cream bread.": {
+        "categories": [
+            "bread"
+        ],
+        "price": "$10",
+        "notes": "Friday only",
+        "ingredients": [
+            "whole milk",
+            "white flour",
+            "sugar",
+            "heavy whipping cream",
+            "eggs",
+            "unsalted butter",
+            "cornstarch",
+            "vanilla extract",
+            "yeast",
+            "salt"
+        ],
+        "figure": "<img alt=\"milk cream bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_milk_cream_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "roti boy (mocha bread).": {
+         "categories": [
+             "bread",
+             "mocha"
+         ],
+         "price": "$12",
+         "notes": "for 6; Friday only",
+         "ingredients": [
+             "white flour",
+             "sugar",
+             "unsalted butter",
+             "whole milk",
+             "heavy whipping cream",
+             "egg",
+             "almond flour",
+             "coffee",
+             "water",
+             "vanilla extract",
+             "yeast",
+             "salt"
+         ],
+         "figure": "<img alt=\"roti boy (mocha bread).\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_roti_boy_01_th400.jpg\" style=\"width:100%\"/>"
+     },
+
+    "sourdough bread.": {
+        "categories": [
+            "bread"
+        ],
+        "price": "$8",
+        "notes": "Friday only",
+        "ingredients": [
+            "water",
+            "bread flour",
+            "white flour",
+            "wheat flour",
+            "salt"
+        ],
+        "figure": "<img alt=\"sourdough bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_sourdough_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "coconut spread twist bread.": {
+        "categories": [
+            "coconut",
+            "bread",
+            "twist bread"
+        ],
+        "price": "$11",
+        "notes": "Friday only",
+        "ingredients": [
+            "white flour",
+            "whole milk",
+            "sugar",
+            "coconut flakes",
+            "heavy whipping cream",
+            "eggs",
+            "unsalted butter",
+            "coconut powder",
+            "salt",
+            "yeast"
+        ],
+        "figure": "<img alt=\"coconut spread twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_coconut_twist_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "nutella\u00ae bread.": {
+        "categories": [
+            "bread"
+        ],
+        "price": "$12",
+        "notes": "Friday only",
+        "ingredients": [
+            "white flour",
+            "whole milk",
+            "Nutella",
+            "heavy whipping cream",
+            "sugar",
+            "water",
+            "eggs",
+            "chocolate syrup",
+            "yeast",
+            "salt"
+        ],
+        "figure": "<img alt=\"nutella\u00ae bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_nutella_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "raspberry scones.": {
         "categories": [
           "scones"
