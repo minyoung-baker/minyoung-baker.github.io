@@ -37,7 +37,7 @@ def get_inventory_html(inv):
         figure = v["figure"]
         item = html.escape(k).encode("ascii", "xmlcharrefreplace").decode("utf-8")
         price = (
-            html.escape(v["price"]).encode("ascii", "xmlcharrefreplace").decode("utf-8")
+            html.escape(f"${v['price']}").encode("ascii", "xmlcharrefreplace").decode("utf-8")
         )
         if v["notes"]:
             price += (
@@ -50,11 +50,8 @@ def get_inventory_html(inv):
                 + ")"
             )
         ingredients = (
-            html.escape(". ".join(v["ingredients"]))
-            .encode("ascii", "xmlcharrefreplace")
-            .decode("utf-8")
+            html.escape(v["ingredients"]).encode("ascii", "xmlcharrefreplace").decode("utf-8")
         )
-        ingredients += '.'
 
         s += f"""
     <li class="menuitem" data-category="MyCategories">
@@ -180,7 +177,7 @@ def generate_html(inv):
         <li>I have no set business hours, but please order at least a day before you wish to pickup.</li>
         <li>Sorry, but I can only offer what is on my menu.</li>
         <li>I can take payment by cash or check made out to "minnie bakery LLC".</li>
-        <li>I'm active on <a href="https://www.facebook.com/minniebakeryLLC" class="internal">Facebook</a> and <a href="https://www.instagram.com/minniebakeryLLC/" class="internal">Instagram</a>, which is where I tend to post news.</li>
+        <li>I'm active on <a href="https://www.facebook.com/minniebakeryLLC" class="internal">Facebook</a> and <a href="https://www.instagram.com/minniebakeryLLC" class="internal">Instagram</a>, which is where I tend to post news.</li>
       </ul>
     </div>
   </div>
@@ -246,7 +243,7 @@ MyInventory
   <!-- <a href="#top" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a> -->
   <div class="w3-xlarge w3-section">
     <a href="https://www.facebook.com/minniebakeryLLC"><i class="fab fa-facebook w3-hover-opacity"></i></a>
-    <a href="https://www.instagram.com/minniebakeryLLC/"><i class="fab fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/minniebakeryLLC"><i class="fab fa-instagram w3-hover-opacity"></i></a>
     <!-- <i class="fa fa-snapchat w3-hover-opacity"></i> -->
     <!-- <i class="fa fa-pinterest-p w3-hover-opacity"></i> -->
     <!-- <i class="fa fa-twitter w3-hover-opacity"></i> -->
