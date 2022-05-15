@@ -409,6 +409,18 @@
         "ingredients": "white flour. sugar. unsalted butter. eggs. milk. sour cream. blueberries. raspberries. blackberries. baking powder. vanilla extract. salt.",
         "figure": "<img alt=\"very berry coffee cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/coffee_cake_triple_berry_01_th400.jpg\" style=\"width:100%\"/>"
     },
+    "caramel & pecan sticky buns.": {
+        "categories": [
+            "pecan",
+            "bread",
+            "caramel",
+            "glazed"
+        ],
+        "price": 13,
+        "notes": "Friday only",
+        "ingredients": "white flour. brown sugar. whole milk. unsalted butter. honey. pecans. heavy whipping cream. eggs. sugar. yeast. salt. cinnamon powder.",
+        "figure": "<img alt=\"caramel & pecan sticky buns.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_sticky_bun_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "roti boy (coffee bun).": {
         "categories": [
             "mocha",
