@@ -6,6 +6,27 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "churros scones.": {
+        "categories": [
+            "scone",
+            "cinnamon"
+        ],
+        "price": 15,
+        "notes": "",
+        "ingredients": "white flour. unsalted butter. sugar. dulce de leche. whole milk. heavy whipping cream. cinnamon powder. baking powder. salt.",
+        "figure": "<img alt=\"churros scones.\" class=\"modal_img\" src=\"img_menu/scone_churros_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "glazed orange madeleines.": {
+        "categories": [
+            "madeleines",
+            "orange",
+            "glazed"
+        ],
+        "price": 17,
+        "notes": "",
+        "ingredients": "sugar. powdered sugar. unsalted butter. eggs. white flour. orange juice. orange zest. baking powder. salt.",
+        "figure": "<img alt=\"glazed orange madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_orange_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "raspberry scones.": {
         "categories": [
             "scone",
@@ -44,15 +65,15 @@
         "ingredients": "eggs. sugar. white flour. whole milk. Lindt Lindor balls. canola oil. Nutella. chocolate syrup. semi-sweet chocolate. cocoa powder. vanilla extract. heavy whipping cream. unsalted butter. rice syrup. baking powder. salt.",
         "figure": "<img alt=\"nutella\u00ae spiral cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_spiral_nutella_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "churros madeleine.": {
+    "churros madeleines.": {
         "categories": [
-            "madeleine",
+            "madeleines",
             "cinnamon"
         ],
         "price": 16,
         "notes": "",
         "ingredients": "sugar. unsalted butter. eggs. white flour. dulce de leche. cinnamon powder. baking powder. salt.",
-        "figure": "<img alt=\"churros madeleine.\" class=\"modal_img\" src=\"img_menu/madeleines_churros_01_th400.jpg\" style=\"width:100%\"/>"
+        "figure": "<img alt=\"churros madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_churros_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "glazed lemon scones.": {
         "categories": [
@@ -89,7 +110,7 @@
     },
     "glazed salted caramel lotus madeleines.": {
         "categories": [
-            "madeleine",
+            "madeleines",
             "caramel",
             "glazed"
         ],
@@ -122,7 +143,7 @@
     },
     "glazed oreo madeleines.": {
         "categories": [
-            "madeleine",
+            "madeleines",
             "oreo",
             "glazed"
         ],
@@ -141,16 +162,16 @@
         "ingredients": "white flour. sugar. heavy whipping cream. unsalted butter. salted caramel sauce. water. baking powder. salt.",
         "figure": "<img alt=\"salted caramel scones.\" class=\"modal_img\" src=\"img_menu/scone_caramel_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "glazed pumpkin madeleine.": {
+    "glazed pumpkin madeleines.": {
         "categories": [
             "pumpkin",
-            "madeleine",
+            "madeleines",
             "glazed"
         ],
         "price": 16,
         "notes": "",
         "ingredients": "unsalted butter. eggs. sugar. white flour. powdered sugar. water. pumpkin powder. pumpkin spice. cinnamon powder. baking powder. salt.",
-        "figure": "<img alt=\"glazed pumpkin madeleine.\" class=\"modal_img\" src=\"img_menu/madeleines_pumpkin_spice_01_th400.jpg\" style=\"width:100%\"/>"
+        "figure": "<img alt=\"glazed pumpkin madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_pumpkin_spice_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "chocolate scones.": {
         "categories": [
@@ -192,20 +213,20 @@
         "ingredients": "white flour. unsalted butter. whole milk. heavy whipping cream. sugar. eggs. baking powder. salt.",
         "figure": "<img alt=\"plain scones.\" class=\"modal_img\" src=\"img_menu/scone_plain_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "maple & pecan madeleine.": {
+    "maple & pecan madeleines.": {
         "categories": [
             "pecan",
-            "madeleine"
+            "madeleines"
         ],
         "price": 17,
         "notes": "",
         "ingredients": "unsalted butter. eggs. white flour. sugar. maple syrup. pecans. maple extract. baking powder. salt.",
-        "figure": "<img alt=\"maple & pecan madeleine.\" class=\"modal_img\" src=\"img_menu/madeleines_maple_pecan_01_th400.jpg\" style=\"width:100%\"/>"
+        "figure": "<img alt=\"maple & pecan madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_maple_pecan_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "glazed earl grey madeleines.": {
         "categories": [
             "earl grey",
-            "madeleine",
+            "madeleines",
             "glazed"
         ],
         "price": 16,
@@ -254,16 +275,16 @@
         "ingredients": "apples. white sugar. white flour. unsalted butter. heavy whipping cream. water. egg yolks. cinnamon powder. salt.",
         "figure": "<img alt=\"apple galette with salted caramel.\" class=\"modal_img\" src=\"img_menu/galette_apple_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "glazed lemon madeleine.": {
+    "glazed lemon madeleines.": {
         "categories": [
             "lemon",
-            "madeleine",
+            "madeleines",
             "glazed"
         ],
         "price": 16,
         "notes": "",
         "ingredients": "sugar. powdered sugar. unsalted butter. eggs. white flour. lemon juice. lemon zest. baking powder. salt.",
-        "figure": "<img alt=\"glazed lemon madeleine.\" class=\"modal_img\" src=\"img_menu/madeleines_lemon_01_th400.jpg\" style=\"width:100%\"/>"
+        "figure": "<img alt=\"glazed lemon madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_lemon_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "swedish chocolate balls (pearl sugar).": {
         "categories": [
