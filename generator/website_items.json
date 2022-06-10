@@ -6,6 +6,35 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "mini red velvet gugelhupf.": {
+        "categories": [
+            "dessert"
+        ],
+        "price": 20,
+        "notes": "",
+        "ingredients": "unsalted butter. sugar. eggs. powdered sugar. white flour. heavy whipping cream. crumbled Oreo cookies. water. cocoa powder. food coloring (red). baking powder. salt.",
+        "figure": "<img alt=\"mini red velvet gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_red_velvet_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "mini chocolate gugelhupf.": {
+        "categories": [
+            "chocolate",
+            "dessert"
+        ],
+        "price": 20,
+        "notes": "",
+        "ingredients": "unsalted butter. sugar. eggs. powdered sugar. white flour. heavy whipping cream. cocoa powder. rainbow nonpareil sprinkles. water. baking powder. salt. food coloring (red).",
+        "figure": "<img alt=\"mini chocolate gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_chocolate_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "mini lemon gugelhupf.": {
+        "categories": [
+            "lemon",
+            "dessert"
+        ],
+        "price": 20,
+        "notes": "",
+        "ingredients": "sugar. eggs. unsalted butter. lemon juice. white flour. powdered sugar. heavy whipping cream. corn starch. lemon zest. baking powder. salt.",
+        "figure": "<img alt=\"mini lemon gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_lemon_th400.jpg\" style=\"width:100%\"/>"
+    },
     "churros scones.": {
         "categories": [
             "scone",
