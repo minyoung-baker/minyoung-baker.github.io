@@ -60,7 +60,7 @@
         "categories": [
             "dessert"
         ],
-        "price": 20,
+        "price": 21,
         "notes": "",
         "ingredients": "unsalted butter. sugar. eggs. powdered sugar. white flour. heavy whipping cream. crumbled Oreo cookies. water. cocoa powder. food coloring (red). baking powder. salt.",
         "figure": "<img alt=\"mini red velvet gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_red_velvet_th400.jpg\" style=\"width:100%\"/>"
@@ -80,7 +80,7 @@
             "lemon",
             "dessert"
         ],
-        "price": 20,
+        "price": 21,
         "notes": "",
         "ingredients": "sugar. eggs. unsalted butter. lemon juice. white flour. powdered sugar. heavy whipping cream. corn starch. lemon zest. baking powder. salt.",
         "figure": "<img alt=\"mini lemon gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_lemon_th400.jpg\" style=\"width:100%\"/>"
@@ -283,15 +283,6 @@
         "ingredients": "white flour. unsalted butter. powdered sugar. whole milk. heavy whipping cream. sugar. apricot jam. baking powder. water. salt.",
         "figure": "<img alt=\"glassate scones.\" class=\"modal_img\" src=\"img_menu/scone_glassate_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "plain scones.": {
-        "categories": [
-            "scone"
-        ],
-        "price": 13,
-        "notes": "",
-        "ingredients": "white flour. unsalted butter. whole milk. heavy whipping cream. sugar. eggs. baking powder. salt.",
-        "figure": "<img alt=\"plain scones.\" class=\"modal_img\" src=\"img_menu/scone_plain_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "maple & pecan madeleines.": {
         "categories": [
             "pecan",
@@ -312,24 +303,6 @@
         "notes": "",
         "ingredients": "unsalted butter. eggs. sugar. white flour. powdered sugar. water. earl grey tea leaves. baking powder. salt.",
         "figure": "<img alt=\"glazed earl grey madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_earl_grey_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "roll cake with apricot filling.": {
-        "categories": [
-            "apricot"
-        ],
-        "price": 20,
-        "notes": "",
-        "ingredients": "eggs. sugar. white flour. milk. canola oil. apricot jam. honey. vanilla extract. baking powder. salt.",
-        "figure": "<img alt=\"roll cake with apricot filling.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/roll_cake_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "roll cake with strawberry filling.": {
-        "categories": [
-            "strawberry"
-        ],
-        "price": 20,
-        "notes": "",
-        "ingredients": "eggs. sugar. white flour. milk. canola oil. strawberry jam. honey. vanilla extract. baking powder. salt.",
-        "figure": "<img alt=\"roll cake with strawberry filling.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/roll_cake_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "engadiner nusstorte (salted caramel with walnut tart).": {
         "categories": [
@@ -617,7 +590,7 @@
         "categories": [
             "bread"
         ],
-        "price": 10,
+        "price": 11,
         "notes": "Friday only",
         "ingredients": "whole milk. white flour. sugar. heavy whipping cream. eggs. unsalted butter. cornstarch. vanilla extract. yeast. salt.",
         "figure": "<img alt=\"milk cream bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_milk_cream_01_th400.jpg\" style=\"width:100%\"/>"
@@ -649,7 +622,7 @@
             "bread",
             "dessert"
         ],
-        "price": 11,
+        "price": 12,
         "notes": "Friday only",
         "ingredients": "white flour. whole milk. brown sugar. heavy whipping cream. powdered sugar. condensed milk. eggs. sugar. unsalted butter. cinnamon. water. yeast. salt.",
         "figure": "<img alt=\"cinnamon roll bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cinnamon_rolls_01_th400.jpg\" style=\"width:100%\"/>"
