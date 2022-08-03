@@ -595,6 +595,17 @@
         "ingredients": "whole milk. white flour. sugar. heavy whipping cream. eggs. unsalted butter. cornstarch. vanilla extract. yeast. salt.",
         "figure": "<img alt=\"milk cream bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_milk_cream_01_th400.jpg\" style=\"width:100%\"/>"
     },
+    "peanut butter twist bread.": {
+        "categories": [
+            "bread",
+            "twist bread",
+            "peanut"
+        ],
+        "price": 11,
+        "notes": "",
+        "ingredients": "white flour. whole milk. sugar. peanut butter. unsalted butter. heavy whipping cream. peanuts. eggs. yeast. salt.",
+        "figure": "<img alt=\"peanut butter twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_peanut_twist_01.jpg\" style=\"width:100%\"/>"
+    },
     "cinnamon pound cake.": {
         "categories": [
             "pound cake",
