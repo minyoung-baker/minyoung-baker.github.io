@@ -602,7 +602,7 @@
             "peanut"
         ],
         "price": 11,
-        "notes": "",
+        "notes": "Friday only",
         "ingredients": "white flour. whole milk. sugar. peanut butter. unsalted butter. heavy whipping cream. peanuts. eggs. yeast. salt.",
         "figure": "<img alt=\"peanut butter twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_peanut_twist_01.jpg\" style=\"width:100%\"/>"
     },
