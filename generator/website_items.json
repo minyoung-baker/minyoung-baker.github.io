@@ -606,6 +606,17 @@
         "ingredients": "white flour. whole milk. sugar. peanut butter. unsalted butter. heavy whipping cream. peanuts. eggs. yeast. salt.",
         "figure": "<img alt=\"peanut butter twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_peanut_twist_01.jpg\" style=\"width:100%\"/>"
     },
+    "coconut spread twist bread.": {
+        "categories": [
+            "bread",
+            "twist bread",
+            "coconut"
+        ],
+        "price": 11,
+        "notes": "Friday only",
+        "ingredients": "white flour. whole milk. sugar. coconut flakes. heavy whipping cream. eggs. unsalted butter. egg yolks. coconut powder. salt. yeast.",
+        "figure": "<img alt=\"coconut spread twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_coconut_twist_01.jpg\" style=\"width:100%\"/>"
+    },
     "cinnamon pound cake.": {
         "categories": [
             "pound cake",
