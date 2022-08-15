@@ -6,6 +6,37 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "salted chocolate financier.": {
+        "categories": [
+            "financier",
+            "chocolate"
+        ],
+        "price": 19,
+        "notes": "",
+        "ingredients": "unsalted butter. sugar. egg whites. almond flour. white flour. dark chocolate. rice syrup. cocoa powder. salt.",
+        "figure": "<img alt=\"salted chocolate financier.\" class=\"modal_img\" src=\"img_menu/financier_salted_chocolate_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "lemington financier.": {
+        "categories": [
+            "financier",
+            "coconut",
+            "chocolate"
+        ],
+        "price": 19,
+        "notes": "",
+        "ingredients": "unsalted butter. sugar. egg whites. white flour. semi-sweet chocolate chips. almond flour. heavy whipping cream. sweetened coconut flakes. rice syrup.",
+        "figure": "<img alt=\"lemington financier.\" class=\"modal_img\" src=\"img_menu/financier_coconut_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "apple crumble financier.": {
+        "categories": [
+            "financier",
+            "apple"
+        ],
+        "price": 19,
+        "notes": "",
+        "ingredients": "sugar. unsalted butter. white flour. apples. egg whites. almond flour. rice syrup. cinnamon powder.",
+        "figure": "<img alt=\"apple crumble financier.\" class=\"modal_img\" src=\"img_menu/financier_apple_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "s'mores scones.": {
         "categories": [
             "scone",
