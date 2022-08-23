@@ -6,6 +6,16 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "red velvet & white chocolate madeleine.": {
+        "categories": [
+            "madeleines",
+            "chocolate"
+        ],
+        "price": 17,
+        "notes": "6 pieces",
+        "ingredients": "unsalted butter. eggs. sugar. powdered sugar. white flour. white chocolate chips. cocoa powder. water. food coloring (red). baking powder. salt.",
+        "figure": "<img alt=\"red velvet & white chocolate madeleine.\" class=\"modal_img\" src=\"img_menu/madeleines_red_velvet_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "salted chocolate financier.": {
         "categories": [
             "financier",
@@ -126,6 +136,17 @@
         "ingredients": "white flour. unsalted butter. sugar. dulce de leche. whole milk. heavy whipping cream. cinnamon powder. baking powder. salt.",
         "figure": "<img alt=\"churros scones.\" class=\"modal_img\" src=\"img_menu/scone_churros_01_th400.jpg\" style=\"width:100%\"/>"
     },
+    "glazed orange madeleines.": {
+        "categories": [
+            "madeleines",
+            "orange",
+            "glazed"
+        ],
+        "price": 16,
+        "notes": "",
+        "ingredients": "sugar. powdered sugar. unsalted butter. eggs. white flour. orange juice. orange zest. baking powder. salt.",
+        "figure": "<img alt=\"glazed orange madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_orange_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "raspberry scones.": {
         "categories": [
             "scone",
@@ -164,6 +185,16 @@
         "ingredients": "eggs. sugar. white flour. whole milk. Lindt Lindor balls. canola oil. Nutella. chocolate syrup. semi-sweet chocolate. cocoa powder. vanilla extract. heavy whipping cream. unsalted butter. rice syrup. baking powder. salt.",
         "figure": "<img alt=\"nutella\u00ae spiral cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_spiral_nutella_01_th400.jpg\" style=\"width:100%\"/>"
     },
+    "churros madeleines.": {
+        "categories": [
+            "madeleines",
+            "cinnamon"
+        ],
+        "price": 16,
+        "notes": "",
+        "ingredients": "sugar. unsalted butter. eggs. white flour. dulce de leche. cinnamon powder. baking powder. salt.",
+        "figure": "<img alt=\"churros madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_churros_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "glazed lemon scones.": {
         "categories": [
             "scone",
@@ -197,6 +228,17 @@
         "ingredients": "powdered sugar. unsalted butter. eggs. semi-sweet chocolate. white flour. sugar. almond flour. cocoa powder. heavy whipping cream.",
         "figure": "<img alt=\"mini triple chocolate tarts.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_triple_chocolate_mini_01_th400.jpg\" style=\"width:100%\"/>"
     },
+    "glazed salted caramel lotus madeleines.": {
+        "categories": [
+            "madeleines",
+            "caramel",
+            "glazed"
+        ],
+        "price": 17,
+        "notes": "",
+        "ingredients": "sugar. unsalted butter. eggs. white flour. heavy whipping cream. powdered sugar. caramel sauce. lotus Biscoff. water. ground lotus Biscoff. salt. baking powder.",
+        "figure": "<img alt=\"glazed salted caramel lotus madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_lotus_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "mini strawberry tarts.": {
         "categories": [
             "tart",
@@ -218,6 +260,17 @@
         "notes": "8\u2033 / 20\u00a0cm",
         "ingredients": "unsalted butter. sugar. eggs. crumbled Oreo cookies. white flour. powdered sugar. heavy whipping cream. cocoa powder. water. baking powder. salt.",
         "figure": "<img alt=\"oreo cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_oreo_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "glazed oreo madeleines.": {
+        "categories": [
+            "madeleines",
+            "oreo",
+            "glazed"
+        ],
+        "price": 17,
+        "notes": "",
+        "ingredients": "sugar. unsalted butter. eggs. white flour. powdered sugar. crumbled Oreo cookies. water. cocoa powder. baking powder. Oreo cookie dust. salt.",
+        "figure": "<img alt=\"glazed oreo madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_oreo_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "chocolate scones.": {
         "categories": [
@@ -250,6 +303,17 @@
         "ingredients": "white flour. unsalted butter. powdered sugar. whole milk. heavy whipping cream. sugar. apricot jam. baking powder. water. salt.",
         "figure": "<img alt=\"glassate scones.\" class=\"modal_img\" src=\"img_menu/scone_glassate_01_th400.jpg\" style=\"width:100%\"/>"
     },
+    "glazed earl grey madeleines.": {
+        "categories": [
+            "madeleines",
+            "earl grey",
+            "glazed"
+        ],
+        "price": 16,
+        "notes": "",
+        "ingredients": "unsalted butter. eggs. sugar. white flour. powdered sugar. water. earl grey tea leaves. baking powder. salt.",
+        "figure": "<img alt=\"glazed earl grey madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_earl_grey_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "engadiner nusstorte (salted caramel with walnut tart).": {
         "categories": [
             "dessert",
@@ -272,6 +336,17 @@
         "notes": "",
         "ingredients": "apples. white sugar. white flour. unsalted butter. heavy whipping cream. water. egg yolks. cinnamon powder. salt.",
         "figure": "<img alt=\"apple galette with salted caramel.\" class=\"modal_img\" src=\"img_menu/galette_apple_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "glazed lemon madeleines.": {
+        "categories": [
+            "madeleines",
+            "lemon",
+            "glazed"
+        ],
+        "price": 16,
+        "notes": "",
+        "ingredients": "sugar. powdered sugar. unsalted butter. eggs. white flour. lemon juice. lemon zest. baking powder. salt.",
+        "figure": "<img alt=\"glazed lemon madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_lemon_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "swedish chocolate balls (pearl sugar).": {
         "categories": [

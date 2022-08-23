@@ -107,6 +107,7 @@ def generate_html(inv):
 
 <!-- From: https://hibbard.eu/display-ui-blocking-overlay-on-page-load/ -->
 <!-- To disable, comment out until ... -->
+<!--
 <div id="announcement">
   <h2>madeleines temporarily unavailable.</h2>
   <p>We're currently upgrading our madeleine recipes.</p>
@@ -135,6 +136,7 @@ def generate_html(inv):
     e.preventDefault();
   });
 </script>
+-->
 <!-- ... here. -->
 
 <!-- Parallax Image with Logo -->

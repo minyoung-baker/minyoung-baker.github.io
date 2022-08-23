@@ -37,6 +37,7 @@
 
 <!-- From: https://hibbard.eu/display-ui-blocking-overlay-on-page-load/ -->
 <!-- To disable, comment out until ... -->
+<!--
 <div id="announcement">
   <h2>madeleines temporarily unavailable.</h2>
   <p>We're currently upgrading our madeleine recipes.</p>
@@ -65,6 +66,7 @@
     e.preventDefault();
   });
 </script>
+-->
 <!-- ... here. -->
 
 <!-- Parallax Image with Logo -->
@@ -133,14 +135,17 @@
   <input type="radio" id="cinnamon" name="categories" value="cinnamon">
   <input type="radio" id="coconut" name="categories" value="coconut">
   <input type="radio" id="dessert" name="categories" value="dessert">
+  <input type="radio" id="earlgrey" name="categories" value="earlgrey">
   <input type="radio" id="fig" name="categories" value="fig">
   <input type="radio" id="financier" name="categories" value="financier">
   <input type="radio" id="glazed" name="categories" value="glazed">
   <input type="radio" id="international" name="categories" value="international">
   <input type="radio" id="lemon" name="categories" value="lemon">
+  <input type="radio" id="madeleines" name="categories" value="madeleines">
   <input type="radio" id="mocha" name="categories" value="mocha">
   <input type="radio" id="muffins" name="categories" value="muffins">
   <input type="radio" id="nutella" name="categories" value="nutella">
+  <input type="radio" id="orange" name="categories" value="orange">
   <input type="radio" id="oreo" name="categories" value="oreo">
   <input type="radio" id="peanut" name="categories" value="peanut">
   <input type="radio" id="pecan" name="categories" value="pecan">
@@ -166,14 +171,17 @@
     <li><label for="cinnamon">cinnamon</label></li>
     <li><label for="coconut">coconut</label></li>
     <li><label for="dessert">dessert</label></li>
+    <li><label for="earlgrey">earl grey</label></li>
     <li><label for="fig">fig</label></li>
     <li><label for="financier">financier</label></li>
     <li><label for="glazed">glazed</label></li>
     <li><label for="international">international</label></li>
     <li><label for="lemon">lemon</label></li>
+    <li><label for="madeleines">madeleines</label></li>
     <li><label for="mocha">mocha</label></li>
     <li><label for="muffins">muffins</label></li>
     <li><label for="nutella">nutella</label></li>
+    <li><label for="orange">orange</label></li>
     <li><label for="oreo">oreo</label></li>
     <li><label for="peanut">peanut</label></li>
     <li><label for="pecan">pecan</label></li>
@@ -194,6 +202,13 @@
        <h2>gift card.</h2>
        <p class="price">$?</p>
        <p class="ingredients">great for gifts.</p>
+    </li>
+
+    <li class="menuitem" data-category="madeleines chocolate">
+       <img alt="red velvet & white chocolate madeleine." class="modal_img" src="img_menu/madeleines_red_velvet_01_th400.jpg" style="width:100%"/>
+       <h2>red velvet &amp; white chocolate madeleine.</h2>
+       <p class="price">$17  (6 pieces)</p>
+       <p class="ingredients">unsalted butter. eggs. sugar. powdered sugar. white flour. white chocolate chips. cocoa powder. water. food coloring (red). baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="financier chocolate">
@@ -280,6 +295,13 @@
        <p class="ingredients">white flour. unsalted butter. sugar. dulce de leche. whole milk. heavy whipping cream. cinnamon powder. baking powder. salt.</p>
     </li>
 
+    <li class="menuitem" data-category="madeleines orange glazed">
+       <img alt="glazed orange madeleines." class="modal_img" src="img_menu/madeleines_orange_01_th400.jpg" style="width:100%"/>
+       <h2>glazed orange madeleines.</h2>
+       <p class="price">$16</p>
+       <p class="ingredients">sugar. powdered sugar. unsalted butter. eggs. white flour. orange juice. orange zest. baking powder. salt.</p>
+    </li>
+
     <li class="menuitem" data-category="scone raspberry">
        <img alt="raspberry scones." class="modal_img" src="img_menu/scone_raspberry_01_th400.jpg" style="width:100%"/>
        <h2>raspberry scones.</h2>
@@ -308,6 +330,13 @@
        <p class="ingredients">eggs. sugar. white flour. whole milk. Lindt Lindor balls. canola oil. Nutella. chocolate syrup. semi-sweet chocolate. cocoa powder. vanilla extract. heavy whipping cream. unsalted butter. rice syrup. baking powder. salt.</p>
     </li>
 
+    <li class="menuitem" data-category="madeleines cinnamon">
+       <img alt="churros madeleines." class="modal_img" src="img_menu/madeleines_churros_01_th400.jpg" style="width:100%"/>
+       <h2>churros madeleines.</h2>
+       <p class="price">$16</p>
+       <p class="ingredients">sugar. unsalted butter. eggs. white flour. dulce de leche. cinnamon powder. baking powder. salt.</p>
+    </li>
+
     <li class="menuitem" data-category="scone lemon glazed">
        <img alt="glazed lemon scones." class="modal_img" src="img_menu/scone_lemon_01_th400.jpg" style="width:100%"/>
        <h2>glazed lemon scones.</h2>
@@ -329,6 +358,13 @@
        <p class="ingredients">powdered sugar. unsalted butter. eggs. semi-sweet chocolate. white flour. sugar. almond flour. cocoa powder. heavy whipping cream.</p>
     </li>
 
+    <li class="menuitem" data-category="madeleines caramel glazed">
+       <img alt="glazed salted caramel lotus madeleines." class="modal_img" src="img_menu/madeleines_lotus_01_th400.jpg" style="width:100%"/>
+       <h2>glazed salted caramel lotus madeleines.</h2>
+       <p class="price">$17</p>
+       <p class="ingredients">sugar. unsalted butter. eggs. white flour. heavy whipping cream. powdered sugar. caramel sauce. lotus Biscoff. water. ground lotus Biscoff. salt. baking powder.</p>
+    </li>
+
     <li class="menuitem" data-category="tart dessert strawberry">
        <img alt="mini strawberry tarts." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_strawberry_mini_01_th400.jpg" style="width:100%"/>
        <h2>mini strawberry tarts.</h2>
@@ -341,6 +377,13 @@
        <h2>oreo cake.</h2>
        <p class="price">$24  (8&#8243; / 20&#160;cm)</p>
        <p class="ingredients">unsalted butter. sugar. eggs. crumbled Oreo cookies. white flour. powdered sugar. heavy whipping cream. cocoa powder. water. baking powder. salt.</p>
+    </li>
+
+    <li class="menuitem" data-category="madeleines oreo glazed">
+       <img alt="glazed oreo madeleines." class="modal_img" src="img_menu/madeleines_oreo_01_th400.jpg" style="width:100%"/>
+       <h2>glazed oreo madeleines.</h2>
+       <p class="price">$17</p>
+       <p class="ingredients">sugar. unsalted butter. eggs. white flour. powdered sugar. crumbled Oreo cookies. water. cocoa powder. baking powder. Oreo cookie dust. salt.</p>
     </li>
 
     <li class="menuitem" data-category="chocolate scone">
@@ -364,6 +407,13 @@
        <p class="ingredients">white flour. unsalted butter. powdered sugar. whole milk. heavy whipping cream. sugar. apricot jam. baking powder. water. salt.</p>
     </li>
 
+    <li class="menuitem" data-category="madeleines earlgrey glazed">
+       <img alt="glazed earl grey madeleines." class="modal_img" src="img_menu/madeleines_earl_grey_01_th400.jpg" style="width:100%"/>
+       <h2>glazed earl grey madeleines.</h2>
+       <p class="price">$16</p>
+       <p class="ingredients">unsalted butter. eggs. sugar. white flour. powdered sugar. water. earl grey tea leaves. baking powder. salt.</p>
+    </li>
+
     <li class="menuitem" data-category="dessert walnut international caramel">
        <img alt="engadiner nusstorte (salted caramel with walnut tart)." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/engadiner_nusstorte_01_th400.jpg" style="width:100%"/>
        <h2>engadiner nusstorte (salted caramel with walnut tart).</h2>
@@ -376,6 +426,13 @@
        <h2>apple galette with salted caramel.</h2>
        <p class="price">$22</p>
        <p class="ingredients">apples. white sugar. white flour. unsalted butter. heavy whipping cream. water. egg yolks. cinnamon powder. salt.</p>
+    </li>
+
+    <li class="menuitem" data-category="madeleines lemon glazed">
+       <img alt="glazed lemon madeleines." class="modal_img" src="img_menu/madeleines_lemon_01_th400.jpg" style="width:100%"/>
+       <h2>glazed lemon madeleines.</h2>
+       <p class="price">$16</p>
+       <p class="ingredients">sugar. powdered sugar. unsalted butter. eggs. white flour. lemon juice. lemon zest. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="international chocolate">
