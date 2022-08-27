@@ -4,56 +4,77 @@ import html
 import json
 
 
-def get_categories(inv):
+def get_categories(inv: dict):
+    """Retrieve a sorted list of categories."""
     categories = []
-    for k, v in inv.items():
-        for c in v["categories"]:
-            if c not in categories:
-                categories.append(c)
+    for _, val in inv.items():
+        for category in val["categories"]:
+            if category not in categories:
+                categories.append(category)
     return sorted(categories)
 
 
 def get_category_inputs(categories):
     i = 2 * " "
-    s = f'{i}<input type="radio" id="all" name="categories" value="all" checked>'
-    for c in categories:
-        cns = c.replace(" ", "")
-        s += f'\n{i}<input type="radio" id="{cns}" name="categories" value="{cns}">'
-    return s
+    out_str = f'{i}<input type="radio" id="all" name="categories" value="all" checked>'
+    for category in categories:
+        cns = category.replace(" ", "")
+        out_str += (
+            f'\n{i}<input type="radio" id="{cns}" name="categories" value="{cns}">'
+        )
+    return out_str
 
 
 def get_category_filters(categories):
     i = 4 * " "
-    s = f'{i}<li><label for="all">all</label></li>'
-    for c in categories:
-        cns = c.replace(" ", "")
-        s += f'\n{i}<li><label for="{cns}">{c}</label></li>'
-    return s
+    out_str = f'{i}<li><label for="all">all</label></li>'
+    for category in categories:
+        cns = category.replace(" ", "")
+        out_str += f'\n{i}<li><label for="{cns}">{category}</label></li>'
+    return out_str
 
 
 def get_inventory_html(inv):
-    s = ""
-    for k, v in inv.items():
-        figure = v["figure"]
-        item = html.escape(k).encode("ascii", "xmlcharrefreplace").decode("utf-8")
-        price = (
-            html.escape(f"${v['price']}").encode("ascii", "xmlcharrefreplace").decode("utf-8")
+    out_str = ""
+
+    # Sort by first category and then by name.
+    tmp_inv = {
+        key: val
+        for key, val in sorted(
+            inv.items(), key=lambda item: (item[1]["categories"][0], item[0])
         )
-        if v["notes"]:
+    }
+
+    # Move "gift card" to be the first item whenever it is shown.
+    sorted_inv = {"gift card.": tmp_inv.pop("gift card.")}
+    for k, v in tmp_inv.items():
+        sorted_inv[k] = v
+
+    for key, val in sorted_inv.items():
+        figure = val["figure"]
+        item = html.escape(key).encode("ascii", "xmlcharrefreplace").decode("utf-8")
+        price = (
+            html.escape(f"${val['price']}")
+            .encode("ascii", "xmlcharrefreplace")
+            .decode("utf-8")
+        )
+        if val["notes"]:
             price += (
                 "  ("
                 + (
-                    html.escape(v["notes"])
+                    html.escape(val["notes"])
                     .encode("ascii", "xmlcharrefreplace")
                     .decode("utf-8")
                 )
                 + ")"
             )
         ingredients = (
-            html.escape(v["ingredients"]).encode("ascii", "xmlcharrefreplace").decode("utf-8")
+            html.escape(val["ingredients"])
+            .encode("ascii", "xmlcharrefreplace")
+            .decode("utf-8")
         )
 
-        s += f"""
+        out_str += f"""
     <li class="menuitem" data-category="MyCategories">
        {figure}
        <h2>{item}</h2>
@@ -61,9 +82,9 @@ def get_inventory_html(inv):
        <p class="ingredients">{ingredients}</p>
     </li>
 """.replace(
-            "MyCategories", " ".join([i.replace(" ", "") for i in v["categories"]])
+            "MyCategories", " ".join([i.replace(" ", "") for i in val["categories"]])
         )
-    return s
+    return out_str
 
 
 def generate_html(inv):
@@ -357,39 +378,41 @@ MyInventory
 </html>
 """
     categories = get_categories(inv)
-    s = template.replace("MyCategoryInputs", get_category_inputs(categories))
-    s = s.replace("MyCategoryFilters", get_category_filters(categories))
-    s = s.replace("MyInventory", get_inventory_html(inv))
-    return s
+    out_str = template.replace("MyCategoryInputs", get_category_inputs(categories))
+    out_str = out_str.replace("MyCategoryFilters", get_category_filters(categories))
+    out_str = out_str.replace("MyInventory", get_inventory_html(inv))
+    return out_str
 
 
 def get_checked_filters(categories):
-    s = '[value="all"]:checked ~ .filters [for="all"]'
-    for c in categories:
-        cns = c.replace(" ", "")
-        s += f',\n[value="{cns}"]:checked ~ .filters [for="{cns}"]'
-    s += """ {
+    out_str = '[value="all"]:checked ~ .filters [for="all"]'
+    for category in categories:
+        cns = category.replace(" ", "")
+        out_str += f',\n[value="{cns}"]:checked ~ .filters [for="{cns}"]'
+    out_str += """ {
   background: var(--brown);
   color: #ffffff;
 }"""
-    return s
+    return out_str
 
 
 def get_checked_menu_items(categories):
-    s = """[value="all"]:checked ~ .menuitems [data-category] {
+    out_str = """[value="all"]:checked ~ .menuitems [data-category] {
   display: block;
 }
 
 """
-    for c in categories[:-1]:
-        cns = c.replace(" ", "")
-        s += f'[value="{cns}"]:checked ~ .menuitems .menuitem:not([data-category~="{cns}"]),\n'
+    for category in categories[:-1]:
+        cns = category.replace(" ", "")
+        out_str += f'[value="{cns}"]:checked ~ .menuitems .menuitem:not([data-category~="{cns}"]),\n'
     cns = categories[-1].replace(" ", "")
-    s += f'[value="{cns}"]:checked ~ .menuitems .menuitem:not([data-category~="{cns}"])'
-    s += """ {
+    out_str += (
+        f'[value="{cns}"]:checked ~ .menuitems .menuitem:not([data-category~="{cns}"])'
+    )
+    out_str += """ {
   display: none;
 }"""
-    return s
+    return out_str
 
 
 def generate_css(inv):
@@ -454,18 +477,16 @@ MyCheckedMenuItems
 """
 
     categories = get_categories(inv)
-    s = template.replace("MyCheckedFilters", get_checked_filters(categories))
-    s = s.replace("MyCheckedMenuItems", get_checked_menu_items(categories))
-    return s
+    out_str = template.replace("MyCheckedFilters", get_checked_filters(categories))
+    out_str = out_str.replace("MyCheckedMenuItems", get_checked_menu_items(categories))
+    return out_str
 
 
-with open("website_items.json") as json_file:
-    inv = json.load(json_file)
+with open("website_items.json", "r", encoding="utf-8") as json_file:
+    inventory = json.load(json_file)
 
-f = open("../index.html", "w")
-f.write(generate_html(inv))
-f.close()
+with open("../index.html", "w", encoding="utf-8") as f:
+    f.write(generate_html(inventory))
 
-f = open("../css/filter.css", "w")
-f.write(generate_css(inv))
-f.close()
+with open("../css/filter.css", "w", encoding="utf-8") as f:
+    f.write(generate_css(inventory))
