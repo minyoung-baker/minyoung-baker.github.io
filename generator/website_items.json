@@ -8,6 +8,34 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "cherry scones.": {
+        "categories": [
+            "scones"
+        ],
+        "price": 15,
+        "notes": "",
+        "ingredients": "white flour. cherry jam. unsalted butter. powdered sugar. whole milk. heavy whipping cream. sugar. baking powder. water. salt.",
+        "figure": "<img alt=\"cherry scones.\" class=\"modal_img\" src=\"img_menu/scone_cherry_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "peach scones.": {
+        "categories": [
+            "scones"
+        ],
+        "price": 15,
+        "notes": "",
+        "ingredients": "white flour. peach jam. unsalted butter. powdered sugar. whole milk. heavy whipping cream. sugar. baking powder. water. salt.",
+        "figure": "<img alt=\"peach scones.\" class=\"modal_img\" src=\"img_menu/scone_peach_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "pumpkin cake.": {
+        "categories": [
+            "cake",
+            "pumpkin"
+        ],
+        "price": 22,
+        "notes": "",
+        "ingredients": "sugar. pumpkin puree. white flour. powdered sugar. eggs. walnuts. canola oil. water. pumpkin seeds. pumpkin spice. baking powder. baking soda. cinnamon powder. pumpkin powder. salt.",
+        "figure": "<img alt=\"pumpkin cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_pumpkin_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "red velvet & white chocolate madeleine.": {
         "categories": [
             "madeleines",
@@ -299,16 +327,6 @@
         "notes": "",
         "ingredients": "white flour. unsalted butter. sugar. apple jam. whole milk. heavy whipping cream. baking powder. cinnamon powder. salt.",
         "figure": "<img alt=\"cinnamon apple scones.\" class=\"modal_img\" src=\"img_menu/scone_cinnamon_apple_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "glassate scones.": {
-        "categories": [
-            "scones",
-            "glazed"
-        ],
-        "price": 15,
-        "notes": "",
-        "ingredients": "white flour. unsalted butter. powdered sugar. whole milk. heavy whipping cream. sugar. apricot jam. baking powder. water. salt.",
-        "figure": "<img alt=\"glassate scones.\" class=\"modal_img\" src=\"img_menu/scone_glassate_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "glazed earl grey madeleines.": {
         "categories": [
