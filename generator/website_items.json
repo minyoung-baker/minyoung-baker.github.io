@@ -87,16 +87,6 @@
         "ingredients": "white flour. unsalted butter. sugar. whole milk. heavy whipping cream. marshmallows. semi-sweet chocolate. egg whites. graham cracker crumbs. semi-sweet chocolate chips. baking powder. salt.",
         "figure": "<img alt=\"s'mores scones.\" class=\"modal_img\" src=\"img_menu/scone_smores_th400.jpg\" style=\"width:100%\"/>"
     },
-    "chocolate muffins.": {
-        "categories": [
-            "muffins",
-            "chocolate"
-        ],
-        "price": 16,
-        "notes": "",
-        "ingredients": "unsalted butter. white flour. eggs. sugar. semi-sweet chocolate chips. semi-sweet chocolate. heavy whipping cream. cocoa powder. baking powder.",
-        "figure": "<img alt=\"chocolate muffins.\" class=\"modal_img\" src=\"img_menu/muffin_chocolate_th400.jpg\" style=\"width:100%\"/>"
-    },
     "peanut butter muffins.": {
         "categories": [
             "muffins",
@@ -106,16 +96,6 @@
         "notes": "",
         "ingredients": "peanut butter. white flour. whole milk. sugar. eggs. peanut-butter chips. peanuts. baking powder.",
         "figure": "<img alt=\"peanut butter muffins.\" class=\"modal_img\" src=\"img_menu/muffin_peanut_butter_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "lemon muffins.": {
-        "categories": [
-            "muffins",
-            "lemon"
-        ],
-        "price": 16,
-        "notes": "",
-        "ingredients": "sugar. white flour. unsalted butter. eggs. whole milk. lemon. water. powdered sugar. lemon juice. chopped pistacios. baking powder. lemon zest.",
-        "figure": "<img alt=\"lemon muffins.\" class=\"modal_img\" src=\"img_menu/muffin_lemon_th400.jpg\" style=\"width:100%\"/>"
     },
     "blueberry crumble muffins.": {
         "categories": [
@@ -307,16 +287,6 @@
         "ingredients": "sugar. unsalted butter. eggs. white flour. powdered sugar. crumbled Oreo cookies. water. cocoa powder. baking powder. Oreo cookie dust. salt.",
         "figure": "<img alt=\"glazed oreo madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_oreo_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "chocolate scones.": {
-        "categories": [
-            "scones",
-            "chocolate"
-        ],
-        "price": 15,
-        "notes": "",
-        "ingredients": "white flour. semi-sweet chocolate chips. unsalted butter. whole milk. sugar. cocoa powder. chocolate syrup. baking powder. eggs. salt.",
-        "figure": "<img alt=\"chocolate scones.\" class=\"modal_img\" src=\"img_menu/scone_chocolate_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "cinnamon apple scones.": {
         "categories": [
             "scones",
@@ -427,17 +397,6 @@
         "notes": "",
         "ingredients": "pumpkin. white flour. sugar. powdered sugar. eggs. heavy whipping cream. condensed milk. unsalted butter. almond flour. cornstarch. pumpkin spice. cinnamon powder. salt.",
         "figure": "<img alt=\"pumpkin tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_pumpkin_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "pumpkin pound cake.": {
-        "categories": [
-            "pound cake",
-            "pumpkin",
-            "pound cake"
-        ],
-        "price": 16,
-        "notes": "",
-        "ingredients": "pumpkin. sugar. white flour. canola oil. walnuts. eggs. buttermilk. pumpkin seeds. pumpkin spice. vanilla extract. baking powder. salt. cinnamon powder.",
-        "figure": "<img alt=\"pumpkin pound cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/pound_cake_pumpkin_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "kahl\u00faa mocha pound cake.": {
         "categories": [

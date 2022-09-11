@@ -130,10 +130,10 @@ def generate_html(inv):
 <!-- To disable, comment out until ... -->
 <!--
 <div id="announcement">
-  <h2>madeleines temporarily unavailable.</h2>
-  <p>We're currently upgrading our madeleine recipes.</p>
-  <p>They will be coming back soon.</p>
-  <p>In the meantime, we apologize for any inconvenience this causes.</p>
+  <h2>financier special on wednesday.</h2>
+  <p>combo pack: two each of apple crumble, chocolate coconut, and salted chocolate financiers.</p>
+  <p>$19.</p>
+  <p>the normal menu is still available that day.</p>
   <a id="close" href="#">Close</a>
 </div>
 <script src="https://code.jquery.com/jquery-latest.js"></script>
