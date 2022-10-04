@@ -8,6 +8,26 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "mini blueberry crumble tarts.": {
+        "categories": [
+            "tart",
+            "blueberry"
+        ],
+        "price": 24,
+        "notes": "",
+        "ingredients": "white flour. unsalted butter. powdered sugar. blueberries. sugar. almond flour. eggs. lemon juice. vanilla extract. corn starch.",
+        "figure": "<img alt=\"mini blueberry crumble tarts.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_mini_blueberry_crumble_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "mini apple crumble tart.": {
+        "categories": [
+            "tart",
+            "apple"
+        ],
+        "price": 24,
+        "notes": "",
+        "ingredients": "apples. white flour. unsalted butter. powdered sugar. sugar. almond flour. eggs. dried cranberries. vanilla extract. cinnamon powder.",
+        "figure": "<img alt=\"mini apple crumble tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_mini_apple_crumble_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "mini chocolate cherry cube cakes.": {
         "categories": [
             "cake",
@@ -440,6 +460,15 @@
         "notes": "",
         "ingredients": "white flour. unsalted butter. sugar. eggs. powdered sugar. walnuts. Kahl\\'{u}a. coffee. water. baking powder. salt.",
         "figure": "<img alt=\"kahl\u00faa mocha pound cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/kahlua_mocha_pound_cake_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "sourdough bread.": {
+        "categories": [
+            "bread"
+        ],
+        "price": 8,
+        "notes": "Friday only",
+        "ingredients": "water. bread flour. white flour. wheat flour. salt.",
+        "figure": "<img alt=\"sourdough bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_sourdough_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "lemon tart.": {
         "categories": [
