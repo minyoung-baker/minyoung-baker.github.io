@@ -8,6 +8,29 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "red velvet gugelhupf.": {
+        "categories": [
+            "gugelhupf",
+            "cake",
+            "dessert"
+        ],
+        "price": 24,
+        "notes": "",
+        "ingredients": "unsalted butter. sugar. eggs. white flour. powdered sugar. heavy whipping cream. cocoa powder. water. food coloring (red). crumbled Oreo cookies. baking powder. salt.",
+        "figure": "<img alt=\"red velvet gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_red_velvet_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "chocolate gugelhupf.": {
+        "categories": [
+            "gugelhupf",
+            "cake",
+            "chocolate",
+            "dessert"
+        ],
+        "price": 24,
+        "notes": "",
+        "ingredients": "unsalted butter. sugar. eggs. white flour. powdered sugar. heavy whipping cream. cocoa powder. water. rainbow nonpareil sprinkles. baking powder. salt. food coloring (red).",
+        "figure": "<img alt=\"chocolate gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_chocolate_th400.jpg\" style=\"width:100%\"/>"
+    },
     "mini blueberry crumble tarts.": {
         "categories": [
             "tart",
@@ -162,34 +185,37 @@
     "mini red velvet gugelhupf.": {
         "categories": [
             "gugelhupf",
+            "cake",
             "dessert"
         ],
         "price": 21,
         "notes": "",
         "ingredients": "unsalted butter. sugar. eggs. powdered sugar. white flour. heavy whipping cream. crumbled Oreo cookies. water. cocoa powder. food coloring (red). baking powder. salt.",
-        "figure": "<img alt=\"mini red velvet gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_red_velvet_th400.jpg\" style=\"width:100%\"/>"
+        "figure": "<img alt=\"mini red velvet gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_red_velvet_th400.jpg\" style=\"width:100%\"/>"
     },
     "mini chocolate gugelhupf.": {
         "categories": [
             "gugelhupf",
+            "cake",
             "chocolate",
             "dessert"
         ],
         "price": 20,
         "notes": "",
         "ingredients": "unsalted butter. sugar. eggs. powdered sugar. white flour. heavy whipping cream. cocoa powder. rainbow nonpareil sprinkles. water. baking powder. salt. food coloring (red).",
-        "figure": "<img alt=\"mini chocolate gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_chocolate_th400.jpg\" style=\"width:100%\"/>"
+        "figure": "<img alt=\"mini chocolate gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_chocolate_th400.jpg\" style=\"width:100%\"/>"
     },
     "mini lemon gugelhupf.": {
         "categories": [
             "gugelhupf",
+            "cake",
             "lemon",
             "dessert"
         ],
         "price": 21,
         "notes": "",
         "ingredients": "sugar. eggs. unsalted butter. lemon juice. white flour. powdered sugar. heavy whipping cream. corn starch. lemon zest. baking powder. salt.",
-        "figure": "<img alt=\"mini lemon gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_lemon_th400.jpg\" style=\"width:100%\"/>"
+        "figure": "<img alt=\"mini lemon gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_lemon_th400.jpg\" style=\"width:100%\"/>"
     },
     "churros scones.": {
         "categories": [
@@ -460,15 +486,6 @@
         "notes": "",
         "ingredients": "white flour. unsalted butter. sugar. eggs. powdered sugar. walnuts. Kahl\\'{u}a. coffee. water. baking powder. salt.",
         "figure": "<img alt=\"kahl\u00faa mocha pound cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/kahlua_mocha_pound_cake_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "sourdough bread.": {
-        "categories": [
-            "bread"
-        ],
-        "price": 8,
-        "notes": "Friday only",
-        "ingredients": "water. bread flour. white flour. wheat flour. salt.",
-        "figure": "<img alt=\"sourdough bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_sourdough_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "lemon tart.": {
         "categories": [
