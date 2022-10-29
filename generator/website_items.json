@@ -56,7 +56,7 @@
             "cake",
             "chocolate"
         ],
-        "price": 21,
+        "price": 22,
         "notes": "",
         "ingredients": "white flour. sugar. unsalted butter. eggs. heavy whipping cream. tart cherries. semi-sweet chocolate chips. maraschino cherries. white sprinkles. baking powder. salt.",
         "figure": "<img alt=\"mini chocolate cherry cube cakes.\" class=\"modal_img\" src=\"img_menu/cake_mini_chocolate_cherry_01_th400.jpg\" style=\"width:100%\"/>"
@@ -68,7 +68,7 @@
             "mocha",
             "walnut"
         ],
-        "price": 21,
+        "price": 22,
         "notes": "",
         "ingredients": "white flour. sugar. unsalted butter. eggs. powdered sugar. walnuts. coffee. Kahl\\'{u}a. heavy whipping cream. coffee beans. water. baking powder. salt.",
         "figure": "<img alt=\"mini kahl\u00faa mocha walnut cube cakes.\" class=\"modal_img\" src=\"img_menu/cake_mini_kahlua_mocha_walnut_01_th400.jpg\" style=\"width:100%\"/>"
@@ -78,7 +78,7 @@
             "cake",
             "lemon"
         ],
-        "price": 21,
+        "price": 22,
         "notes": "",
         "ingredients": "sugar. white flour. unsalted butter. eggs. lemon. water. powdered sugar. heavy whipping cream. lemon juice. lemon zest. baking powder. salt.",
         "figure": "<img alt=\"mini lemon cube cakes.\" class=\"modal_img\" src=\"img_menu/cake_mini_lemon_01_th400.jpg\" style=\"width:100%\"/>"
