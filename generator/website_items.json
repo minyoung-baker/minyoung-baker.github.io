@@ -565,16 +565,6 @@
         "ingredients": "white flour. brown sugar. whole milk. unsalted butter. honey. pecans. heavy whipping cream. eggs. sugar. yeast. salt. cinnamon powder.",
         "figure": "<img alt=\"caramel & pecan sticky buns.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_sticky_bun_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "roti boy (coffee bun).": {
-        "categories": [
-            "bread",
-            "mocha"
-        ],
-        "price": 12,
-        "notes": "for 6; Friday only",
-        "ingredients": "white flour. sugar. unsalted butter. whole milk. eggs. heavy whipping cream. almond flour. coffee. water. vanilla extract. yeast. salt.",
-        "figure": "<img alt=\"roti boy (coffee bun).\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_roti_boy_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "lemon & poppy seed pound cake.": {
         "categories": [
             "pound cake",
