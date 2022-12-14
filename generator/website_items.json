@@ -8,6 +8,47 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "pear & almond tart.": {
+        "categories": [
+            "tart",
+            "pear"
+        ],
+        "price": 24,
+        "notes": "",
+        "ingredients": "unsalted butter. white flour. powdered sugar. canned pears. almond flour. eggs. chopped pistachios. vanilla extract.",
+        "figure": "<img alt=\"pear & almond tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_pear_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "cinnamon coffee cake.": {
+        "categories": [
+            "cake",
+            "cinnamon"
+        ],
+        "price": 22,
+        "notes": "",
+        "ingredients": "sugar. white flour. sour cream. unsalted butter. eggs. cinnamon powder. baking powder. vanilla extract. salt.",
+        "figure": "<img alt=\"cinnamon coffee cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_cinnamon_coffee_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "glazed raspberry madeleines.": {
+        "categories": [
+            "madeleines",
+            "raspberry"
+        ],
+        "price": 17,
+        "notes": "",
+        "ingredients": "raspberry compote. powdered sugar. white flour. unsalted butter. eggs. sugar. dried cranberries. water. baking powder. salt.",
+        "figure": "<img alt=\"glazed raspberry madeleines.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/madeleine_raspberry_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "kahl\u00faa mocha madeleines.": {
+        "categories": [
+            "madeleines",
+            "chocolate",
+            "mocha"
+        ],
+        "price": 17,
+        "notes": "",
+        "ingredients": "powdered sugar. white flour. unsalted butter. eggs. sugar. coffee. Kahl\\'{u}a. water. baking powder. salt.",
+        "figure": "<img alt=\"kahl\u00faa mocha madeleines.\" class=\"modal_img\" src=\"img_menu/madeleine_kahlua_mocha_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "red velvet gugelhupf.": {
         "categories": [
             "gugelhupf",
@@ -723,7 +764,7 @@
         ],
         "price": 22,
         "notes": "8\u2033 / 20\u00a0cm",
-        "ingredients": "sugar. white flour. eggs. unsalted butter. heavy whipping cream. cocoa powder. semi-sweet chocolate. chopped pistacios. vanilla extract. baking powder. salt.",
+        "ingredients": "sugar. white flour. eggs. unsalted butter. heavy whipping cream. cocoa powder. semi-sweet chocolate. chopped pistachios. vanilla extract. baking powder. salt.",
         "figure": "<img alt=\"chocolate cake.\" class=\"modal_img\" src=\"img_menu/cake_chocolate_th400.jpg\" style=\"width:100%\"/>"
     }
 }
