@@ -8,6 +8,38 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "mini pineapple cube cakes.": {
+        "categories": [
+            "cake",
+            "pineapple"
+        ],
+        "price": 22,
+        "notes": "",
+        "ingredients": "pineapple. white flour. sugar. unsalted butter. eggs. powdered sugar. pineapple compote. pineapple juice. heavy whipping cream. water. baking powder. salt.",
+        "figure": "<img alt=\"mini pineapple cube cakes.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_mini_pineapple_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "mini dulce de leche & lotus gugelhupf.": {
+        "categories": [
+            "gugelhupf",
+            "cake",
+            "dessert"
+        ],
+        "price": 22,
+        "notes": "",
+        "ingredients": "powdered sugar. unsalted butter. sugar. eggs. white flour. dulce de leche. lotus Biscoff. heavy whipping cream. water. Twix powder. marshmallows. baking powder. salt.",
+        "figure": "<img alt=\"mini dulce de leche & lotus gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_dulce_de_leche_lotus_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "salted chocolate & caramel tart.": {
+        "categories": [
+            "tart",
+            "chocolate",
+            "dessert"
+        ],
+        "price": 23,
+        "notes": "",
+        "ingredients": "heavy whipping cream. unsalted butter. sugar. semi-sweet chocolate. white flour. powdered sugar. rice syrup. almond flour. eggs. cocoa powder.",
+        "figure": "<img alt=\"salted chocolate & caramel tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_salted_chocolate_caramel_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "pear & almond tart.": {
         "categories": [
             "tart",
