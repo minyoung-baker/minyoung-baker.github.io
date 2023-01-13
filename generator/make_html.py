@@ -34,21 +34,38 @@ def get_category_filters(categories):
     return out_str
 
 
-def get_inventory_html(inv):
+def get_inventory_html(inv, newest=None):
     out_str = ""
 
-    # Sort by first category and then by name.
-    tmp_inv = {
-        key: val
-        for key, val in sorted(
-            inv.items(), key=lambda item: (item[1]["categories"][0], item[0])
-        )
-    }
+    # Retrieve the `newest` most items only.
+    if newest is not None and isinstance(newest, int):
+        tmp_inv = {key: val for key, val in inv.items()}
+        sorted_inv = {}
+        count = 0
+        for k, v in tmp_inv.items():
+            count += 1
+            if count == 1:
+                continue
+            elif count > newest + 1:
+                break
+            else:
+                sorted_inv[k] = v
 
-    # Move "gift card" to be the first item whenever it is shown.
-    sorted_inv = {"gift card.": tmp_inv.pop("gift card.")}
-    for k, v in tmp_inv.items():
-        sorted_inv[k] = v
+    # Process entire inventory.
+    else:
+
+        # Sort by first category and then by name.
+        tmp_inv = {
+            key: val
+            for key, val in sorted(
+                inv.items(), key=lambda item: (item[1]["categories"][0], item[0])
+            )
+        }
+
+        # Move "gift card" to be the first item whenever it is shown.
+        sorted_inv = {"gift card.": tmp_inv.pop("gift card.")}
+        for k, v in tmp_inv.items():
+            sorted_inv[k] = v
 
     for key, val in sorted_inv.items():
         figure = val["figure"]
@@ -76,10 +93,10 @@ def get_inventory_html(inv):
 
         out_str += f"""
     <li class="menuitem" data-category="MyCategories">
-       {figure}
-       <h2>{item}</h2>
-       <p class="price">{price}</p>
-       <p class="ingredients">{ingredients}</p>
+    {figure}
+    <h2>{item}</h2>
+    <p class="price">{price}</p>
+    <p class="ingredients">{ingredients}</p>
     </li>
 """.replace(
             "MyCategories", " ".join([i.replace(" ", "") for i in val["categories"]])
@@ -113,7 +130,8 @@ def generate_html(inv):
     </a>
     <a href="#top" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-long-arrow-alt-up"></i> TOP</a>
     <a href="#intro" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-concierge-bell"></i> INTRO</a>
-    <a href="#menu" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-utensils"></i> MENU</a>
+    <a href="#newitems" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-fire"></i> NEW ITEMS</a>
+    <a href="#fullmenu" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-utensils"></i> FULL MENU</a>
     <a href="#order" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-shopping-cart"></i> ORDER</a>
   </div>
 
@@ -121,7 +139,8 @@ def generate_html(inv):
   <div id="menubar" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#top" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">TOP</a>
     <a href="#intro" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">INTRO</a>
-    <a href="#menu" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">MENU</a>
+    <a href="#newitems" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">MENU</a>
+    <a href="#fullmenu" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">MENU</a>
     <a href="#order" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">ORDER</a>
   </div>
 </div>
@@ -207,9 +226,22 @@ def generate_html(inv):
 </div>
 
 <!-- Parallax Image with Menu Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min" id="menu">
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="newitems">
   <div class="w3-display-middle">
-    <span class="w3-center w3-padding-large w3-white w3-xxlarge w3-wide w3-opacity-min">MENU</span>
+    <span class="w3-center w3-padding-large w3-white w3-xxlarge w3-wide w3-opacity-min">NEW ITEMS</span>
+  </div>
+</div>
+
+<div class="w3-white w3-display-container w3-padding-32 w3-center">
+  <ol class="menuitems">
+MyNewInventory
+  </ol>
+</div>
+
+<!-- Parallax Image with Menu Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="fullmenu">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large w3-white w3-xxlarge w3-wide w3-opacity-min">FULL MENU</span>
   </div>
 </div>
 
@@ -380,6 +412,7 @@ MyInventory
     categories = get_categories(inv)
     out_str = template.replace("MyCategoryInputs", get_category_inputs(categories))
     out_str = out_str.replace("MyCategoryFilters", get_category_filters(categories))
+    out_str = out_str.replace("MyNewInventory", get_inventory_html(inv, newest=6))
     out_str = out_str.replace("MyInventory", get_inventory_html(inv))
     return out_str
 

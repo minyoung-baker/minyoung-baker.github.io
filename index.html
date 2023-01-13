@@ -22,7 +22,8 @@
     </a>
     <a href="#top" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-long-arrow-alt-up"></i> TOP</a>
     <a href="#intro" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-concierge-bell"></i> INTRO</a>
-    <a href="#menu" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-utensils"></i> MENU</a>
+    <a href="#newitems" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-fire"></i> NEW ITEMS</a>
+    <a href="#fullmenu" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-utensils"></i> FULL MENU</a>
     <a href="#order" class=" w3-bar-item w3-button w3-hide-small"><i class="fa fa-shopping-cart"></i> ORDER</a>
   </div>
 
@@ -30,7 +31,8 @@
   <div id="menubar" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#top" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">TOP</a>
     <a href="#intro" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">INTRO</a>
-    <a href="#menu" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">MENU</a>
+    <a href="#newitems" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">MENU</a>
+    <a href="#fullmenu" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">MENU</a>
     <a href="#order" class="w3-text-black w3-bar-item w3-button" onclick="toggleFunction()">ORDER</a>
   </div>
 </div>
@@ -116,9 +118,64 @@
 </div>
 
 <!-- Parallax Image with Menu Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min" id="menu">
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="newitems">
   <div class="w3-display-middle">
-    <span class="w3-center w3-padding-large w3-white w3-xxlarge w3-wide w3-opacity-min">MENU</span>
+    <span class="w3-center w3-padding-large w3-white w3-xxlarge w3-wide w3-opacity-min">NEW ITEMS</span>
+  </div>
+</div>
+
+<div class="w3-white w3-display-container w3-padding-32 w3-center">
+  <ol class="menuitems">
+
+    <li class="menuitem" data-category="cake chocolate">
+    <img alt="chocolate chip chiffon cake." class="modal_img" src="img_menu/cake_chocolate_chiffon_01_th400.jpg" style="width:100%"/>
+    <h2>chocolate chip chiffon cake.</h2>
+    <p class="price">$35</p>
+    <p class="ingredients">eggs. semi-sweet chocolate chips. sugar. heavy whipping cream. white flour. whole milk. strawberries. canola oil. cocoa powder. white chocolate chips. unsalted butter. white sprinkles. vanilla extract. baking powder. salt.</p>
+    </li>
+
+    <li class="menuitem" data-category="cake pineapple">
+    <img alt="mini pineapple cube cakes." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/cake_mini_pineapple_01_th400.jpg" style="width:100%"/>
+    <h2>mini pineapple cube cakes.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">pineapple. white flour. sugar. unsalted butter. eggs. powdered sugar. pineapple compote. pineapple juice. heavy whipping cream. water. baking powder. salt.</p>
+    </li>
+
+    <li class="menuitem" data-category="gugelhupf cake dessert">
+    <img alt="mini dulce de leche & lotus gugelhupf." class="modal_img" src="img_menu/gugelhupf_mini_dulce_de_leche_lotus_01_th400.jpg" style="width:100%"/>
+    <h2>mini dulce de leche &amp; lotus gugelhupf.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">powdered sugar. unsalted butter. sugar. eggs. white flour. dulce de leche. lotus Biscoff. heavy whipping cream. water. Twix powder. marshmallows. baking powder. salt.</p>
+    </li>
+
+    <li class="menuitem" data-category="tart chocolate dessert">
+    <img alt="salted chocolate & caramel tart." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_salted_chocolate_caramel_01_th400.jpg" style="width:100%"/>
+    <h2>salted chocolate &amp; caramel tart.</h2>
+    <p class="price">$23</p>
+    <p class="ingredients">heavy whipping cream. unsalted butter. sugar. semi-sweet chocolate. white flour. powdered sugar. rice syrup. almond flour. eggs. cocoa powder.</p>
+    </li>
+
+    <li class="menuitem" data-category="tart pear">
+    <img alt="pear & almond tart." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_pear_01_th400.jpg" style="width:100%"/>
+    <h2>pear &amp; almond tart.</h2>
+    <p class="price">$24</p>
+    <p class="ingredients">unsalted butter. white flour. powdered sugar. canned pears. almond flour. eggs. chopped pistachios. vanilla extract.</p>
+    </li>
+
+    <li class="menuitem" data-category="cake cinnamon">
+    <img alt="cinnamon coffee cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/cake_cinnamon_coffee_01_th400.jpg" style="width:100%"/>
+    <h2>cinnamon coffee cake.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">sugar. white flour. sour cream. unsalted butter. eggs. cinnamon powder. baking powder. vanilla extract. salt.</p>
+    </li>
+
+  </ol>
+</div>
+
+<!-- Parallax Image with Menu Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="fullmenu">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large w3-white w3-xxlarge w3-wide w3-opacity-min">FULL MENU</span>
   </div>
 </div>
 
@@ -208,535 +265,535 @@
   <ol class="menuitems">
 
     <li class="menuitem" data-category="gift">
-       <a href="https://squareup.com/gift/0YYYRFZT95E8C/order"><img alt="Gift Card." src="img_menu/gift_card.png" style="width:100%"/></a>
-       <h2>gift card.</h2>
-       <p class="price">$?</p>
-       <p class="ingredients">great for gifts.</p>
+    <a href="https://squareup.com/gift/0YYYRFZT95E8C/order"><img alt="Gift Card." src="img_menu/gift_card.png" style="width:100%"/></a>
+    <h2>gift card.</h2>
+    <p class="price">$?</p>
+    <p class="ingredients">great for gifts.</p>
     </li>
 
     <li class="menuitem" data-category="bread pecan caramel glazed">
-       <img alt="caramel & pecan sticky buns." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/bread_sticky_bun_01_th400.jpg" style="width:100%"/>
-       <h2>caramel &amp; pecan sticky buns.</h2>
-       <p class="price">$14  (Friday only)</p>
-       <p class="ingredients">white flour. brown sugar. whole milk. unsalted butter. honey. pecans. heavy whipping cream. eggs. sugar. yeast. salt. cinnamon powder.</p>
+    <img alt="caramel & pecan sticky buns." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/bread_sticky_bun_01_th400.jpg" style="width:100%"/>
+    <h2>caramel &amp; pecan sticky buns.</h2>
+    <p class="price">$14  (Friday only)</p>
+    <p class="ingredients">white flour. brown sugar. whole milk. unsalted butter. honey. pecans. heavy whipping cream. eggs. sugar. yeast. salt. cinnamon powder.</p>
     </li>
 
     <li class="menuitem" data-category="bread cinnamon dessert">
-       <img alt="cinnamon roll bread." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/cinnamon_rolls_01_th400.jpg" style="width:100%"/>
-       <h2>cinnamon roll bread.</h2>
-       <p class="price">$13  (Friday only)</p>
-       <p class="ingredients">white flour. whole milk. brown sugar. heavy whipping cream. powdered sugar. condensed milk. eggs. sugar. unsalted butter. cinnamon. water. yeast. salt.</p>
+    <img alt="cinnamon roll bread." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/cinnamon_rolls_01_th400.jpg" style="width:100%"/>
+    <h2>cinnamon roll bread.</h2>
+    <p class="price">$13  (Friday only)</p>
+    <p class="ingredients">white flour. whole milk. brown sugar. heavy whipping cream. powdered sugar. condensed milk. eggs. sugar. unsalted butter. cinnamon. water. yeast. salt.</p>
     </li>
 
     <li class="menuitem" data-category="bread twistbread coconut">
-       <img alt="coconut spread twist bread." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/bread_coconut_twist_01.jpg" style="width:100%"/>
-       <h2>coconut spread twist bread.</h2>
-       <p class="price">$12  (Friday only)</p>
-       <p class="ingredients">white flour. whole milk. sugar. coconut flakes. heavy whipping cream. eggs. unsalted butter. egg yolks. coconut powder. salt. yeast.</p>
+    <img alt="coconut spread twist bread." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/bread_coconut_twist_01.jpg" style="width:100%"/>
+    <h2>coconut spread twist bread.</h2>
+    <p class="price">$12  (Friday only)</p>
+    <p class="ingredients">white flour. whole milk. sugar. coconut flakes. heavy whipping cream. eggs. unsalted butter. egg yolks. coconut powder. salt. yeast.</p>
     </li>
 
     <li class="menuitem" data-category="bread twistbread">
-       <img alt="dulce de leche twist bread." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/bread_dulce_01_th400.jpg" style="width:100%"/>
-       <h2>dulce de leche twist bread.</h2>
-       <p class="price">$12  (Friday only)</p>
-       <p class="ingredients">white flour. whole milk. sugar. dulce de leche. unsalted butter. heavy whipping cream. eggs. yeast. salt.</p>
+    <img alt="dulce de leche twist bread." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/bread_dulce_01_th400.jpg" style="width:100%"/>
+    <h2>dulce de leche twist bread.</h2>
+    <p class="price">$12  (Friday only)</p>
+    <p class="ingredients">white flour. whole milk. sugar. dulce de leche. unsalted butter. heavy whipping cream. eggs. yeast. salt.</p>
     </li>
 
     <li class="menuitem" data-category="bread">
-       <img alt="milk cream bread." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/bread_milk_cream_01_th400.jpg" style="width:100%"/>
-       <h2>milk cream bread.</h2>
-       <p class="price">$12  (Friday only)</p>
-       <p class="ingredients">whole milk. white flour. sugar. heavy whipping cream. eggs. unsalted butter. cornstarch. vanilla extract. yeast. salt.</p>
+    <img alt="milk cream bread." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/bread_milk_cream_01_th400.jpg" style="width:100%"/>
+    <h2>milk cream bread.</h2>
+    <p class="price">$12  (Friday only)</p>
+    <p class="ingredients">whole milk. white flour. sugar. heavy whipping cream. eggs. unsalted butter. cornstarch. vanilla extract. yeast. salt.</p>
     </li>
 
     <li class="menuitem" data-category="bread nutella dessert">
-       <img alt="nutella® twist bread." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/bread_nutella_01_th400.jpg" style="width:100%"/>
-       <h2>nutella&#174; twist bread.</h2>
-       <p class="price">$13  (Friday only)</p>
-       <p class="ingredients">white flour. whole milk. Nutella. heavy whipping cream. sugar. eggs. water. chocolate syrup. yeast. salt.</p>
+    <img alt="nutella® twist bread." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/bread_nutella_01_th400.jpg" style="width:100%"/>
+    <h2>nutella&#174; twist bread.</h2>
+    <p class="price">$13  (Friday only)</p>
+    <p class="ingredients">white flour. whole milk. Nutella. heavy whipping cream. sugar. eggs. water. chocolate syrup. yeast. salt.</p>
     </li>
 
     <li class="menuitem" data-category="bread twistbread peanut">
-       <img alt="peanut butter twist bread." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/bread_peanut_twist_01.jpg" style="width:100%"/>
-       <h2>peanut butter twist bread.</h2>
-       <p class="price">$12  (Friday only)</p>
-       <p class="ingredients">white flour. whole milk. sugar. peanut butter. unsalted butter. heavy whipping cream. peanuts. eggs. yeast. salt.</p>
+    <img alt="peanut butter twist bread." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/bread_peanut_twist_01.jpg" style="width:100%"/>
+    <h2>peanut butter twist bread.</h2>
+    <p class="price">$12  (Friday only)</p>
+    <p class="ingredients">white flour. whole milk. sugar. peanut butter. unsalted butter. heavy whipping cream. peanuts. eggs. yeast. salt.</p>
     </li>
 
     <li class="menuitem" data-category="brownie chocolate dessert">
-       <img alt="chocolate-chip brownie." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/brownie_chocolate_chip_01_th400.jpg" style="width:100%"/>
-       <h2>chocolate-chip brownie.</h2>
-       <p class="price">$15</p>
-       <p class="ingredients">white sugar. unsalted butter. semi-sweet chocolate chips. eggs. cocoa powder. white flour. vanilla extract. powdered sugar. salt.</p>
+    <img alt="chocolate-chip brownie." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/brownie_chocolate_chip_01_th400.jpg" style="width:100%"/>
+    <h2>chocolate-chip brownie.</h2>
+    <p class="price">$15</p>
+    <p class="ingredients">white sugar. unsalted butter. semi-sweet chocolate chips. eggs. cocoa powder. white flour. vanilla extract. powdered sugar. salt.</p>
     </li>
 
     <li class="menuitem" data-category="brownie chocolate dessert">
-       <img alt="marshmallow brownie." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/brownie_marshmallow_01_th400.jpg" style="width:100%"/>
-       <h2>marshmallow brownie.</h2>
-       <p class="price">$15</p>
-       <p class="ingredients">unsalted butter. eggs. white sugar. semi-sweet chocolate chips. marshmallows. brown sugar. white flour. cocoa powder. baking powder. salt.</p>
+    <img alt="marshmallow brownie." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/brownie_marshmallow_01_th400.jpg" style="width:100%"/>
+    <h2>marshmallow brownie.</h2>
+    <p class="price">$15</p>
+    <p class="ingredients">unsalted butter. eggs. white sugar. semi-sweet chocolate chips. marshmallows. brown sugar. white flour. cocoa powder. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="cake dessert chocolate">
-       <img alt="chocolate cake." class="modal_img" src="img_menu/cake_chocolate_th400.jpg" style="width:100%"/>
-       <h2>chocolate cake.</h2>
-       <p class="price">$22  (8&#8243; / 20&#160;cm)</p>
-       <p class="ingredients">sugar. white flour. eggs. unsalted butter. heavy whipping cream. cocoa powder. semi-sweet chocolate. chopped pistachios. vanilla extract. baking powder. salt.</p>
+    <img alt="chocolate cake." class="modal_img" src="img_menu/cake_chocolate_th400.jpg" style="width:100%"/>
+    <h2>chocolate cake.</h2>
+    <p class="price">$22  (8&#8243; / 20&#160;cm)</p>
+    <p class="ingredients">sugar. white flour. eggs. unsalted butter. heavy whipping cream. cocoa powder. semi-sweet chocolate. chopped pistachios. vanilla extract. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="cake chocolate">
-       <img alt="chocolate chip chiffon cake." class="modal_img" src="img_menu/cake_chocolate_chiffon_01_th400.jpg" style="width:100%"/>
-       <h2>chocolate chip chiffon cake.</h2>
-       <p class="price">$35</p>
-       <p class="ingredients">eggs. semi-sweet chocolate chips. sugar. heavy whipping cream. white flour. whole milk. strawberries. canola oil. cocoa powder. white chocolate chips. unsalted butter. white sprinkles. vanilla extract. baking powder. salt.</p>
+    <img alt="chocolate chip chiffon cake." class="modal_img" src="img_menu/cake_chocolate_chiffon_01_th400.jpg" style="width:100%"/>
+    <h2>chocolate chip chiffon cake.</h2>
+    <p class="price">$35</p>
+    <p class="ingredients">eggs. semi-sweet chocolate chips. sugar. heavy whipping cream. white flour. whole milk. strawberries. canola oil. cocoa powder. white chocolate chips. unsalted butter. white sprinkles. vanilla extract. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="cake cinnamon">
-       <img alt="cinnamon coffee cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/cake_cinnamon_coffee_01_th400.jpg" style="width:100%"/>
-       <h2>cinnamon coffee cake.</h2>
-       <p class="price">$22</p>
-       <p class="ingredients">sugar. white flour. sour cream. unsalted butter. eggs. cinnamon powder. baking powder. vanilla extract. salt.</p>
+    <img alt="cinnamon coffee cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/cake_cinnamon_coffee_01_th400.jpg" style="width:100%"/>
+    <h2>cinnamon coffee cake.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">sugar. white flour. sour cream. unsalted butter. eggs. cinnamon powder. baking powder. vanilla extract. salt.</p>
     </li>
 
     <li class="menuitem" data-category="cake chocolate">
-       <img alt="mini chocolate cherry cube cakes." class="modal_img" src="img_menu/cake_mini_chocolate_cherry_01_th400.jpg" style="width:100%"/>
-       <h2>mini chocolate cherry cube cakes.</h2>
-       <p class="price">$22</p>
-       <p class="ingredients">white flour. sugar. unsalted butter. eggs. heavy whipping cream. tart cherries. semi-sweet chocolate chips. maraschino cherries. white sprinkles. baking powder. salt.</p>
+    <img alt="mini chocolate cherry cube cakes." class="modal_img" src="img_menu/cake_mini_chocolate_cherry_01_th400.jpg" style="width:100%"/>
+    <h2>mini chocolate cherry cube cakes.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">white flour. sugar. unsalted butter. eggs. heavy whipping cream. tart cherries. semi-sweet chocolate chips. maraschino cherries. white sprinkles. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="cake chocolate mocha walnut">
-       <img alt="mini kahlúa mocha walnut cube cakes." class="modal_img" src="img_menu/cake_mini_kahlua_mocha_walnut_01_th400.jpg" style="width:100%"/>
-       <h2>mini kahl&#250;a mocha walnut cube cakes.</h2>
-       <p class="price">$22</p>
-       <p class="ingredients">white flour. sugar. unsalted butter. eggs. powdered sugar. walnuts. coffee. Kahl\&#x27;{u}a. heavy whipping cream. coffee beans. water. baking powder. salt.</p>
+    <img alt="mini kahlúa mocha walnut cube cakes." class="modal_img" src="img_menu/cake_mini_kahlua_mocha_walnut_01_th400.jpg" style="width:100%"/>
+    <h2>mini kahl&#250;a mocha walnut cube cakes.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">white flour. sugar. unsalted butter. eggs. powdered sugar. walnuts. coffee. Kahl\&#x27;{u}a. heavy whipping cream. coffee beans. water. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="cake lemon">
-       <img alt="mini lemon cube cakes." class="modal_img" src="img_menu/cake_mini_lemon_01_th400.jpg" style="width:100%"/>
-       <h2>mini lemon cube cakes.</h2>
-       <p class="price">$22</p>
-       <p class="ingredients">sugar. white flour. unsalted butter. eggs. lemon. water. powdered sugar. heavy whipping cream. lemon juice. lemon zest. baking powder. salt.</p>
+    <img alt="mini lemon cube cakes." class="modal_img" src="img_menu/cake_mini_lemon_01_th400.jpg" style="width:100%"/>
+    <h2>mini lemon cube cakes.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">sugar. white flour. unsalted butter. eggs. lemon. water. powdered sugar. heavy whipping cream. lemon juice. lemon zest. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="cake pineapple">
-       <img alt="mini pineapple cube cakes." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/cake_mini_pineapple_01_th400.jpg" style="width:100%"/>
-       <h2>mini pineapple cube cakes.</h2>
-       <p class="price">$22</p>
-       <p class="ingredients">pineapple. white flour. sugar. unsalted butter. eggs. powdered sugar. pineapple compote. pineapple juice. heavy whipping cream. water. baking powder. salt.</p>
+    <img alt="mini pineapple cube cakes." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/cake_mini_pineapple_01_th400.jpg" style="width:100%"/>
+    <h2>mini pineapple cube cakes.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">pineapple. white flour. sugar. unsalted butter. eggs. powdered sugar. pineapple compote. pineapple juice. heavy whipping cream. water. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="cake dessert nutella">
-       <img alt="nutella® spiral cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/cake_spiral_nutella_01_th400.jpg" style="width:100%"/>
-       <h2>nutella&#174; spiral cake.</h2>
-       <p class="price">$32  (8&#8243; / 20&#160;cm)</p>
-       <p class="ingredients">eggs. sugar. white flour. whole milk. Lindt Lindor balls. canola oil. Nutella. chocolate syrup. semi-sweet chocolate. cocoa powder. vanilla extract. heavy whipping cream. unsalted butter. rice syrup. baking powder. salt.</p>
+    <img alt="nutella® spiral cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/cake_spiral_nutella_01_th400.jpg" style="width:100%"/>
+    <h2>nutella&#174; spiral cake.</h2>
+    <p class="price">$32  (8&#8243; / 20&#160;cm)</p>
+    <p class="ingredients">eggs. sugar. white flour. whole milk. Lindt Lindor balls. canola oil. Nutella. chocolate syrup. semi-sweet chocolate. cocoa powder. vanilla extract. heavy whipping cream. unsalted butter. rice syrup. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="cake dessert oreo">
-       <img alt="oreo cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/cake_oreo_01_th400.jpg" style="width:100%"/>
-       <h2>oreo cake.</h2>
-       <p class="price">$24  (8&#8243; / 20&#160;cm)</p>
-       <p class="ingredients">unsalted butter. sugar. eggs. crumbled Oreo cookies. white flour. powdered sugar. heavy whipping cream. cocoa powder. water. baking powder. salt.</p>
+    <img alt="oreo cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/cake_oreo_01_th400.jpg" style="width:100%"/>
+    <h2>oreo cake.</h2>
+    <p class="price">$24  (8&#8243; / 20&#160;cm)</p>
+    <p class="ingredients">unsalted butter. sugar. eggs. crumbled Oreo cookies. white flour. powdered sugar. heavy whipping cream. cocoa powder. water. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="cake pumpkin">
-       <img alt="pumpkin cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/cake_pumpkin_01_th400.jpg" style="width:100%"/>
-       <h2>pumpkin cake.</h2>
-       <p class="price">$22</p>
-       <p class="ingredients">sugar. pumpkin puree. white flour. powdered sugar. eggs. walnuts. canola oil. water. pumpkin seeds. pumpkin spice. baking powder. baking soda. cinnamon powder. pumpkin powder. salt.</p>
+    <img alt="pumpkin cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/cake_pumpkin_01_th400.jpg" style="width:100%"/>
+    <h2>pumpkin cake.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">sugar. pumpkin puree. white flour. powdered sugar. eggs. walnuts. canola oil. water. pumpkin seeds. pumpkin spice. baking powder. baking soda. cinnamon powder. pumpkin powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="cake international">
-       <img alt="sacher torte." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/sacher_torte_01_th400.jpg" style="width:100%"/>
-       <h2>sacher torte.</h2>
-       <p class="price">$30</p>
-       <p class="ingredients">semi-sweet chocolate. heavy whipping cream. egg whites. sugar. apricot jam. unsalted butter. white flour. egg yolks. Lindt Lindor balls. vanilla extract.</p>
+    <img alt="sacher torte." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/sacher_torte_01_th400.jpg" style="width:100%"/>
+    <h2>sacher torte.</h2>
+    <p class="price">$30</p>
+    <p class="ingredients">semi-sweet chocolate. heavy whipping cream. egg whites. sugar. apricot jam. unsalted butter. white flour. egg yolks. Lindt Lindor balls. vanilla extract.</p>
     </li>
 
     <li class="menuitem" data-category="cake dessert">
-       <img alt="very berry coffee cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/coffee_cake_triple_berry_01_th400.jpg" style="width:100%"/>
-       <h2>very berry coffee cake.</h2>
-       <p class="price">$24</p>
-       <p class="ingredients">white flour. sugar. unsalted butter. eggs. milk. sour cream. blueberries. raspberries. blackberries. baking powder. vanilla extract. salt.</p>
+    <img alt="very berry coffee cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/coffee_cake_triple_berry_01_th400.jpg" style="width:100%"/>
+    <h2>very berry coffee cake.</h2>
+    <p class="price">$24</p>
+    <p class="ingredients">white flour. sugar. unsalted butter. eggs. milk. sour cream. blueberries. raspberries. blackberries. baking powder. vanilla extract. salt.</p>
     </li>
 
     <li class="menuitem" data-category="financiers apple">
-       <img alt="apple crumble financier." class="modal_img" src="img_menu/financier_apple_01_th400.jpg" style="width:100%"/>
-       <h2>apple crumble financier.</h2>
-       <p class="price">$19  (6 pieces)</p>
-       <p class="ingredients">sugar. unsalted butter. white flour. apples. egg whites. almond flour. rice syrup. cinnamon powder.</p>
+    <img alt="apple crumble financier." class="modal_img" src="img_menu/financier_apple_01_th400.jpg" style="width:100%"/>
+    <h2>apple crumble financier.</h2>
+    <p class="price">$19  (6 pieces)</p>
+    <p class="ingredients">sugar. unsalted butter. white flour. apples. egg whites. almond flour. rice syrup. cinnamon powder.</p>
     </li>
 
     <li class="menuitem" data-category="financiers coconut chocolate">
-       <img alt="lemington (chocolate coconut) financier." class="modal_img" src="img_menu/financier_coconut_01_th400.jpg" style="width:100%"/>
-       <h2>lemington (chocolate coconut) financier.</h2>
-       <p class="price">$19  (6 pieces)</p>
-       <p class="ingredients">unsalted butter. sugar. egg whites. white flour. semi-sweet chocolate chips. almond flour. heavy whipping cream. sweetened coconut flakes. rice syrup.</p>
+    <img alt="lemington (chocolate coconut) financier." class="modal_img" src="img_menu/financier_coconut_01_th400.jpg" style="width:100%"/>
+    <h2>lemington (chocolate coconut) financier.</h2>
+    <p class="price">$19  (6 pieces)</p>
+    <p class="ingredients">unsalted butter. sugar. egg whites. white flour. semi-sweet chocolate chips. almond flour. heavy whipping cream. sweetened coconut flakes. rice syrup.</p>
     </li>
 
     <li class="menuitem" data-category="financiers chocolate">
-       <img alt="salted chocolate financier." class="modal_img" src="img_menu/financier_salted_chocolate_01_th400.jpg" style="width:100%"/>
-       <h2>salted chocolate financier.</h2>
-       <p class="price">$19  (6 pieces)</p>
-       <p class="ingredients">unsalted butter. sugar. egg whites. almond flour. white flour. dark chocolate. rice syrup. cocoa powder. salt.</p>
+    <img alt="salted chocolate financier." class="modal_img" src="img_menu/financier_salted_chocolate_01_th400.jpg" style="width:100%"/>
+    <h2>salted chocolate financier.</h2>
+    <p class="price">$19  (6 pieces)</p>
+    <p class="ingredients">unsalted butter. sugar. egg whites. almond flour. white flour. dark chocolate. rice syrup. cocoa powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="gift almond dessert international">
-       <img alt="almond florentine." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_almond_florentine_01_th400.jpg" style="width:100%"/>
-       <h2>almond florentine.</h2>
-       <p class="price">$22</p>
-       <p class="ingredients">sugar. white flour. unsalted butter. sliced almonds. honey. rice syrup. eggs. heavy whipping cream. water. almond flour. salt.</p>
+    <img alt="almond florentine." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_almond_florentine_01_th400.jpg" style="width:100%"/>
+    <h2>almond florentine.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">sugar. white flour. unsalted butter. sliced almonds. honey. rice syrup. eggs. heavy whipping cream. water. almond flour. salt.</p>
     </li>
 
     <li class="menuitem" data-category="gift chocolate">
-       <img alt="bark chocolate bars." class="modal_img" src="img_menu/bark_chocolate_02_th400.jpg" style="width:100%"/>
-       <h2>bark chocolate bars.</h2>
-       <p class="price">$27</p>
-       <p class="ingredients">white chocolate. dark chocolate. milk chocolate. dried strawberry. almonds. dried orange. pecans. walnuts. dried cranberry. cashews. dried grapefruit. dried lemon.</p>
+    <img alt="bark chocolate bars." class="modal_img" src="img_menu/bark_chocolate_02_th400.jpg" style="width:100%"/>
+    <h2>bark chocolate bars.</h2>
+    <p class="price">$27</p>
+    <p class="ingredients">white chocolate. dark chocolate. milk chocolate. dried strawberry. almonds. dried orange. pecans. walnuts. dried cranberry. cashews. dried grapefruit. dried lemon.</p>
     </li>
 
     <li class="menuitem" data-category="gift blueberry dessert">
-       <img alt="blueberry crumble bar." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/crumble_blueberry_01_th400.jpg" style="width:100%"/>
-       <h2>blueberry crumble bar.</h2>
-       <p class="price">$22</p>
-       <p class="ingredients">white flour. sugar. blueberries. unsalted butter. eggs. lemon juice. cornstarch. baking powder. salt.</p>
+    <img alt="blueberry crumble bar." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/crumble_blueberry_01_th400.jpg" style="width:100%"/>
+    <h2>blueberry crumble bar.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">white flour. sugar. blueberries. unsalted butter. eggs. lemon juice. cornstarch. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="gift international chocolate coconut">
-       <img alt="swedish chocolate balls (coconut)." class="modal_img" src="img_menu/swedish_chocolate_balls_coconut_01_th400.jpg" style="width:100%"/>
-       <h2>swedish chocolate balls (coconut).</h2>
-       <p class="price">$16  (for 12)</p>
-       <p class="ingredients">rolled oats. sugar. unsalted butter. coconut flakes. cocoa powder. coconut oil. semi-sweet chocolate. water. instant coffee. vanilla extract. salt.</p>
+    <img alt="swedish chocolate balls (coconut)." class="modal_img" src="img_menu/swedish_chocolate_balls_coconut_01_th400.jpg" style="width:100%"/>
+    <h2>swedish chocolate balls (coconut).</h2>
+    <p class="price">$16  (for 12)</p>
+    <p class="ingredients">rolled oats. sugar. unsalted butter. coconut flakes. cocoa powder. coconut oil. semi-sweet chocolate. water. instant coffee. vanilla extract. salt.</p>
     </li>
 
     <li class="menuitem" data-category="gift international chocolate">
-       <img alt="swedish chocolate balls (pearl sugar)." class="modal_img" src="img_menu/swedish_chocolate_balls_pearl_sugar_01_th400.jpg" style="width:100%"/>
-       <h2>swedish chocolate balls (pearl sugar).</h2>
-       <p class="price">$16  (for 12)</p>
-       <p class="ingredients">rolled oats. sugar. unsalted butter. Swedish pearl sugar. semi-sweet chocolate. water. instant coffee. vanilla extract. salt.</p>
+    <img alt="swedish chocolate balls (pearl sugar)." class="modal_img" src="img_menu/swedish_chocolate_balls_pearl_sugar_01_th400.jpg" style="width:100%"/>
+    <h2>swedish chocolate balls (pearl sugar).</h2>
+    <p class="price">$16  (for 12)</p>
+    <p class="ingredients">rolled oats. sugar. unsalted butter. Swedish pearl sugar. semi-sweet chocolate. water. instant coffee. vanilla extract. salt.</p>
     </li>
 
     <li class="menuitem" data-category="gugelhupf cake chocolate dessert">
-       <img alt="chocolate gugelhupf." class="modal_img" src="img_menu/gugelhupf_chocolate_th400.jpg" style="width:100%"/>
-       <h2>chocolate gugelhupf.</h2>
-       <p class="price">$24</p>
-       <p class="ingredients">unsalted butter. sugar. eggs. white flour. powdered sugar. heavy whipping cream. cocoa powder. water. rainbow nonpareil sprinkles. baking powder. salt. food coloring (red).</p>
+    <img alt="chocolate gugelhupf." class="modal_img" src="img_menu/gugelhupf_chocolate_th400.jpg" style="width:100%"/>
+    <h2>chocolate gugelhupf.</h2>
+    <p class="price">$24</p>
+    <p class="ingredients">unsalted butter. sugar. eggs. white flour. powdered sugar. heavy whipping cream. cocoa powder. water. rainbow nonpareil sprinkles. baking powder. salt. food coloring (red).</p>
     </li>
 
     <li class="menuitem" data-category="gugelhupf cake chocolate dessert">
-       <img alt="mini chocolate gugelhupf." class="modal_img" src="img_menu/gugelhupf_mini_chocolate_th400.jpg" style="width:100%"/>
-       <h2>mini chocolate gugelhupf.</h2>
-       <p class="price">$20</p>
-       <p class="ingredients">unsalted butter. sugar. eggs. powdered sugar. white flour. heavy whipping cream. cocoa powder. rainbow nonpareil sprinkles. water. baking powder. salt. food coloring (red).</p>
+    <img alt="mini chocolate gugelhupf." class="modal_img" src="img_menu/gugelhupf_mini_chocolate_th400.jpg" style="width:100%"/>
+    <h2>mini chocolate gugelhupf.</h2>
+    <p class="price">$20</p>
+    <p class="ingredients">unsalted butter. sugar. eggs. powdered sugar. white flour. heavy whipping cream. cocoa powder. rainbow nonpareil sprinkles. water. baking powder. salt. food coloring (red).</p>
     </li>
 
     <li class="menuitem" data-category="gugelhupf cake dessert">
-       <img alt="mini dulce de leche & lotus gugelhupf." class="modal_img" src="img_menu/gugelhupf_mini_dulce_de_leche_lotus_01_th400.jpg" style="width:100%"/>
-       <h2>mini dulce de leche &amp; lotus gugelhupf.</h2>
-       <p class="price">$22</p>
-       <p class="ingredients">powdered sugar. unsalted butter. sugar. eggs. white flour. dulce de leche. lotus Biscoff. heavy whipping cream. water. Twix powder. marshmallows. baking powder. salt.</p>
+    <img alt="mini dulce de leche & lotus gugelhupf." class="modal_img" src="img_menu/gugelhupf_mini_dulce_de_leche_lotus_01_th400.jpg" style="width:100%"/>
+    <h2>mini dulce de leche &amp; lotus gugelhupf.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">powdered sugar. unsalted butter. sugar. eggs. white flour. dulce de leche. lotus Biscoff. heavy whipping cream. water. Twix powder. marshmallows. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="gugelhupf cake lemon dessert">
-       <img alt="mini lemon gugelhupf." class="modal_img" src="img_menu/gugelhupf_mini_lemon_th400.jpg" style="width:100%"/>
-       <h2>mini lemon gugelhupf.</h2>
-       <p class="price">$21</p>
-       <p class="ingredients">sugar. eggs. unsalted butter. lemon juice. white flour. powdered sugar. heavy whipping cream. corn starch. lemon zest. baking powder. salt.</p>
+    <img alt="mini lemon gugelhupf." class="modal_img" src="img_menu/gugelhupf_mini_lemon_th400.jpg" style="width:100%"/>
+    <h2>mini lemon gugelhupf.</h2>
+    <p class="price">$21</p>
+    <p class="ingredients">sugar. eggs. unsalted butter. lemon juice. white flour. powdered sugar. heavy whipping cream. corn starch. lemon zest. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="gugelhupf cake dessert">
-       <img alt="mini red velvet gugelhupf." class="modal_img" src="img_menu/gugelhupf_mini_red_velvet_th400.jpg" style="width:100%"/>
-       <h2>mini red velvet gugelhupf.</h2>
-       <p class="price">$21</p>
-       <p class="ingredients">unsalted butter. sugar. eggs. powdered sugar. white flour. heavy whipping cream. crumbled Oreo cookies. water. cocoa powder. food coloring (red). baking powder. salt.</p>
+    <img alt="mini red velvet gugelhupf." class="modal_img" src="img_menu/gugelhupf_mini_red_velvet_th400.jpg" style="width:100%"/>
+    <h2>mini red velvet gugelhupf.</h2>
+    <p class="price">$21</p>
+    <p class="ingredients">unsalted butter. sugar. eggs. powdered sugar. white flour. heavy whipping cream. crumbled Oreo cookies. water. cocoa powder. food coloring (red). baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="gugelhupf cake dessert">
-       <img alt="red velvet gugelhupf." class="modal_img" src="img_menu/gugelhupf_red_velvet_th400.jpg" style="width:100%"/>
-       <h2>red velvet gugelhupf.</h2>
-       <p class="price">$24</p>
-       <p class="ingredients">unsalted butter. sugar. eggs. white flour. powdered sugar. heavy whipping cream. cocoa powder. water. food coloring (red). crumbled Oreo cookies. baking powder. salt.</p>
+    <img alt="red velvet gugelhupf." class="modal_img" src="img_menu/gugelhupf_red_velvet_th400.jpg" style="width:100%"/>
+    <h2>red velvet gugelhupf.</h2>
+    <p class="price">$24</p>
+    <p class="ingredients">unsalted butter. sugar. eggs. white flour. powdered sugar. heavy whipping cream. cocoa powder. water. food coloring (red). crumbled Oreo cookies. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="madeleines cinnamon">
-       <img alt="churros madeleines." class="modal_img" src="img_menu/madeleines_churros_01_th400.jpg" style="width:100%"/>
-       <h2>churros madeleines.</h2>
-       <p class="price">$16</p>
-       <p class="ingredients">sugar. unsalted butter. eggs. white flour. dulce de leche. cinnamon powder. baking powder. salt.</p>
+    <img alt="churros madeleines." class="modal_img" src="img_menu/madeleines_churros_01_th400.jpg" style="width:100%"/>
+    <h2>churros madeleines.</h2>
+    <p class="price">$16</p>
+    <p class="ingredients">sugar. unsalted butter. eggs. white flour. dulce de leche. cinnamon powder. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="madeleines earlgrey glazed">
-       <img alt="glazed earl grey madeleines." class="modal_img" src="img_menu/madeleines_earl_grey_01_th400.jpg" style="width:100%"/>
-       <h2>glazed earl grey madeleines.</h2>
-       <p class="price">$16</p>
-       <p class="ingredients">unsalted butter. eggs. sugar. white flour. powdered sugar. water. earl grey tea leaves. baking powder. salt.</p>
+    <img alt="glazed earl grey madeleines." class="modal_img" src="img_menu/madeleines_earl_grey_01_th400.jpg" style="width:100%"/>
+    <h2>glazed earl grey madeleines.</h2>
+    <p class="price">$16</p>
+    <p class="ingredients">unsalted butter. eggs. sugar. white flour. powdered sugar. water. earl grey tea leaves. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="madeleines lemon glazed">
-       <img alt="glazed lemon madeleines." class="modal_img" src="img_menu/madeleines_lemon_01_th400.jpg" style="width:100%"/>
-       <h2>glazed lemon madeleines.</h2>
-       <p class="price">$16</p>
-       <p class="ingredients">sugar. powdered sugar. unsalted butter. eggs. white flour. lemon juice. lemon zest. baking powder. salt.</p>
+    <img alt="glazed lemon madeleines." class="modal_img" src="img_menu/madeleines_lemon_01_th400.jpg" style="width:100%"/>
+    <h2>glazed lemon madeleines.</h2>
+    <p class="price">$16</p>
+    <p class="ingredients">sugar. powdered sugar. unsalted butter. eggs. white flour. lemon juice. lemon zest. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="madeleines orange glazed">
-       <img alt="glazed orange madeleines." class="modal_img" src="img_menu/madeleines_orange_01_th400.jpg" style="width:100%"/>
-       <h2>glazed orange madeleines.</h2>
-       <p class="price">$16</p>
-       <p class="ingredients">sugar. powdered sugar. unsalted butter. eggs. white flour. orange juice. orange zest. baking powder. salt.</p>
+    <img alt="glazed orange madeleines." class="modal_img" src="img_menu/madeleines_orange_01_th400.jpg" style="width:100%"/>
+    <h2>glazed orange madeleines.</h2>
+    <p class="price">$16</p>
+    <p class="ingredients">sugar. powdered sugar. unsalted butter. eggs. white flour. orange juice. orange zest. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="madeleines oreo glazed">
-       <img alt="glazed oreo madeleines." class="modal_img" src="img_menu/madeleines_oreo_01_th400.jpg" style="width:100%"/>
-       <h2>glazed oreo madeleines.</h2>
-       <p class="price">$17</p>
-       <p class="ingredients">sugar. unsalted butter. eggs. white flour. powdered sugar. crumbled Oreo cookies. water. cocoa powder. baking powder. Oreo cookie dust. salt.</p>
+    <img alt="glazed oreo madeleines." class="modal_img" src="img_menu/madeleines_oreo_01_th400.jpg" style="width:100%"/>
+    <h2>glazed oreo madeleines.</h2>
+    <p class="price">$17</p>
+    <p class="ingredients">sugar. unsalted butter. eggs. white flour. powdered sugar. crumbled Oreo cookies. water. cocoa powder. baking powder. Oreo cookie dust. salt.</p>
     </li>
 
     <li class="menuitem" data-category="madeleines raspberry">
-       <img alt="glazed raspberry madeleines." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/madeleine_raspberry_01_th400.jpg" style="width:100%"/>
-       <h2>glazed raspberry madeleines.</h2>
-       <p class="price">$17</p>
-       <p class="ingredients">raspberry compote. powdered sugar. white flour. unsalted butter. eggs. sugar. dried cranberries. water. baking powder. salt.</p>
+    <img alt="glazed raspberry madeleines." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/madeleine_raspberry_01_th400.jpg" style="width:100%"/>
+    <h2>glazed raspberry madeleines.</h2>
+    <p class="price">$17</p>
+    <p class="ingredients">raspberry compote. powdered sugar. white flour. unsalted butter. eggs. sugar. dried cranberries. water. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="madeleines caramel glazed">
-       <img alt="glazed salted caramel lotus madeleines." class="modal_img" src="img_menu/madeleines_lotus_01_th400.jpg" style="width:100%"/>
-       <h2>glazed salted caramel lotus madeleines.</h2>
-       <p class="price">$17</p>
-       <p class="ingredients">sugar. unsalted butter. eggs. white flour. heavy whipping cream. powdered sugar. caramel sauce. lotus Biscoff. water. ground lotus Biscoff. salt. baking powder.</p>
+    <img alt="glazed salted caramel lotus madeleines." class="modal_img" src="img_menu/madeleines_lotus_01_th400.jpg" style="width:100%"/>
+    <h2>glazed salted caramel lotus madeleines.</h2>
+    <p class="price">$17</p>
+    <p class="ingredients">sugar. unsalted butter. eggs. white flour. heavy whipping cream. powdered sugar. caramel sauce. lotus Biscoff. water. ground lotus Biscoff. salt. baking powder.</p>
     </li>
 
     <li class="menuitem" data-category="madeleines chocolate mocha">
-       <img alt="kahlúa mocha madeleines." class="modal_img" src="img_menu/madeleine_kahlua_mocha_01_th400.jpg" style="width:100%"/>
-       <h2>kahl&#250;a mocha madeleines.</h2>
-       <p class="price">$17</p>
-       <p class="ingredients">powdered sugar. white flour. unsalted butter. eggs. sugar. coffee. Kahl\&#x27;{u}a. water. baking powder. salt.</p>
+    <img alt="kahlúa mocha madeleines." class="modal_img" src="img_menu/madeleine_kahlua_mocha_01_th400.jpg" style="width:100%"/>
+    <h2>kahl&#250;a mocha madeleines.</h2>
+    <p class="price">$17</p>
+    <p class="ingredients">powdered sugar. white flour. unsalted butter. eggs. sugar. coffee. Kahl\&#x27;{u}a. water. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="madeleines chocolate">
-       <img alt="red velvet & white chocolate madeleine." class="modal_img" src="img_menu/madeleines_red_velvet_01_th400.jpg" style="width:100%"/>
-       <h2>red velvet &amp; white chocolate madeleine.</h2>
-       <p class="price">$17  (6 pieces)</p>
-       <p class="ingredients">unsalted butter. eggs. sugar. powdered sugar. white flour. white chocolate chips. cocoa powder. water. food coloring (red). baking powder. salt.</p>
+    <img alt="red velvet & white chocolate madeleine." class="modal_img" src="img_menu/madeleines_red_velvet_01_th400.jpg" style="width:100%"/>
+    <h2>red velvet &amp; white chocolate madeleine.</h2>
+    <p class="price">$17  (6 pieces)</p>
+    <p class="ingredients">unsalted butter. eggs. sugar. powdered sugar. white flour. white chocolate chips. cocoa powder. water. food coloring (red). baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="muffins blueberry">
-       <img alt="blueberry crumble muffins." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/muffin_blueberry_01_th400.jpg" style="width:100%"/>
-       <h2>blueberry crumble muffins.</h2>
-       <p class="price">$16</p>
-       <p class="ingredients">white flour. sugar. blueberries. unsalted butter. eggs. heavy whipping cream. sour cream. whole milk. baking powder. salt.</p>
+    <img alt="blueberry crumble muffins." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/muffin_blueberry_01_th400.jpg" style="width:100%"/>
+    <h2>blueberry crumble muffins.</h2>
+    <p class="price">$16</p>
+    <p class="ingredients">white flour. sugar. blueberries. unsalted butter. eggs. heavy whipping cream. sour cream. whole milk. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="muffins peanut">
-       <img alt="peanut butter muffins." class="modal_img" src="img_menu/muffin_peanut_butter_th400.jpg" style="width:100%"/>
-       <h2>peanut butter muffins.</h2>
-       <p class="price">$16</p>
-       <p class="ingredients">peanut butter. white flour. whole milk. sugar. eggs. peanut-butter chips. peanuts. baking powder.</p>
+    <img alt="peanut butter muffins." class="modal_img" src="img_menu/muffin_peanut_butter_th400.jpg" style="width:100%"/>
+    <h2>peanut butter muffins.</h2>
+    <p class="price">$16</p>
+    <p class="ingredients">peanut butter. white flour. whole milk. sugar. eggs. peanut-butter chips. peanuts. baking powder.</p>
     </li>
 
     <li class="menuitem" data-category="pie apple dessert">
-       <img alt="lattice apple pie." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/pie_lattice_apple_01_th400.jpg" style="width:100%"/>
-       <h2>lattice apple pie.</h2>
-       <p class="price">$29  (9&#8243; / 23&#160;cm)</p>
-       <p class="ingredients">apples. water. white flour. unsalted butter. sugar. cornstarch. egg yolks. cinnamon powder. salt.</p>
+    <img alt="lattice apple pie." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/pie_lattice_apple_01_th400.jpg" style="width:100%"/>
+    <h2>lattice apple pie.</h2>
+    <p class="price">$29  (9&#8243; / 23&#160;cm)</p>
+    <p class="ingredients">apples. water. white flour. unsalted butter. sugar. cornstarch. egg yolks. cinnamon powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="poundcake walnut">
-       <img alt="banana walnut bread." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/bread_banana_walnut_01_th400.jpg" style="width:100%"/>
-       <h2>banana walnut bread.</h2>
-       <p class="price">$15</p>
-       <p class="ingredients">bananas. white flour. sugar. canola oil. walnuts. eggs. buttermilk. vanilla extract. baking soda. salt. cinnamon powder.</p>
+    <img alt="banana walnut bread." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/bread_banana_walnut_01_th400.jpg" style="width:100%"/>
+    <h2>banana walnut bread.</h2>
+    <p class="price">$15</p>
+    <p class="ingredients">bananas. white flour. sugar. canola oil. walnuts. eggs. buttermilk. vanilla extract. baking soda. salt. cinnamon powder.</p>
     </li>
 
     <li class="menuitem" data-category="poundcake cinnamon">
-       <img alt="cinnamon pound cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/pound_cake_cinnamon_01_th400.jpg" style="width:100%"/>
-       <h2>cinnamon pound cake.</h2>
-       <p class="price">$14</p>
-       <p class="ingredients">white flour. whole milk. sugar. canola oil. eggs. vanilla extract. baking powder. salt. cinnamon.</p>
+    <img alt="cinnamon pound cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/pound_cake_cinnamon_01_th400.jpg" style="width:100%"/>
+    <h2>cinnamon pound cake.</h2>
+    <p class="price">$14</p>
+    <p class="ingredients">white flour. whole milk. sugar. canola oil. eggs. vanilla extract. baking powder. salt. cinnamon.</p>
     </li>
 
     <li class="menuitem" data-category="poundcake mocha glazed">
-       <img alt="kahlúa mocha pound cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/kahlua_mocha_pound_cake_01_th400.jpg" style="width:100%"/>
-       <h2>kahl&#250;a mocha pound cake.</h2>
-       <p class="price">$17</p>
-       <p class="ingredients">white flour. unsalted butter. sugar. eggs. powdered sugar. walnuts. Kahl\&#x27;{u}a. coffee. water. baking powder. salt.</p>
+    <img alt="kahlúa mocha pound cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/kahlua_mocha_pound_cake_01_th400.jpg" style="width:100%"/>
+    <h2>kahl&#250;a mocha pound cake.</h2>
+    <p class="price">$17</p>
+    <p class="ingredients">white flour. unsalted butter. sugar. eggs. powdered sugar. walnuts. Kahl\&#x27;{u}a. coffee. water. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="poundcake lemon glazed">
-       <img alt="lemon & poppy seed pound cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/pound_cake_lemon_poppy_01_th400.jpg" style="width:100%"/>
-       <h2>lemon &amp; poppy seed pound cake.</h2>
-       <p class="price">$17</p>
-       <p class="ingredients">sugar. white flour. unsalted butter. eggs. heavy whipping cream. lemon juice. poppy seeds. baking powder. lemon zest. salt.</p>
+    <img alt="lemon & poppy seed pound cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/pound_cake_lemon_poppy_01_th400.jpg" style="width:100%"/>
+    <h2>lemon &amp; poppy seed pound cake.</h2>
+    <p class="price">$17</p>
+    <p class="ingredients">sugar. white flour. unsalted butter. eggs. heavy whipping cream. lemon juice. poppy seeds. baking powder. lemon zest. salt.</p>
     </li>
 
     <li class="menuitem" data-category="poundcake">
-       <img alt="orange pound cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/pound_cake_orange_01_th400.jpg" style="width:100%"/>
-       <h2>orange pound cake.</h2>
-       <p class="price">$17</p>
-       <p class="ingredients">sugar. white flour. unsalted butter. eggs. orange. sour cream. water. orange marmalade. orange peel. orange juice. orange zest. baking powder. salt.</p>
+    <img alt="orange pound cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/pound_cake_orange_01_th400.jpg" style="width:100%"/>
+    <h2>orange pound cake.</h2>
+    <p class="price">$17</p>
+    <p class="ingredients">sugar. white flour. unsalted butter. eggs. orange. sour cream. water. orange marmalade. orange peel. orange juice. orange zest. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="scones blueberry">
-       <img alt="blueberry scones." class="modal_img" src="img_menu/scone_blueberry_01_th400.jpg" style="width:100%"/>
-       <h2>blueberry scones.</h2>
-       <p class="price">$15</p>
-       <p class="ingredients">white flour. blueberry jam. unsalted butter. whole milk. heavy whipping cream. sugar. baking powder. salt.</p>
+    <img alt="blueberry scones." class="modal_img" src="img_menu/scone_blueberry_01_th400.jpg" style="width:100%"/>
+    <h2>blueberry scones.</h2>
+    <p class="price">$15</p>
+    <p class="ingredients">white flour. blueberry jam. unsalted butter. whole milk. heavy whipping cream. sugar. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="scones">
-       <img alt="cherry scones." class="modal_img" src="img_menu/scone_cherry_01_th400.jpg" style="width:100%"/>
-       <h2>cherry scones.</h2>
-       <p class="price">$15</p>
-       <p class="ingredients">white flour. cherry jam. unsalted butter. powdered sugar. whole milk. heavy whipping cream. sugar. baking powder. water. salt.</p>
+    <img alt="cherry scones." class="modal_img" src="img_menu/scone_cherry_01_th400.jpg" style="width:100%"/>
+    <h2>cherry scones.</h2>
+    <p class="price">$15</p>
+    <p class="ingredients">white flour. cherry jam. unsalted butter. powdered sugar. whole milk. heavy whipping cream. sugar. baking powder. water. salt.</p>
     </li>
 
     <li class="menuitem" data-category="scones cinnamon">
-       <img alt="churros scones." class="modal_img" src="img_menu/scone_churros_01_th400.jpg" style="width:100%"/>
-       <h2>churros scones.</h2>
-       <p class="price">$15</p>
-       <p class="ingredients">white flour. unsalted butter. sugar. dulce de leche. whole milk. heavy whipping cream. cinnamon powder. baking powder. salt.</p>
+    <img alt="churros scones." class="modal_img" src="img_menu/scone_churros_01_th400.jpg" style="width:100%"/>
+    <h2>churros scones.</h2>
+    <p class="price">$15</p>
+    <p class="ingredients">white flour. unsalted butter. sugar. dulce de leche. whole milk. heavy whipping cream. cinnamon powder. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="scones cinnamon apple">
-       <img alt="cinnamon apple scones." class="modal_img" src="img_menu/scone_cinnamon_apple_01_th400.jpg" style="width:100%"/>
-       <h2>cinnamon apple scones.</h2>
-       <p class="price">$15</p>
-       <p class="ingredients">white flour. unsalted butter. sugar. apple jam. whole milk. heavy whipping cream. baking powder. cinnamon powder. salt.</p>
+    <img alt="cinnamon apple scones." class="modal_img" src="img_menu/scone_cinnamon_apple_01_th400.jpg" style="width:100%"/>
+    <h2>cinnamon apple scones.</h2>
+    <p class="price">$15</p>
+    <p class="ingredients">white flour. unsalted butter. sugar. apple jam. whole milk. heavy whipping cream. baking powder. cinnamon powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="scones fig glazed">
-       <img alt="glazed fig scones." class="modal_img" src="img_menu/scone_fig_glazed_01_th400.jpg" style="width:100%"/>
-       <h2>glazed fig scones.</h2>
-       <p class="price">$16</p>
-       <p class="ingredients">white flour. unsalted butter. sliced figs. powdered sugar. whole milk. heavy whipping cream. sugar. eggs. water. baking powder. salt.</p>
+    <img alt="glazed fig scones." class="modal_img" src="img_menu/scone_fig_glazed_01_th400.jpg" style="width:100%"/>
+    <h2>glazed fig scones.</h2>
+    <p class="price">$16</p>
+    <p class="ingredients">white flour. unsalted butter. sliced figs. powdered sugar. whole milk. heavy whipping cream. sugar. eggs. water. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="scones lemon glazed">
-       <img alt="glazed lemon scones." class="modal_img" src="img_menu/scone_lemon_01_th400.jpg" style="width:100%"/>
-       <h2>glazed lemon scones.</h2>
-       <p class="price">$16</p>
-       <p class="ingredients">white flour. unsalted butter. heavy whipping cream. powdered sugar. sugar. lemon juice. baking powder. lemon zest. salt.</p>
+    <img alt="glazed lemon scones." class="modal_img" src="img_menu/scone_lemon_01_th400.jpg" style="width:100%"/>
+    <h2>glazed lemon scones.</h2>
+    <p class="price">$16</p>
+    <p class="ingredients">white flour. unsalted butter. heavy whipping cream. powdered sugar. sugar. lemon juice. baking powder. lemon zest. salt.</p>
     </li>
 
     <li class="menuitem" data-category="scones">
-       <img alt="peach scones." class="modal_img" src="img_menu/scone_peach_01_th400.jpg" style="width:100%"/>
-       <h2>peach scones.</h2>
-       <p class="price">$15</p>
-       <p class="ingredients">white flour. peach jam. unsalted butter. powdered sugar. whole milk. heavy whipping cream. sugar. baking powder. water. salt.</p>
+    <img alt="peach scones." class="modal_img" src="img_menu/scone_peach_01_th400.jpg" style="width:100%"/>
+    <h2>peach scones.</h2>
+    <p class="price">$15</p>
+    <p class="ingredients">white flour. peach jam. unsalted butter. powdered sugar. whole milk. heavy whipping cream. sugar. baking powder. water. salt.</p>
     </li>
 
     <li class="menuitem" data-category="scones raspberry">
-       <img alt="raspberry scones." class="modal_img" src="img_menu/scone_raspberry_01_th400.jpg" style="width:100%"/>
-       <h2>raspberry scones.</h2>
-       <p class="price">$15</p>
-       <p class="ingredients">white flour. raspberry jam. unsalted butter. whole milk. heavy whipping cream. sugar. baking powder. salt.</p>
+    <img alt="raspberry scones." class="modal_img" src="img_menu/scone_raspberry_01_th400.jpg" style="width:100%"/>
+    <h2>raspberry scones.</h2>
+    <p class="price">$15</p>
+    <p class="ingredients">white flour. raspberry jam. unsalted butter. whole milk. heavy whipping cream. sugar. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="scones chocolate">
-       <img alt="s'mores scones." class="modal_img" src="img_menu/scone_smores_th400.jpg" style="width:100%"/>
-       <h2>s&#x27;mores scones.</h2>
-       <p class="price">$16</p>
-       <p class="ingredients">white flour. unsalted butter. sugar. whole milk. heavy whipping cream. marshmallows. semi-sweet chocolate. egg whites. graham cracker crumbs. semi-sweet chocolate chips. baking powder. salt.</p>
+    <img alt="s'mores scones." class="modal_img" src="img_menu/scone_smores_th400.jpg" style="width:100%"/>
+    <h2>s&#x27;mores scones.</h2>
+    <p class="price">$16</p>
+    <p class="ingredients">white flour. unsalted butter. sugar. whole milk. heavy whipping cream. marshmallows. semi-sweet chocolate. egg whites. graham cracker crumbs. semi-sweet chocolate chips. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="tart apple almond dessert">
-       <img alt="apple & almond tart." class="modal_img" src="img_menu/tart_apple_th400.jpg" style="width:100%"/>
-       <h2>apple &amp; almond tart.</h2>
-       <p class="price">$25  (8&#8243; / 20&#160;cm)</p>
-       <p class="ingredients">apples. white flour. eggs. unsalted butter. powdered sugar. almond flour. sugar. vanilla extract. baking powder. salt.</p>
+    <img alt="apple & almond tart." class="modal_img" src="img_menu/tart_apple_th400.jpg" style="width:100%"/>
+    <h2>apple &amp; almond tart.</h2>
+    <p class="price">$25  (8&#8243; / 20&#160;cm)</p>
+    <p class="ingredients">apples. white flour. eggs. unsalted butter. powdered sugar. almond flour. sugar. vanilla extract. baking powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="tart apple caramel international">
-       <img alt="apple galette with salted caramel." class="modal_img" src="img_menu/galette_apple_01_th400.jpg" style="width:100%"/>
-       <h2>apple galette with salted caramel.</h2>
-       <p class="price">$22</p>
-       <p class="ingredients">apples. white sugar. white flour. unsalted butter. heavy whipping cream. water. egg yolks. cinnamon powder. salt.</p>
+    <img alt="apple galette with salted caramel." class="modal_img" src="img_menu/galette_apple_01_th400.jpg" style="width:100%"/>
+    <h2>apple galette with salted caramel.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">apples. white sugar. white flour. unsalted butter. heavy whipping cream. water. egg yolks. cinnamon powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="tart chocolate almond dessert">
-       <img alt="chocolate almond tart." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_chocolate_almond_01_th400.jpg" style="width:100%"/>
-       <h2>chocolate almond tart.</h2>
-       <p class="price">$22</p>
-       <p class="ingredients">unsalted butter. white flour. powdered sugar. semi-sweet chocolate. almond flour. eggs. heavy whipping cream. cocoa powder. vanilla extract.</p>
+    <img alt="chocolate almond tart." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_chocolate_almond_01_th400.jpg" style="width:100%"/>
+    <h2>chocolate almond tart.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">unsalted butter. white flour. powdered sugar. semi-sweet chocolate. almond flour. eggs. heavy whipping cream. cocoa powder. vanilla extract.</p>
     </li>
 
     <li class="menuitem" data-category="tart dessert walnut international caramel">
-       <img alt="engadiner nusstorte (salted caramel with walnut tart)." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/engadiner_nusstorte_01_th400.jpg" style="width:100%"/>
-       <h2>engadiner nusstorte (salted caramel with walnut tart).</h2>
-       <p class="price">$30</p>
-       <p class="ingredients">white flour. walnuts. powdered sugar. sugar. heavy whipping cream. unsalted butter. almond flour. eggs. water. egg yolks. salt.</p>
+    <img alt="engadiner nusstorte (salted caramel with walnut tart)." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/engadiner_nusstorte_01_th400.jpg" style="width:100%"/>
+    <h2>engadiner nusstorte (salted caramel with walnut tart).</h2>
+    <p class="price">$30</p>
+    <p class="ingredients">white flour. walnuts. powdered sugar. sugar. heavy whipping cream. unsalted butter. almond flour. eggs. water. egg yolks. salt.</p>
     </li>
 
     <li class="menuitem" data-category="tart lemon dessert">
-       <img alt="lemon tart." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_lemon_01_th400.jpg" style="width:100%"/>
-       <h2>lemon tart.</h2>
-       <p class="price">$22</p>
-       <p class="ingredients">water. sugar. white flour. lemon juice. unsalted butter. powdered sugar. eggs. cornstarch. almond flour. lemon zest. salt.</p>
+    <img alt="lemon tart." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_lemon_01_th400.jpg" style="width:100%"/>
+    <h2>lemon tart.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">water. sugar. white flour. lemon juice. unsalted butter. powdered sugar. eggs. cornstarch. almond flour. lemon zest. salt.</p>
     </li>
 
     <li class="menuitem" data-category="tart apple">
-       <img alt="mini apple crumble tart." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_mini_apple_crumble_01_th400.jpg" style="width:100%"/>
-       <h2>mini apple crumble tart.</h2>
-       <p class="price">$24</p>
-       <p class="ingredients">apples. white flour. unsalted butter. powdered sugar. sugar. almond flour. eggs. dried cranberries. vanilla extract. cinnamon powder.</p>
+    <img alt="mini apple crumble tart." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_mini_apple_crumble_01_th400.jpg" style="width:100%"/>
+    <h2>mini apple crumble tart.</h2>
+    <p class="price">$24</p>
+    <p class="ingredients">apples. white flour. unsalted butter. powdered sugar. sugar. almond flour. eggs. dried cranberries. vanilla extract. cinnamon powder.</p>
     </li>
 
     <li class="menuitem" data-category="tart blueberry">
-       <img alt="mini blueberry crumble tarts." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_mini_blueberry_crumble_01_th400.jpg" style="width:100%"/>
-       <h2>mini blueberry crumble tarts.</h2>
-       <p class="price">$24</p>
-       <p class="ingredients">white flour. unsalted butter. powdered sugar. blueberries. sugar. almond flour. eggs. lemon juice. vanilla extract. corn starch.</p>
+    <img alt="mini blueberry crumble tarts." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_mini_blueberry_crumble_01_th400.jpg" style="width:100%"/>
+    <h2>mini blueberry crumble tarts.</h2>
+    <p class="price">$24</p>
+    <p class="ingredients">white flour. unsalted butter. powdered sugar. blueberries. sugar. almond flour. eggs. lemon juice. vanilla extract. corn starch.</p>
     </li>
 
     <li class="menuitem" data-category="tart">
-       <img alt="mini egg pies." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/pie_egg_01_th400.jpg" style="width:100%"/>
-       <h2>mini egg pies.</h2>
-       <p class="price">$23</p>
-       <p class="ingredients">white flour. heavy whipping cream. whole milk. unsalted butter. sugar. egg yolks. water. corn starch. vanilla extract. salt.</p>
+    <img alt="mini egg pies." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/pie_egg_01_th400.jpg" style="width:100%"/>
+    <h2>mini egg pies.</h2>
+    <p class="price">$23</p>
+    <p class="ingredients">white flour. heavy whipping cream. whole milk. unsalted butter. sugar. egg yolks. water. corn starch. vanilla extract. salt.</p>
     </li>
 
     <li class="menuitem" data-category="tart dessert strawberry">
-       <img alt="mini strawberry tarts." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_strawberry_mini_01_th400.jpg" style="width:100%"/>
-       <h2>mini strawberry tarts.</h2>
-       <p class="price">$25</p>
-       <p class="ingredients">strawberries. unsalted butter. white flour. powdered sugar. almond flour. eggs. strawberry jam. vanilla extract.</p>
+    <img alt="mini strawberry tarts." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_strawberry_mini_01_th400.jpg" style="width:100%"/>
+    <h2>mini strawberry tarts.</h2>
+    <p class="price">$25</p>
+    <p class="ingredients">strawberries. unsalted butter. white flour. powdered sugar. almond flour. eggs. strawberry jam. vanilla extract.</p>
     </li>
 
     <li class="menuitem" data-category="tart chocolate dessert">
-       <img alt="mini triple chocolate tarts." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_triple_chocolate_mini_01_th400.jpg" style="width:100%"/>
-       <h2>mini triple chocolate tarts.</h2>
-       <p class="price">$24</p>
-       <p class="ingredients">powdered sugar. unsalted butter. eggs. semi-sweet chocolate. white flour. sugar. almond flour. cocoa powder. heavy whipping cream.</p>
+    <img alt="mini triple chocolate tarts." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_triple_chocolate_mini_01_th400.jpg" style="width:100%"/>
+    <h2>mini triple chocolate tarts.</h2>
+    <p class="price">$24</p>
+    <p class="ingredients">powdered sugar. unsalted butter. eggs. semi-sweet chocolate. white flour. sugar. almond flour. cocoa powder. heavy whipping cream.</p>
     </li>
 
     <li class="menuitem" data-category="tart pear">
-       <img alt="pear & almond tart." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_pear_01_th400.jpg" style="width:100%"/>
-       <h2>pear &amp; almond tart.</h2>
-       <p class="price">$24</p>
-       <p class="ingredients">unsalted butter. white flour. powdered sugar. canned pears. almond flour. eggs. chopped pistachios. vanilla extract.</p>
+    <img alt="pear & almond tart." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_pear_01_th400.jpg" style="width:100%"/>
+    <h2>pear &amp; almond tart.</h2>
+    <p class="price">$24</p>
+    <p class="ingredients">unsalted butter. white flour. powdered sugar. canned pears. almond flour. eggs. chopped pistachios. vanilla extract.</p>
     </li>
 
     <li class="menuitem" data-category="tart pecan dessert">
-       <img alt="pecan tart." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_pecan_01_th400.jpg" style="width:100%"/>
-       <h2>pecan tart.</h2>
-       <p class="price">$24  (8&#8243; / 20&#160;cm)</p>
-       <p class="ingredients">white flour. unsalted butter. powdered sugar. eggs. sugar. pecans. rice syrup. water. vanilla extract. salt.</p>
+    <img alt="pecan tart." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_pecan_01_th400.jpg" style="width:100%"/>
+    <h2>pecan tart.</h2>
+    <p class="price">$24  (8&#8243; / 20&#160;cm)</p>
+    <p class="ingredients">white flour. unsalted butter. powdered sugar. eggs. sugar. pecans. rice syrup. water. vanilla extract. salt.</p>
     </li>
 
     <li class="menuitem" data-category="tart pumpkin dessert">
-       <img alt="pumpkin tart." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_pumpkin_01_th400.jpg" style="width:100%"/>
-       <h2>pumpkin tart.</h2>
-       <p class="price">$22</p>
-       <p class="ingredients">pumpkin. white flour. sugar. powdered sugar. eggs. heavy whipping cream. condensed milk. unsalted butter. almond flour. cornstarch. pumpkin spice. cinnamon powder. salt.</p>
+    <img alt="pumpkin tart." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_pumpkin_01_th400.jpg" style="width:100%"/>
+    <h2>pumpkin tart.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">pumpkin. white flour. sugar. powdered sugar. eggs. heavy whipping cream. condensed milk. unsalted butter. almond flour. cornstarch. pumpkin spice. cinnamon powder. salt.</p>
     </li>
 
     <li class="menuitem" data-category="tart chocolate dessert">
-       <img alt="salted chocolate & caramel tart." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_salted_chocolate_caramel_01_th400.jpg" style="width:100%"/>
-       <h2>salted chocolate &amp; caramel tart.</h2>
-       <p class="price">$23</p>
-       <p class="ingredients">heavy whipping cream. unsalted butter. sugar. semi-sweet chocolate. white flour. powdered sugar. rice syrup. almond flour. eggs. cocoa powder.</p>
+    <img alt="salted chocolate & caramel tart." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/tart_salted_chocolate_caramel_01_th400.jpg" style="width:100%"/>
+    <h2>salted chocolate &amp; caramel tart.</h2>
+    <p class="price">$23</p>
+    <p class="ingredients">heavy whipping cream. unsalted butter. sugar. semi-sweet chocolate. white flour. powdered sugar. rice syrup. almond flour. eggs. cocoa powder.</p>
     </li>
 
   </ol>
