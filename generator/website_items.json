@@ -8,6 +8,16 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "chocolate chip chiffon cake.": {
+        "categories": [
+            "cake",
+            "chocolate"
+        ],
+        "price": 35,
+        "notes": "",
+        "ingredients": "eggs. semi-sweet chocolate chips. sugar. heavy whipping cream. white flour. whole milk. strawberries. canola oil. cocoa powder. white chocolate chips. unsalted butter. white sprinkles. vanilla extract. baking powder. salt.",
+        "figure": "<img alt=\"chocolate chip chiffon cake.\" class=\"modal_img\" src=\"img_menu/cake_chocolate_chiffon_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "mini pineapple cube cakes.": {
         "categories": [
             "cake",
