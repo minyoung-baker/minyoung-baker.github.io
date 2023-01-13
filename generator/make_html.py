@@ -2,6 +2,7 @@
 
 import html
 import json
+from datetime import date
 
 
 def get_categories(inv: dict):
@@ -305,7 +306,7 @@ MyInventory
     <!-- <i class="fa fa-linkedin w3-hover-opacity"></i> -->
   </div>
   <div class="w3-text-white w3-small w3-lighter">
-    Copyright <i class="far fa-copyright"></i> 2021 minnie bakery LLC.  All rights reserved.
+    Copyright <i class="far fa-copyright"></i> THISYEAR minnie bakery LLC.  All rights reserved.
     <br>
     Our website is cookie free (except for the edible variety).
   </div>
@@ -414,6 +415,7 @@ MyInventory
     out_str = out_str.replace("MyCategoryFilters", get_category_filters(categories))
     out_str = out_str.replace("MyNewInventory", get_inventory_html(inv, newest=6))
     out_str = out_str.replace("MyInventory", get_inventory_html(inv))
+    out_str = out_str.replace("THISYEAR", str(date.today().year))
     return out_str
 
 
