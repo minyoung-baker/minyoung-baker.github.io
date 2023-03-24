@@ -483,18 +483,6 @@
         "ingredients": "white flour. walnuts. powdered sugar. sugar. heavy whipping cream. unsalted butter. almond flour. eggs. water. egg yolks. salt.",
         "figure": "<img alt=\"engadiner nusstorte (salted caramel with walnut tart).\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/engadiner_nusstorte_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "apple galette with salted caramel.": {
-        "categories": [
-            "tart",
-            "apple",
-            "caramel",
-            "international"
-        ],
-        "price": 22,
-        "notes": "",
-        "ingredients": "apples. white sugar. white flour. unsalted butter. heavy whipping cream. water. egg yolks. cinnamon powder. salt.",
-        "figure": "<img alt=\"apple galette with salted caramel.\" class=\"modal_img\" src=\"img_menu/galette_apple_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "glazed lemon madeleines.": {
         "categories": [
             "madeleines",
@@ -678,28 +666,6 @@
         "notes": "Friday only",
         "ingredients": "white flour. whole milk. sugar. dulce de leche. unsalted butter. heavy whipping cream. eggs. yeast. salt.",
         "figure": "<img alt=\"dulce de leche twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_dulce_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "marshmallow brownie.": {
-        "categories": [
-            "brownie",
-            "chocolate",
-            "dessert"
-        ],
-        "price": 15,
-        "notes": "",
-        "ingredients": "unsalted butter. eggs. white sugar. semi-sweet chocolate chips. marshmallows. brown sugar. white flour. cocoa powder. baking powder. salt.",
-        "figure": "<img alt=\"marshmallow brownie.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/brownie_marshmallow_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "chocolate-chip brownie.": {
-        "categories": [
-            "brownie",
-            "chocolate",
-            "dessert"
-        ],
-        "price": 15,
-        "notes": "",
-        "ingredients": "white sugar. unsalted butter. semi-sweet chocolate chips. eggs. cocoa powder. white flour. vanilla extract. powdered sugar. salt.",
-        "figure": "<img alt=\"chocolate-chip brownie.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/brownie_chocolate_chip_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "pecan tart.": {
         "categories": [
