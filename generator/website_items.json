@@ -70,16 +70,6 @@
         "ingredients": "sugar. white flour. sour cream. unsalted butter. eggs. cinnamon powder. baking powder. vanilla extract. salt.",
         "figure": "<img alt=\"cinnamon coffee cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_cinnamon_coffee_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "glazed raspberry madeleines.": {
-        "categories": [
-            "madeleines",
-            "raspberry"
-        ],
-        "price": 17,
-        "notes": "",
-        "ingredients": "raspberry compote. powdered sugar. white flour. unsalted butter. eggs. sugar. dried cranberries. water. baking powder. salt.",
-        "figure": "<img alt=\"glazed raspberry madeleines.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/madeleine_raspberry_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "kahl\u00faa mocha madeleines.": {
         "categories": [
             "madeleines",
@@ -234,16 +224,6 @@
         "notes": "6 pieces",
         "ingredients": "sugar. unsalted butter. white flour. apples. egg whites. almond flour. rice syrup. cinnamon powder.",
         "figure": "<img alt=\"apple crumble financier.\" class=\"modal_img\" src=\"img_menu/financier_apple_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "s'mores scones.": {
-        "categories": [
-            "scones",
-            "chocolate"
-        ],
-        "price": 16,
-        "notes": "",
-        "ingredients": "white flour. unsalted butter. sugar. whole milk. heavy whipping cream. marshmallows. semi-sweet chocolate. egg whites. graham cracker crumbs. semi-sweet chocolate chips. baking powder. salt.",
-        "figure": "<img alt=\"s'mores scones.\" class=\"modal_img\" src=\"img_menu/scone_smores_th400.jpg\" style=\"width:100%\"/>"
     },
     "peanut butter muffins.": {
         "categories": [
@@ -425,17 +405,6 @@
         "notes": "",
         "ingredients": "strawberries. unsalted butter. white flour. powdered sugar. almond flour. eggs. strawberry jam. vanilla extract.",
         "figure": "<img alt=\"mini strawberry tarts.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_strawberry_mini_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "oreo cake.": {
-        "categories": [
-            "cake",
-            "dessert",
-            "oreo"
-        ],
-        "price": 24,
-        "notes": "8\u2033 / 20\u00a0cm",
-        "ingredients": "unsalted butter. sugar. eggs. crumbled Oreo cookies. white flour. powdered sugar. heavy whipping cream. cocoa powder. water. baking powder. salt.",
-        "figure": "<img alt=\"oreo cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_oreo_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "glazed oreo madeleines.": {
         "categories": [
@@ -719,16 +688,6 @@
         "notes": "Friday only",
         "ingredients": "white flour. whole milk. sugar. coconut flakes. heavy whipping cream. eggs. unsalted butter. egg yolks. coconut powder. salt. yeast.",
         "figure": "<img alt=\"coconut spread twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_coconut_twist_01.jpg\" style=\"width:100%\"/>"
-    },
-    "cinnamon pound cake.": {
-        "categories": [
-            "pound cake",
-            "cinnamon"
-        ],
-        "price": 14,
-        "notes": "",
-        "ingredients": "white flour. whole milk. sugar. canola oil. eggs. vanilla extract. baking powder. salt. cinnamon.",
-        "figure": "<img alt=\"cinnamon pound cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/pound_cake_cinnamon_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "nutella\u00ae twist bread.": {
         "categories": [
