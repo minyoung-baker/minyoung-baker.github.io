@@ -204,17 +204,6 @@
         "ingredients": "unsalted butter. sugar. egg whites. almond flour. white flour. dark chocolate. rice syrup. cocoa powder. salt.",
         "figure": "<img alt=\"salted chocolate financier.\" class=\"modal_img\" src=\"img_menu/financier_salted_chocolate_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "lemington (chocolate coconut) financier.": {
-        "categories": [
-            "financiers",
-            "coconut",
-            "chocolate"
-        ],
-        "price": 19,
-        "notes": "6 pieces",
-        "ingredients": "unsalted butter. sugar. egg whites. white flour. semi-sweet chocolate chips. almond flour. heavy whipping cream. sweetened coconut flakes. rice syrup.",
-        "figure": "<img alt=\"lemington (chocolate coconut) financier.\" class=\"modal_img\" src=\"img_menu/financier_coconut_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "apple crumble financier.": {
         "categories": [
             "financiers",
@@ -384,17 +373,6 @@
         "ingredients": "powdered sugar. unsalted butter. eggs. semi-sweet chocolate. white flour. sugar. almond flour. cocoa powder. heavy whipping cream.",
         "figure": "<img alt=\"mini triple chocolate tarts.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_triple_chocolate_mini_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "glazed salted caramel lotus madeleines.": {
-        "categories": [
-            "madeleines",
-            "caramel",
-            "glazed"
-        ],
-        "price": 17,
-        "notes": "",
-        "ingredients": "sugar. unsalted butter. eggs. white flour. heavy whipping cream. powdered sugar. caramel sauce. lotus Biscoff. water. ground lotus Biscoff. salt. baking powder.",
-        "figure": "<img alt=\"glazed salted caramel lotus madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_lotus_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "mini strawberry tarts.": {
         "categories": [
             "tart",
@@ -438,19 +416,6 @@
         "notes": "",
         "ingredients": "unsalted butter. eggs. sugar. white flour. powdered sugar. water. earl grey tea leaves. baking powder. salt.",
         "figure": "<img alt=\"glazed earl grey madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_earl_grey_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "engadiner nusstorte (salted caramel with walnut tart).": {
-        "categories": [
-            "tart",
-            "dessert",
-            "walnut",
-            "international",
-            "caramel"
-        ],
-        "price": 30,
-        "notes": "",
-        "ingredients": "white flour. walnuts. powdered sugar. sugar. heavy whipping cream. unsalted butter. almond flour. eggs. water. egg yolks. salt.",
-        "figure": "<img alt=\"engadiner nusstorte (salted caramel with walnut tart).\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/engadiner_nusstorte_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "glazed lemon madeleines.": {
         "categories": [
