@@ -346,7 +346,7 @@
             "lemon",
             "glazed"
         ],
-        "price": 16,
+        "price": 17,
         "notes": "",
         "ingredients": "white flour. unsalted butter. heavy whipping cream. powdered sugar. sugar. lemon juice. baking powder. lemon zest. salt.",
         "figure": "<img alt=\"glazed lemon scones.\" class=\"modal_img\" src=\"img_menu/scone_lemon_01_th400.jpg\" style=\"width:100%\"/>"
@@ -357,7 +357,7 @@
             "fig",
             "glazed"
         ],
-        "price": 16,
+        "price": 17,
         "notes": "",
         "ingredients": "white flour. unsalted butter. sliced figs. powdered sugar. whole milk. heavy whipping cream. sugar. eggs. water. baking powder. salt.",
         "figure": "<img alt=\"glazed fig scones.\" class=\"modal_img\" src=\"img_menu/scone_fig_glazed_01_th400.jpg\" style=\"width:100%\"/>"
@@ -498,7 +498,7 @@
             "lemon",
             "dessert"
         ],
-        "price": 22,
+        "price": 23,
         "notes": "",
         "ingredients": "water. sugar. white flour. lemon juice. unsalted butter. powdered sugar. eggs. cornstarch. almond flour. lemon zest. salt.",
         "figure": "<img alt=\"lemon tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_lemon_01_th400.jpg\" style=\"width:100%\"/>"
@@ -649,7 +649,7 @@
             "twist bread",
             "coconut"
         ],
-        "price": 12,
+        "price": 13,
         "notes": "Friday only",
         "ingredients": "white flour. whole milk. sugar. coconut flakes. heavy whipping cream. eggs. unsalted butter. egg yolks. coconut powder. salt. yeast.",
         "figure": "<img alt=\"coconut spread twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_coconut_twist_01.jpg\" style=\"width:100%\"/>"
