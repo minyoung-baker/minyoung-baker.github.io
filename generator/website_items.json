@@ -8,6 +8,16 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "mini peach tarts.": {
+        "categories": [
+            "tart",
+            "peach"
+        ],
+        "price": 26,
+        "notes": "seasonal availability",
+        "ingredients": "fresh peach. unsalted butter. white flour. powdered sugar. almond flour. eggs. peach jam. vanilla extract.",
+        "figure": "<img alt=\"mini peach tarts.\" class=\"modal_img\" src=\"img_menu/tart_mini_peach_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "chocolate chip chiffon cake.": {
         "categories": [
             "cake",
