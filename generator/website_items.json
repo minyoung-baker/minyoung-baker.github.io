@@ -471,15 +471,6 @@
         "ingredients": "semi-sweet chocolate. heavy whipping cream. egg whites. sugar. apricot jam. unsalted butter. white flour. egg yolks. Lindt Lindor balls. vanilla extract.",
         "figure": "<img alt=\"sacher torte.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/sacher_torte_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "orange pound cake.": {
-        "categories": [
-            "pound cake"
-        ],
-        "price": 18,
-        "notes": "",
-        "ingredients": "sugar. white flour. unsalted butter. eggs. orange. sour cream. water. orange marmalade. orange peel. orange juice. orange zest. baking powder. salt.",
-        "figure": "<img alt=\"orange pound cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/pound_cake_orange_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "pumpkin tart.": {
         "categories": [
             "tart",
@@ -490,17 +481,6 @@
         "notes": "",
         "ingredients": "pumpkin. white flour. sugar. powdered sugar. eggs. heavy whipping cream. condensed milk. unsalted butter. almond flour. cornstarch. pumpkin spice. cinnamon powder. salt.",
         "figure": "<img alt=\"pumpkin tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_pumpkin_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "kahl\u00faa mocha pound cake.": {
-        "categories": [
-            "pound cake",
-            "mocha",
-            "glazed"
-        ],
-        "price": 18,
-        "notes": "",
-        "ingredients": "white flour. unsalted butter. sugar. eggs. powdered sugar. walnuts. Kahl\\'{u}a. coffee. water. baking powder. salt.",
-        "figure": "<img alt=\"kahl\u00faa mocha pound cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/kahlua_mocha_pound_cake_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "lemon tart.": {
         "categories": [
@@ -579,17 +559,6 @@
         "notes": "Friday only",
         "ingredients": "white flour. brown sugar. whole milk. unsalted butter. honey. pecans. heavy whipping cream. eggs. sugar. yeast. salt. cinnamon powder.",
         "figure": "<img alt=\"caramel & pecan sticky buns.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_sticky_bun_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "lemon & poppy seed pound cake.": {
-        "categories": [
-            "pound cake",
-            "lemon",
-            "glazed"
-        ],
-        "price": 18,
-        "notes": "",
-        "ingredients": "sugar. white flour. unsalted butter. eggs. heavy whipping cream. lemon juice. poppy seeds. baking powder. lemon zest. salt.",
-        "figure": "<img alt=\"lemon & poppy seed pound cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/pound_cake_lemon_poppy_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "banana walnut bread.": {
         "categories": [
