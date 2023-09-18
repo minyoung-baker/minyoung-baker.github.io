@@ -8,6 +8,33 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "mini orange cube cakes.": {
+        "categories": [
+            "cake"
+        ],
+        "price": 23,
+        "notes": "",
+        "ingredients": "sugar. white flour. unsalted butter. eggs. powdered sugar. orange marmalade. orange. water. orange juice. heavy whipping cream. orange zest. baking powder. salt.",
+        "figure": "<img alt=\"mini orange cube cakes.\" class=\"modal_img\" src=\"img_menu/cake_mini_orange_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "mini apricot cube cakes.": {
+        "categories": [
+            "cake"
+        ],
+        "price": 23,
+        "notes": "",
+        "ingredients": "white flour. sugar. unsalted butter. eggs. apricot. powdered sugar. apricot, dried. apricot juice. heavy whipping cream. baking powder. salt. food coloring (orange).",
+        "figure": "<img alt=\"mini apricot cube cakes.\" class=\"modal_img\" src=\"img_menu/cake_mini_apricot_01_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "mini green grape tarts.": {
+        "categories": [
+            "tart"
+        ],
+        "price": 26,
+        "notes": "",
+        "ingredients": "fresh green grapes. unsalted butter. powdered sugar. white flour. almond flour. eggs. apple jam. vanilla extract.",
+        "figure": "<img alt=\"mini green grape tarts.\" class=\"modal_img\" src=\"img_menu/tart_mini_grape_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "mini peach tarts.": {
         "categories": [
             "tart",
