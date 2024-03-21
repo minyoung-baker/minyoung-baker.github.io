@@ -8,6 +8,15 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "canel\u00e9.": {
+        "categories": [
+            "international"
+        ],
+        "price": 20,
+        "notes": "",
+        "ingredients": "whole milk. sugar. white flour. eggs. egg yolks. rum. unsalted butter. vanilla bean powder.",
+        "figure": "<img alt=\"canel\u00e9.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/canele_01_th400.jpg\" style=\"width:100%\"/>"
+    },
     "petite lemon cakes.": {
         "categories": [
             "gift"
