@@ -8,6 +8,29 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "mini snickers\u00ae gugelhupf.": {
+        "categories": [
+            "gugelhupf",
+            "cake",
+            "dessert"
+        ],
+        "price": 24,
+        "notes": "",
+        "ingredients": "white flour. unsalted butter. sugar. eggs. heavy whipping cream. Snickers. caramel sauce. semi-sweet chocolate. peanuts. Twix powder. cocoa powder. baking powder. salt.",
+        "figure": "<img alt=\"mini snickers\u00ae gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_snickers_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "mini nutella\u00ae gugelhupf.": {
+        "categories": [
+            "gugelhupf",
+            "cake",
+            "nutella",
+            "dessert"
+        ],
+        "price": 24,
+        "notes": "",
+        "ingredients": "Nutella. powdered sugar. white flour. unsalted butter. sugar. eggs. creme-filled wafers. heavy whipping cream. water. baking powder. salt.",
+        "figure": "<img alt=\"mini nutella\u00ae gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_nutella_th400.jpg\" style=\"width:100%\"/>"
+    },
     "canel\u00e9.": {
         "categories": [
             "international"
