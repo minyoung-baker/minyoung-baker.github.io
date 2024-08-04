@@ -39,33 +39,36 @@
 
 <!-- From: https://hibbard.eu/display-ui-blocking-overlay-on-page-load/ -->
 <!-- To disable, comment out until ... -->
-<!-- <div id="announcement"> -->
-<!--   <h2>temporarily closed.</h2> -->
-<!--   <p>minnie bakery is temporarily closed this summer.</p> -->
-<!--   <p>we expect to reopen for normal business and be participating in the Los Alamos Farmer's Market in late July.</p> -->
-<!--   <a id="close" href="#">Close</a> -->
-<!-- </div> -->
-<!-- <script src="https://code.jquery.com/jquery-latest.js"></script> -->
-<!-- <script> -->
-<!--   jQuery.fn.center = function () { -->
-<!--     var w = $(window); -->
-<!--     this.css("position","absolute"); -->
-<!--     this.css("top", Math.max(0, ( -->
-<!--       (w.height() - $(this).outerHeight()) / 2) + w.scrollTop() -->
-<!--     ) + "px"); -->
-<!--     this.css("left", Math.max(0, ( -->
-<!--       (w.width() - $(this).outerWidth()) / 2) + w.scrollLeft() -->
-<!--     ) + "px"); -->
-<!--     return this; -->
-<!--   } -->
-<!--   $('<div>', {id : 'overlay'}).appendTo('body'); -->
-<!--   $("#announcement").fadeIn('slow').center(); -->
-<!--   $("#close").click(function(e){ -->
-<!--     $("#announcement").remove(); -->
-<!--     $("#overlay").remove(); -->
-<!--     e.preventDefault(); -->
-<!--   }); -->
-<!-- </script> -->
+<!--
+<div id="announcement">
+  <h2>financier special on wednesday.</h2>
+  <p>combo pack: two each of apple crumble, chocolate coconut, and salted chocolate financiers.</p>
+  <p>$19.</p>
+  <p>the normal menu is still available that day.</p>
+  <a id="close" href="#">Close</a>
+</div>
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script>
+  jQuery.fn.center = function () {
+    var w = $(window);
+    this.css("position","absolute");
+    this.css("top", Math.max(0, (
+      (w.height() - $(this).outerHeight()) / 2) + w.scrollTop()
+    ) + "px");
+    this.css("left", Math.max(0, (
+      (w.width() - $(this).outerWidth()) / 2) + w.scrollLeft()
+    ) + "px");
+    return this;
+  }
+  $('<div>', {id : 'overlay'}).appendTo('body');
+  $("#announcement").fadeIn('slow').center();
+  $("#close").click(function(e){
+    $("#announcement").remove();
+    $("#overlay").remove();
+    e.preventDefault();
+  });
+</script>
+-->
 <!-- ... here. -->
 
 <!-- Parallax Image with Logo -->
@@ -124,6 +127,20 @@
 <div class="w3-white w3-display-container w3-padding-32 w3-center">
   <ol class="menuitems">
 
+    <li class="menuitem" data-category="cake dessert nutella">
+    <img alt="nutella® and raspberry spiral cakes." class="modal_img" src="img_menu/cake_spiral_nutella_raspberry_mini_th400.jpg" style="width:100%"/>
+    <h2>nutella&#174; and raspberry spiral cakes.</h2>
+    <p class="price">$26</p>
+    <p class="ingredients">eggs. sugar. semi-sweet chocolate. Nutella. raspberry jam. heavy whipping cream. white flour. whole milk. canola oil. unsalted butter. chocolate syrup. Lindt Lindor balls. cocoa powder. raspberries. rice syrup. vanilla extract. baking powder. salt.</p>
+    </li>
+
+    <li class="menuitem" data-category="gift almond dessert">
+    <img alt="chocolate almond bars." class="modal_img" src="img_menu/bar_almond_florentine_chocolate_mini_th400.jpg" style="width:100%"/>
+    <h2>chocolate almond bars.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">sugar. white flour. unsalted butter. sliced almonds. semi-sweet chocolate. honey. rice syrup. eggs. heavy whipping cream. water. almond flour. salt.</p>
+    </li>
+
     <li class="menuitem" data-category="gugelhupf cake dessert">
     <img alt="mini snickers® gugelhupf." class="modal_img" src="img_menu/gugelhupf_mini_snickers_th400.jpg" style="width:100%"/>
     <h2>mini snickers&#174; gugelhupf.</h2>
@@ -150,20 +167,6 @@
     <h2>petite lemon cakes.</h2>
     <p class="price">$21</p>
     <p class="ingredients">sugar. unsalted butter. white flour. eggs. powdered sugar. almond flour. lemon juice. lemon zest. baking powder. salt.</p>
-    </li>
-
-    <li class="menuitem" data-category="gift">
-    <img alt="matcha tigre cakes." class="modal_img" src="img_menu/tigre_matcha_th400.jpg" style="width:100%"/>
-    <h2>matcha tigre cakes.</h2>
-    <p class="price">$18</p>
-    <p class="ingredients">unsalted butter. egg whites. sugar. almond flour. white chocolate. rice syrup. white flour. heavy whipping cream. matcha powder. gold leaf.</p>
-    </li>
-
-    <li class="menuitem" data-category="gift chocolate">
-    <img alt="chocolate chip tigre cakes." class="modal_img" src="img_menu/tigre_chocolate_chip_th400.jpg" style="width:100%"/>
-    <h2>chocolate chip tigre cakes.</h2>
-    <p class="price">$18</p>
-    <p class="ingredients">unsalted butter. egg whites. sugar. almond flour. semi-sweet chocolate. rice syrup. white flour. semi-sweet chocolate chips. heavy whipping cream. gold leaf.</p>
     </li>
 
   </ol>
@@ -383,6 +386,13 @@
     </li>
 
     <li class="menuitem" data-category="cake dessert nutella">
+    <img alt="nutella® and raspberry spiral cakes." class="modal_img" src="img_menu/cake_spiral_nutella_raspberry_mini_th400.jpg" style="width:100%"/>
+    <h2>nutella&#174; and raspberry spiral cakes.</h2>
+    <p class="price">$26</p>
+    <p class="ingredients">eggs. sugar. semi-sweet chocolate. Nutella. raspberry jam. heavy whipping cream. white flour. whole milk. canola oil. unsalted butter. chocolate syrup. Lindt Lindor balls. cocoa powder. raspberries. rice syrup. vanilla extract. baking powder. salt.</p>
+    </li>
+
+    <li class="menuitem" data-category="cake dessert nutella">
     <img alt="nutella® spiral cake." class="modal_img" onmouseout="unhover(this);" onmouseover="hover(this);" src="img_menu/cake_spiral_nutella_01_th400.jpg" style="width:100%"/>
     <h2>nutella&#174; spiral cake.</h2>
     <p class="price">$33  (8&#8243; / 20&#160;cm)</p>
@@ -457,6 +467,13 @@
     <h2>blueberry crumble bar.</h2>
     <p class="price">$23</p>
     <p class="ingredients">white flour. sugar. blueberries. unsalted butter. eggs. lemon juice. cornstarch. baking powder. salt.</p>
+    </li>
+
+    <li class="menuitem" data-category="gift almond dessert">
+    <img alt="chocolate almond bars." class="modal_img" src="img_menu/bar_almond_florentine_chocolate_mini_th400.jpg" style="width:100%"/>
+    <h2>chocolate almond bars.</h2>
+    <p class="price">$22</p>
+    <p class="ingredients">sugar. white flour. unsalted butter. sliced almonds. semi-sweet chocolate. honey. rice syrup. eggs. heavy whipping cream. water. almond flour. salt.</p>
     </li>
 
     <li class="menuitem" data-category="gift chocolate">

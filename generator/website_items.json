@@ -8,6 +8,28 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "nutella\u00ae and raspberry spiral cakes.": {
+        "categories": [
+            "cake",
+            "dessert",
+            "nutella"
+        ],
+        "price": 26,
+        "notes": "",
+        "ingredients": "eggs. sugar. semi-sweet chocolate. Nutella. raspberry jam. heavy whipping cream. white flour. whole milk. canola oil. unsalted butter. chocolate syrup. Lindt Lindor balls. cocoa powder. raspberries. rice syrup. vanilla extract. baking powder. salt.",
+        "figure": "<img alt=\"nutella\u00ae and raspberry spiral cakes.\" class=\"modal_img\" src=\"img_menu/cake_spiral_nutella_raspberry_mini_th400.jpg\" style=\"width:100%\"/>"
+    },
+    "chocolate almond bars.": {
+        "categories": [
+            "gift",
+            "almond",
+            "dessert"
+        ],
+        "price": 22,
+        "notes": "",
+        "ingredients": "sugar. white flour. unsalted butter. sliced almonds. semi-sweet chocolate. honey. rice syrup. eggs. heavy whipping cream. water. almond flour. salt.",
+        "figure": "<img alt=\"chocolate almond bars.\" class=\"modal_img\" src=\"img_menu/bar_almond_florentine_chocolate_mini_th400.jpg\" style=\"width:100%\"/>"
+    },
     "mini snickers\u00ae gugelhupf.": {
         "categories": [
             "gugelhupf",
