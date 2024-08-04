@@ -621,18 +621,6 @@
         "ingredients": "white flour. sugar. blueberries. unsalted butter. eggs. lemon juice. cornstarch. baking powder. salt.",
         "figure": "<img alt=\"blueberry crumble bar.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/crumble_blueberry_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "almond florentine.": {
-        "categories": [
-            "gift",
-            "almond",
-            "dessert",
-            "international"
-        ],
-        "price": 23,
-        "notes": "",
-        "ingredients": "sugar. white flour. unsalted butter. sliced almonds. honey. rice syrup. eggs. heavy whipping cream. water. almond flour. salt.",
-        "figure": "<img alt=\"almond florentine.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_almond_florentine_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "chocolate almond tart.": {
         "categories": [
             "tart",
@@ -676,16 +664,6 @@
         "notes": "Wednesday only",
         "ingredients": "white flour. brown sugar. whole milk. unsalted butter. honey. pecans. heavy whipping cream. eggs. sugar. yeast. salt. cinnamon powder.",
         "figure": "<img alt=\"caramel & pecan sticky buns.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_sticky_bun_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "banana walnut bread.": {
-        "categories": [
-            "pound cake",
-            "walnut"
-        ],
-        "price": 16,
-        "notes": "",
-        "ingredients": "bananas. white flour. sugar. canola oil. walnuts. eggs. buttermilk. vanilla extract. baking soda. salt. cinnamon powder.",
-        "figure": "<img alt=\"banana walnut bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_banana_walnut_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "dulce de leche twist bread.": {
         "categories": [
