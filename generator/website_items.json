@@ -8,6 +8,16 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
+    "unicorn and cookies & cream mini gugelhupf combination.": {
+        "categories": [
+            "cake",
+            "dessert"
+        ],
+        "price": 23,
+        "notes": "3 each",
+        "ingredients": "unsalted butter. sugar. eggs. white flour. powdered sugar. heavy whipping cream. rainbow cereal. crumbled Oreo cookies. water. baking powder. salt.",
+        "figure": "<img alt=\"unicorn and cookies & cream mini gugelhupf combination.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_combo_unicorn_cookies_cream_th400.jpg\" style=\"width:100%\"/>"
+    },
     "nutella\u00ae and raspberry spiral cakes.": {
         "categories": [
             "cake",
@@ -15,7 +25,7 @@
             "nutella"
         ],
         "price": 26,
-        "notes": "",
+        "notes": "2 each",
         "ingredients": "eggs. sugar. semi-sweet chocolate. Nutella. raspberry jam. heavy whipping cream. white flour. whole milk. canola oil. unsalted butter. chocolate syrup. Lindt Lindor balls. cocoa powder. raspberries. rice syrup. vanilla extract. baking powder. salt.",
         "figure": "<img alt=\"nutella\u00ae and raspberry spiral cakes.\" class=\"modal_img\" src=\"img_menu/cake_spiral_nutella_raspberry_mini_th400.jpg\" style=\"width:100%\"/>"
     },
