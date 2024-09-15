@@ -363,26 +363,6 @@
         "ingredients": "sugar. unsalted butter. white flour. apples. egg whites. almond flour. rice syrup. cinnamon powder.",
         "figure": "<img alt=\"apple crumble financier.\" class=\"modal_img\" src=\"img_menu/financier_apple_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "peanut butter muffins.": {
-        "categories": [
-            "muffins",
-            "peanut"
-        ],
-        "price": 17,
-        "notes": "",
-        "ingredients": "peanut butter. white flour. whole milk. sugar. eggs. peanut-butter chips. peanuts. baking powder.",
-        "figure": "<img alt=\"peanut butter muffins.\" class=\"modal_img\" src=\"img_menu/muffin_peanut_butter_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "blueberry crumble muffins.": {
-        "categories": [
-            "muffins",
-            "blueberry"
-        ],
-        "price": 17,
-        "notes": "",
-        "ingredients": "white flour. sugar. blueberries. unsalted butter. eggs. heavy whipping cream. sour cream. whole milk. baking powder. salt.",
-        "figure": "<img alt=\"blueberry crumble muffins.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/muffin_blueberry_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "mini red velvet gugelhupf.": {
         "categories": [
             "gugelhupf",
