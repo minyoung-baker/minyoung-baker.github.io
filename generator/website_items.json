@@ -11,6 +11,7 @@
     "unicorn and cookies & cream mini gugelhupf combination.": {
         "categories": [
             "cake",
+            "gugelhupf",
             "dessert"
         ],
         "price": 23,
@@ -83,6 +84,8 @@
     },
     "matcha tigre cakes.": {
         "categories": [
+            "tigre",
+            "international",
             "gift"
         ],
         "price": 18,
@@ -93,6 +96,8 @@
     "chocolate chip tigre cakes.": {
         "categories": [
             "gift",
+            "tigre",
+            "international",
             "chocolate"
         ],
         "price": 18,

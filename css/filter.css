@@ -89,6 +89,7 @@ input[type="radio"] {
 [value="scones"]:checked ~ .filters [for="scones"],
 [value="strawberry"]:checked ~ .filters [for="strawberry"],
 [value="tart"]:checked ~ .filters [for="tart"],
+[value="tigre"]:checked ~ .filters [for="tigre"],
 [value="twistbread"]:checked ~ .filters [for="twistbread"],
 [value="walnut"]:checked ~ .filters [for="walnut"] {
   background: var(--brown);
@@ -134,6 +135,7 @@ input[type="radio"] {
 [value="scones"]:checked ~ .menuitems .menuitem:not([data-category~="scones"]),
 [value="strawberry"]:checked ~ .menuitems .menuitem:not([data-category~="strawberry"]),
 [value="tart"]:checked ~ .menuitems .menuitem:not([data-category~="tart"]),
+[value="tigre"]:checked ~ .menuitems .menuitem:not([data-category~="tigre"]),
 [value="twistbread"]:checked ~ .menuitems .menuitem:not([data-category~="twistbread"]),
 [value="walnut"]:checked ~ .menuitems .menuitem:not([data-category~="walnut"]) {
   display: none;
