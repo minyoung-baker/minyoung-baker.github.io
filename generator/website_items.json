@@ -692,59 +692,6 @@
         "ingredients": "apples. water. white flour. unsalted butter. sugar. cornstarch. egg yolks. cinnamon powder. salt.",
         "figure": "<img alt=\"lattice apple pie.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/pie_lattice_apple_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "milk cream bread.": {
-        "categories": [
-            "bread"
-        ],
-        "price": 13,
-        "notes": "Wednesday only",
-        "ingredients": "whole milk. white flour. sugar. heavy whipping cream. eggs. unsalted butter. cornstarch. vanilla extract. yeast. salt.",
-        "figure": "<img alt=\"milk cream bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_milk_cream_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "peanut butter twist bread.": {
-        "categories": [
-            "bread",
-            "twist bread",
-            "peanut"
-        ],
-        "price": 13,
-        "notes": "Wednesday only",
-        "ingredients": "white flour. whole milk. sugar. peanut butter. unsalted butter. heavy whipping cream. peanuts. eggs. yeast. salt.",
-        "figure": "<img alt=\"peanut butter twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_peanut_twist_01.jpg\" style=\"width:100%\"/>"
-    },
-    "coconut spread twist bread.": {
-        "categories": [
-            "bread",
-            "twist bread",
-            "coconut"
-        ],
-        "price": 13,
-        "notes": "Wednesday only",
-        "ingredients": "white flour. whole milk. sugar. coconut flakes. heavy whipping cream. eggs. unsalted butter. egg yolks. coconut powder. salt. yeast.",
-        "figure": "<img alt=\"coconut spread twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_coconut_twist_01.jpg\" style=\"width:100%\"/>"
-    },
-    "nutella\u00ae twist bread.": {
-        "categories": [
-            "bread",
-            "nutella",
-            "dessert"
-        ],
-        "price": 14,
-        "notes": "Wednesday only",
-        "ingredients": "white flour. whole milk. Nutella. heavy whipping cream. sugar. eggs. water. chocolate syrup. yeast. salt.",
-        "figure": "<img alt=\"nutella\u00ae twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_nutella_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "cinnamon roll bread.": {
-        "categories": [
-            "bread",
-            "cinnamon",
-            "dessert"
-        ],
-        "price": 14,
-        "notes": "Wednesday only",
-        "ingredients": "white flour. whole milk. brown sugar. heavy whipping cream. powdered sugar. condensed milk. eggs. sugar. unsalted butter. cinnamon. water. yeast. salt.",
-        "figure": "<img alt=\"cinnamon roll bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cinnamon_rolls_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "apple & almond tart.": {
         "categories": [
             "tart",
