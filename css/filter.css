@@ -57,9 +57,7 @@ input[type="radio"] {
 [value="almond"]:checked ~ .filters [for="almond"],
 [value="apple"]:checked ~ .filters [for="apple"],
 [value="blueberry"]:checked ~ .filters [for="blueberry"],
-[value="bread"]:checked ~ .filters [for="bread"],
 [value="cake"]:checked ~ .filters [for="cake"],
-[value="caramel"]:checked ~ .filters [for="caramel"],
 [value="chocolate"]:checked ~ .filters [for="chocolate"],
 [value="cinnamon"]:checked ~ .filters [for="cinnamon"],
 [value="coconut"]:checked ~ .filters [for="coconut"],
@@ -89,7 +87,6 @@ input[type="radio"] {
 [value="strawberry"]:checked ~ .filters [for="strawberry"],
 [value="tart"]:checked ~ .filters [for="tart"],
 [value="tigre"]:checked ~ .filters [for="tigre"],
-[value="twistbread"]:checked ~ .filters [for="twistbread"],
 [value="walnut"]:checked ~ .filters [for="walnut"] {
   background: var(--brown);
   color: #ffffff;
@@ -102,9 +99,7 @@ input[type="radio"] {
 [value="almond"]:checked ~ .menuitems .menuitem:not([data-category~="almond"]),
 [value="apple"]:checked ~ .menuitems .menuitem:not([data-category~="apple"]),
 [value="blueberry"]:checked ~ .menuitems .menuitem:not([data-category~="blueberry"]),
-[value="bread"]:checked ~ .menuitems .menuitem:not([data-category~="bread"]),
 [value="cake"]:checked ~ .menuitems .menuitem:not([data-category~="cake"]),
-[value="caramel"]:checked ~ .menuitems .menuitem:not([data-category~="caramel"]),
 [value="chocolate"]:checked ~ .menuitems .menuitem:not([data-category~="chocolate"]),
 [value="cinnamon"]:checked ~ .menuitems .menuitem:not([data-category~="cinnamon"]),
 [value="coconut"]:checked ~ .menuitems .menuitem:not([data-category~="coconut"]),
@@ -134,7 +129,6 @@ input[type="radio"] {
 [value="strawberry"]:checked ~ .menuitems .menuitem:not([data-category~="strawberry"]),
 [value="tart"]:checked ~ .menuitems .menuitem:not([data-category~="tart"]),
 [value="tigre"]:checked ~ .menuitems .menuitem:not([data-category~="tigre"]),
-[value="twistbread"]:checked ~ .menuitems .menuitem:not([data-category~="twistbread"]),
 [value="walnut"]:checked ~ .menuitems .menuitem:not([data-category~="walnut"]) {
   display: none;
 }

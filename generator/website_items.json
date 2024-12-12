@@ -648,28 +648,6 @@
         "ingredients": "white flour. sugar. unsalted butter. eggs. milk. sour cream. blueberries. raspberries. blackberries. baking powder. vanilla extract. salt.",
         "figure": "<img alt=\"very berry coffee cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/coffee_cake_triple_berry_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "caramel & pecan sticky buns.": {
-        "categories": [
-            "bread",
-            "pecan",
-            "caramel",
-            "glazed"
-        ],
-        "price": 15,
-        "notes": "Wednesday only",
-        "ingredients": "white flour. brown sugar. whole milk. unsalted butter. honey. pecans. heavy whipping cream. eggs. sugar. yeast. salt. cinnamon powder.",
-        "figure": "<img alt=\"caramel & pecan sticky buns.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_sticky_bun_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "dulce de leche twist bread.": {
-        "categories": [
-            "bread",
-            "twist bread"
-        ],
-        "price": 13,
-        "notes": "Wednesday only",
-        "ingredients": "white flour. whole milk. sugar. dulce de leche. unsalted butter. heavy whipping cream. eggs. yeast. salt.",
-        "figure": "<img alt=\"dulce de leche twist bread.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/bread_dulce_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "pecan tart.": {
         "categories": [
             "tart",
