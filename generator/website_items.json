@@ -14,7 +14,7 @@
             "gugelhupf",
             "dessert"
         ],
-        "price": 23,
+        "price": 24,
         "notes": "3 each",
         "ingredients": "unsalted butter. sugar. eggs. white flour. powdered sugar. heavy whipping cream. rainbow cereal. crumbled Oreo cookies. water. baking powder. salt.",
         "figure": "<img alt=\"unicorn and cookies & cream mini gugelhupf combination.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_combo_unicorn_cookies_cream_th400.jpg\" style=\"width:100%\"/>"
@@ -25,7 +25,7 @@
             "dessert",
             "nutella"
         ],
-        "price": 26,
+        "price": 27,
         "notes": "2 each",
         "ingredients": "eggs. sugar. semi-sweet chocolate. Nutella. raspberry jam. heavy whipping cream. white flour. whole milk. canola oil. unsalted butter. chocolate syrup. Lindt Lindor balls. cocoa powder. raspberries. rice syrup. vanilla extract. baking powder. salt.",
         "figure": "<img alt=\"nutella\u00ae and raspberry spiral cakes.\" class=\"modal_img\" src=\"img_menu/cake_spiral_nutella_raspberry_mini_th400.jpg\" style=\"width:100%\"/>"
@@ -36,7 +36,7 @@
             "almond",
             "dessert"
         ],
-        "price": 22,
+        "price": 23,
         "notes": "",
         "ingredients": "sugar. white flour. unsalted butter. sliced almonds. semi-sweet chocolate. honey. rice syrup. eggs. heavy whipping cream. water. almond flour. salt.",
         "figure": "<img alt=\"chocolate almond bars.\" class=\"modal_img\" src=\"img_menu/bar_almond_florentine_chocolate_mini_th400.jpg\" style=\"width:100%\"/>"
@@ -47,7 +47,7 @@
             "cake",
             "dessert"
         ],
-        "price": 24,
+        "price": 25,
         "notes": "",
         "ingredients": "white flour. unsalted butter. sugar. eggs. heavy whipping cream. Snickers. caramel sauce. semi-sweet chocolate. peanuts. Twix powder. cocoa powder. baking powder. salt.",
         "figure": "<img alt=\"mini snickers\u00ae gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_snickers_th400.jpg\" style=\"width:100%\"/>"
@@ -59,7 +59,7 @@
             "nutella",
             "dessert"
         ],
-        "price": 24,
+        "price": 25,
         "notes": "",
         "ingredients": "Nutella. powdered sugar. white flour. unsalted butter. sugar. eggs. creme-filled wafers. heavy whipping cream. water. baking powder. salt.",
         "figure": "<img alt=\"mini nutella\u00ae gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_nutella_th400.jpg\" style=\"width:100%\"/>"
@@ -68,7 +68,7 @@
         "categories": [
             "international"
         ],
-        "price": 20,
+        "price": 21,
         "notes": "",
         "ingredients": "whole milk. sugar. white flour. eggs. egg yolks. rum. unsalted butter. vanilla bean powder.",
         "figure": "<img alt=\"canel\u00e9.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/canele_01_th400.jpg\" style=\"width:100%\"/>"
@@ -77,7 +77,7 @@
         "categories": [
             "gift"
         ],
-        "price": 21,
+        "price": 22,
         "notes": "",
         "ingredients": "sugar. unsalted butter. white flour. eggs. powdered sugar. almond flour. lemon juice. lemon zest. baking powder. salt.",
         "figure": "<img alt=\"petite lemon cakes.\" class=\"modal_img\" src=\"img_menu/cake_petite_lemon_th400.jpg\" style=\"width:100%\"/>"
@@ -88,7 +88,7 @@
             "international",
             "gift"
         ],
-        "price": 18,
+        "price": 19,
         "notes": "",
         "ingredients": "unsalted butter. egg whites. sugar. almond flour. white chocolate. rice syrup. white flour. heavy whipping cream. matcha powder. gold leaf.",
         "figure": "<img alt=\"matcha tigre cakes.\" class=\"modal_img\" src=\"img_menu/tigre_matcha_th400.jpg\" style=\"width:100%\"/>"
@@ -100,7 +100,7 @@
             "international",
             "chocolate"
         ],
-        "price": 18,
+        "price": 19,
         "notes": "",
         "ingredients": "unsalted butter. egg whites. sugar. almond flour. semi-sweet chocolate. rice syrup. white flour. semi-sweet chocolate chips. heavy whipping cream. gold leaf.",
         "figure": "<img alt=\"chocolate chip tigre cakes.\" class=\"modal_img\" src=\"img_menu/tigre_chocolate_chip_th400.jpg\" style=\"width:100%\"/>"
@@ -110,7 +110,7 @@
             "donut",
             "chocolate"
         ],
-        "price": 21,
+        "price": 22,
         "notes": "",
         "ingredients": "white flour. eggs. sugar. whole milk. unsalted butter. chocolate, coated. rice syrup. semi-sweet chocolate chips. white chocolate. vanilla extract. baking powder. salt.",
         "figure": "<img alt=\"baked chocolate donuts.\" class=\"modal_img\" src=\"img_menu/donuts_chocolate_th400.jpg\" style=\"width:100%\"/>"
@@ -120,7 +120,7 @@
             "donut",
             "gift"
         ],
-        "price": 20,
+        "price": 21,
         "notes": "",
         "ingredients": "sugar. white flour. rolled oats. eggs. powdered sugar. unsalted butter. whole milk. rice syrup. sprinkles, holiday. semi-sweet chocolate. cocoa powder. vanilla extract. water. Swedish pearl sugar. coconut flakes. food coloring (red). baking powder. instant coffee. salt. food coloring (green).",
         "figure": "<img alt=\"christmas baked donuts gift set.\" class=\"modal_img\" src=\"img_menu/donuts_christmas_set_th400.jpg\" style=\"width:100%\"/>"
@@ -129,7 +129,7 @@
         "categories": [
             "cake"
         ],
-        "price": 23,
+        "price": 24,
         "notes": "",
         "ingredients": "sugar. white flour. unsalted butter. eggs. powdered sugar. orange marmalade. orange. water. orange juice. heavy whipping cream. orange zest. baking powder. salt.",
         "figure": "<img alt=\"mini orange cube cakes.\" class=\"modal_img\" src=\"img_menu/cake_mini_orange_01_th400.jpg\" style=\"width:100%\"/>"
@@ -138,7 +138,7 @@
         "categories": [
             "cake"
         ],
-        "price": 23,
+        "price": 24,
         "notes": "",
         "ingredients": "white flour. sugar. unsalted butter. eggs. apricot. powdered sugar. apricot, dried. apricot juice. heavy whipping cream. baking powder. salt. food coloring (orange).",
         "figure": "<img alt=\"mini apricot cube cakes.\" class=\"modal_img\" src=\"img_menu/cake_mini_apricot_01_th400.jpg\" style=\"width:100%\"/>"
@@ -147,7 +147,7 @@
         "categories": [
             "tart"
         ],
-        "price": 26,
+        "price": 27,
         "notes": "",
         "ingredients": "fresh green grapes. unsalted butter. powdered sugar. white flour. almond flour. eggs. apple jam. vanilla extract.",
         "figure": "<img alt=\"mini green grape tarts.\" class=\"modal_img\" src=\"img_menu/tart_mini_grape_01_th400.jpg\" style=\"width:100%\"/>"
@@ -157,7 +157,7 @@
             "tart",
             "peach"
         ],
-        "price": 26,
+        "price": 27,
         "notes": "seasonal availability",
         "ingredients": "fresh peach. unsalted butter. white flour. powdered sugar. almond flour. eggs. peach jam. vanilla extract.",
         "figure": "<img alt=\"mini peach tarts.\" class=\"modal_img\" src=\"img_menu/tart_mini_peach_01_th400.jpg\" style=\"width:100%\"/>"
@@ -167,7 +167,7 @@
             "cake",
             "chocolate"
         ],
-        "price": 36,
+        "price": 37,
         "notes": "",
         "ingredients": "eggs. semi-sweet chocolate chips. sugar. heavy whipping cream. white flour. whole milk. strawberries. canola oil. cocoa powder. white chocolate chips. unsalted butter. white sprinkles. vanilla extract. baking powder. salt.",
         "figure": "<img alt=\"chocolate chip chiffon cake.\" class=\"modal_img\" src=\"img_menu/cake_chocolate_chiffon_01_th400.jpg\" style=\"width:100%\"/>"
@@ -177,7 +177,7 @@
             "cake",
             "pineapple"
         ],
-        "price": 23,
+        "price": 24,
         "notes": "",
         "ingredients": "pineapple. white flour. sugar. unsalted butter. eggs. powdered sugar. pineapple compote. pineapple juice. heavy whipping cream. water. baking powder. salt.",
         "figure": "<img alt=\"mini pineapple cube cakes.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_mini_pineapple_01_th400.jpg\" style=\"width:100%\"/>"
@@ -188,7 +188,7 @@
             "cake",
             "dessert"
         ],
-        "price": 23,
+        "price": 24,
         "notes": "",
         "ingredients": "powdered sugar. unsalted butter. sugar. eggs. white flour. dulce de leche. lotus Biscoff. heavy whipping cream. water. Twix powder. marshmallows. baking powder. salt.",
         "figure": "<img alt=\"mini dulce de leche & lotus gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_dulce_de_leche_lotus_01_th400.jpg\" style=\"width:100%\"/>"
@@ -199,7 +199,7 @@
             "chocolate",
             "dessert"
         ],
-        "price": 24,
+        "price": 25,
         "notes": "",
         "ingredients": "heavy whipping cream. unsalted butter. sugar. semi-sweet chocolate. white flour. powdered sugar. rice syrup. almond flour. eggs. cocoa powder.",
         "figure": "<img alt=\"salted chocolate & caramel tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_salted_chocolate_caramel_01_th400.jpg\" style=\"width:100%\"/>"
@@ -209,7 +209,7 @@
             "tart",
             "pear"
         ],
-        "price": 25,
+        "price": 26,
         "notes": "",
         "ingredients": "unsalted butter. white flour. powdered sugar. canned pears. almond flour. eggs. chopped pistachios. vanilla extract.",
         "figure": "<img alt=\"pear & almond tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_pear_01_th400.jpg\" style=\"width:100%\"/>"
@@ -219,7 +219,7 @@
             "cake",
             "cinnamon"
         ],
-        "price": 23,
+        "price": 24,
         "notes": "",
         "ingredients": "sugar. white flour. sour cream. unsalted butter. eggs. cinnamon powder. baking powder. vanilla extract. salt.",
         "figure": "<img alt=\"cinnamon coffee cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_cinnamon_coffee_01_th400.jpg\" style=\"width:100%\"/>"
@@ -230,7 +230,7 @@
             "chocolate",
             "mocha"
         ],
-        "price": 18,
+        "price": 19,
         "notes": "",
         "ingredients": "powdered sugar. white flour. unsalted butter. eggs. sugar. coffee. Kahl\\'{u}a. water. baking powder. salt.",
         "figure": "<img alt=\"kahl\u00faa mocha madeleines.\" class=\"modal_img\" src=\"img_menu/madeleine_kahlua_mocha_01_th400.jpg\" style=\"width:100%\"/>"
@@ -241,7 +241,7 @@
             "cake",
             "dessert"
         ],
-        "price": 25,
+        "price": 26,
         "notes": "",
         "ingredients": "unsalted butter. sugar. eggs. white flour. powdered sugar. heavy whipping cream. cocoa powder. water. food coloring (red). crumbled Oreo cookies. baking powder. salt.",
         "figure": "<img alt=\"red velvet gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_red_velvet_th400.jpg\" style=\"width:100%\"/>"
@@ -253,7 +253,7 @@
             "chocolate",
             "dessert"
         ],
-        "price": 25,
+        "price": 26,
         "notes": "",
         "ingredients": "unsalted butter. sugar. eggs. white flour. powdered sugar. heavy whipping cream. cocoa powder. water. rainbow nonpareil sprinkles. baking powder. salt. food coloring (red).",
         "figure": "<img alt=\"chocolate gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_chocolate_th400.jpg\" style=\"width:100%\"/>"
@@ -263,7 +263,7 @@
             "tart",
             "blueberry"
         ],
-        "price": 25,
+        "price": 26,
         "notes": "",
         "ingredients": "white flour. unsalted butter. powdered sugar. blueberries. sugar. almond flour. eggs. lemon juice. vanilla extract. corn starch.",
         "figure": "<img alt=\"mini blueberry crumble tarts.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_mini_blueberry_crumble_01_th400.jpg\" style=\"width:100%\"/>"
@@ -273,7 +273,7 @@
             "tart",
             "apple"
         ],
-        "price": 25,
+        "price": 26,
         "notes": "",
         "ingredients": "apples. white flour. unsalted butter. powdered sugar. sugar. almond flour. eggs. dried cranberries. vanilla extract. cinnamon powder.",
         "figure": "<img alt=\"mini apple crumble tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_mini_apple_crumble_01_th400.jpg\" style=\"width:100%\"/>"
@@ -283,7 +283,7 @@
             "cake",
             "chocolate"
         ],
-        "price": 23,
+        "price": 24,
         "notes": "",
         "ingredients": "white flour. sugar. unsalted butter. eggs. heavy whipping cream. tart cherries. semi-sweet chocolate chips. maraschino cherries. white sprinkles. baking powder. salt.",
         "figure": "<img alt=\"mini chocolate cherry cube cakes.\" class=\"modal_img\" src=\"img_menu/cake_mini_chocolate_cherry_01_th400.jpg\" style=\"width:100%\"/>"
@@ -295,7 +295,7 @@
             "mocha",
             "walnut"
         ],
-        "price": 23,
+        "price": 24,
         "notes": "",
         "ingredients": "white flour. sugar. unsalted butter. eggs. powdered sugar. walnuts. coffee. Kahl\\'{u}a. heavy whipping cream. coffee beans. water. baking powder. salt.",
         "figure": "<img alt=\"mini kahl\u00faa mocha walnut cube cakes.\" class=\"modal_img\" src=\"img_menu/cake_mini_kahlua_mocha_walnut_01_th400.jpg\" style=\"width:100%\"/>"
@@ -305,7 +305,7 @@
             "cake",
             "lemon"
         ],
-        "price": 23,
+        "price": 24,
         "notes": "",
         "ingredients": "sugar. white flour. unsalted butter. eggs. lemon. water. powdered sugar. heavy whipping cream. lemon juice. lemon zest. baking powder. salt.",
         "figure": "<img alt=\"mini lemon cube cakes.\" class=\"modal_img\" src=\"img_menu/cake_mini_lemon_01_th400.jpg\" style=\"width:100%\"/>"
@@ -314,7 +314,7 @@
         "categories": [
             "scones"
         ],
-        "price": 16,
+        "price": 17,
         "notes": "",
         "ingredients": "white flour. cherry jam. unsalted butter. powdered sugar. whole milk. heavy whipping cream. sugar. baking powder. water. salt.",
         "figure": "<img alt=\"cherry scones.\" class=\"modal_img\" src=\"img_menu/scone_cherry_01_th400.jpg\" style=\"width:100%\"/>"
@@ -323,7 +323,7 @@
         "categories": [
             "scones"
         ],
-        "price": 16,
+        "price": 17,
         "notes": "",
         "ingredients": "white flour. peach jam. unsalted butter. powdered sugar. whole milk. heavy whipping cream. sugar. baking powder. water. salt.",
         "figure": "<img alt=\"peach scones.\" class=\"modal_img\" src=\"img_menu/scone_peach_01_th400.jpg\" style=\"width:100%\"/>"
@@ -333,7 +333,7 @@
             "cake",
             "pumpkin"
         ],
-        "price": 23,
+        "price": 24,
         "notes": "",
         "ingredients": "sugar. pumpkin puree. white flour. powdered sugar. eggs. walnuts. canola oil. water. pumpkin seeds. pumpkin spice. baking powder. baking soda. cinnamon powder. pumpkin powder. salt.",
         "figure": "<img alt=\"pumpkin cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_pumpkin_01_th400.jpg\" style=\"width:100%\"/>"
@@ -343,7 +343,7 @@
             "madeleines",
             "chocolate"
         ],
-        "price": 18,
+        "price": 19,
         "notes": "6 pieces",
         "ingredients": "unsalted butter. eggs. sugar. powdered sugar. white flour. white chocolate chips. cocoa powder. water. food coloring (red). baking powder. salt.",
         "figure": "<img alt=\"red velvet & white chocolate madeleine.\" class=\"modal_img\" src=\"img_menu/madeleines_red_velvet_01_th400.jpg\" style=\"width:100%\"/>"
@@ -353,7 +353,7 @@
             "financiers",
             "chocolate"
         ],
-        "price": 20,
+        "price": 21,
         "notes": "6 pieces",
         "ingredients": "unsalted butter. sugar. egg whites. almond flour. white flour. dark chocolate. rice syrup. cocoa powder. salt.",
         "figure": "<img alt=\"salted chocolate financier.\" class=\"modal_img\" src=\"img_menu/financier_salted_chocolate_01_th400.jpg\" style=\"width:100%\"/>"
@@ -363,7 +363,7 @@
             "financiers",
             "apple"
         ],
-        "price": 20,
+        "price": 21,
         "notes": "6 pieces",
         "ingredients": "sugar. unsalted butter. white flour. apples. egg whites. almond flour. rice syrup. cinnamon powder.",
         "figure": "<img alt=\"apple crumble financier.\" class=\"modal_img\" src=\"img_menu/financier_apple_01_th400.jpg\" style=\"width:100%\"/>"
@@ -374,7 +374,7 @@
             "cake",
             "dessert"
         ],
-        "price": 22,
+        "price": 23,
         "notes": "",
         "ingredients": "unsalted butter. sugar. eggs. powdered sugar. white flour. heavy whipping cream. crumbled Oreo cookies. water. cocoa powder. food coloring (red). baking powder. salt.",
         "figure": "<img alt=\"mini red velvet gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_red_velvet_th400.jpg\" style=\"width:100%\"/>"
@@ -386,7 +386,7 @@
             "chocolate",
             "dessert"
         ],
-        "price": 21,
+        "price": 22,
         "notes": "",
         "ingredients": "unsalted butter. sugar. eggs. powdered sugar. white flour. heavy whipping cream. cocoa powder. rainbow nonpareil sprinkles. water. baking powder. salt. food coloring (red).",
         "figure": "<img alt=\"mini chocolate gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_chocolate_th400.jpg\" style=\"width:100%\"/>"
@@ -396,7 +396,7 @@
             "scones",
             "cinnamon"
         ],
-        "price": 16,
+        "price": 17,
         "notes": "",
         "ingredients": "white flour. unsalted butter. sugar. dulce de leche. whole milk. heavy whipping cream. cinnamon powder. baking powder. salt.",
         "figure": "<img alt=\"churros scones.\" class=\"modal_img\" src=\"img_menu/scone_churros_01_th400.jpg\" style=\"width:100%\"/>"
@@ -407,7 +407,7 @@
             "orange",
             "glazed"
         ],
-        "price": 17,
+        "price": 18,
         "notes": "",
         "ingredients": "sugar. powdered sugar. unsalted butter. eggs. white flour. orange juice. orange zest. baking powder. salt.",
         "figure": "<img alt=\"glazed orange madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_orange_01_th400.jpg\" style=\"width:100%\"/>"
@@ -417,7 +417,7 @@
             "scones",
             "raspberry"
         ],
-        "price": 16,
+        "price": 17,
         "notes": "",
         "ingredients": "white flour. raspberry jam. unsalted butter. whole milk. heavy whipping cream. sugar. baking powder. salt.",
         "figure": "<img alt=\"raspberry scones.\" class=\"modal_img\" src=\"img_menu/scone_raspberry_01_th400.jpg\" style=\"width:100%\"/>"
@@ -427,7 +427,7 @@
             "scones",
             "blueberry"
         ],
-        "price": 16,
+        "price": 17,
         "notes": "",
         "ingredients": "white flour. blueberry jam. unsalted butter. whole milk. heavy whipping cream. sugar. baking powder. salt.",
         "figure": "<img alt=\"blueberry scones.\" class=\"modal_img\" src=\"img_menu/scone_blueberry_01_th400.jpg\" style=\"width:100%\"/>"
@@ -436,7 +436,7 @@
         "categories": [
             "tart"
         ],
-        "price": 24,
+        "price": 25,
         "notes": "",
         "ingredients": "white flour. heavy whipping cream. whole milk. unsalted butter. sugar. egg yolks. water. corn starch. vanilla extract. salt.",
         "figure": "<img alt=\"mini egg pies.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/pie_egg_01_th400.jpg\" style=\"width:100%\"/>"
@@ -447,7 +447,7 @@
             "dessert",
             "nutella"
         ],
-        "price": 33,
+        "price": 34,
         "notes": "8\u2033 / 20\u00a0cm",
         "ingredients": "eggs. sugar. white flour. whole milk. Lindt Lindor balls. canola oil. Nutella. chocolate syrup. semi-sweet chocolate. cocoa powder. vanilla extract. heavy whipping cream. unsalted butter. rice syrup. baking powder. salt.",
         "figure": "<img alt=\"nutella\u00ae spiral cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_spiral_nutella_01_th400.jpg\" style=\"width:100%\"/>"
@@ -457,7 +457,7 @@
             "madeleines",
             "cinnamon"
         ],
-        "price": 17,
+        "price": 18,
         "notes": "",
         "ingredients": "sugar. unsalted butter. eggs. white flour. dulce de leche. cinnamon powder. baking powder. salt.",
         "figure": "<img alt=\"churros madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_churros_01_th400.jpg\" style=\"width:100%\"/>"
@@ -468,7 +468,7 @@
             "lemon",
             "glazed"
         ],
-        "price": 17,
+        "price": 18,
         "notes": "",
         "ingredients": "white flour. unsalted butter. heavy whipping cream. powdered sugar. sugar. lemon juice. baking powder. lemon zest. salt.",
         "figure": "<img alt=\"glazed lemon scones.\" class=\"modal_img\" src=\"img_menu/scone_lemon_01_th400.jpg\" style=\"width:100%\"/>"
@@ -479,7 +479,7 @@
             "fig",
             "glazed"
         ],
-        "price": 17,
+        "price": 18,
         "notes": "",
         "ingredients": "white flour. unsalted butter. sliced figs. powdered sugar. whole milk. heavy whipping cream. sugar. eggs. water. baking powder. salt.",
         "figure": "<img alt=\"glazed fig scones.\" class=\"modal_img\" src=\"img_menu/scone_fig_glazed_01_th400.jpg\" style=\"width:100%\"/>"
@@ -490,7 +490,7 @@
             "chocolate",
             "dessert"
         ],
-        "price": 25,
+        "price": 26,
         "notes": "",
         "ingredients": "powdered sugar. unsalted butter. eggs. semi-sweet chocolate. white flour. sugar. almond flour. cocoa powder. heavy whipping cream.",
         "figure": "<img alt=\"mini triple chocolate tarts.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_triple_chocolate_mini_01_th400.jpg\" style=\"width:100%\"/>"
@@ -501,7 +501,7 @@
             "dessert",
             "strawberry"
         ],
-        "price": 26,
+        "price": 27,
         "notes": "",
         "ingredients": "strawberries. unsalted butter. white flour. powdered sugar. almond flour. eggs. strawberry jam. vanilla extract.",
         "figure": "<img alt=\"mini strawberry tarts.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_strawberry_mini_01_th400.jpg\" style=\"width:100%\"/>"
@@ -512,7 +512,7 @@
             "oreo",
             "glazed"
         ],
-        "price": 18,
+        "price": 19,
         "notes": "",
         "ingredients": "sugar. unsalted butter. eggs. white flour. powdered sugar. crumbled Oreo cookies. water. cocoa powder. baking powder. Oreo cookie dust. salt.",
         "figure": "<img alt=\"glazed oreo madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_oreo_01_th400.jpg\" style=\"width:100%\"/>"
@@ -523,7 +523,7 @@
             "cinnamon",
             "apple"
         ],
-        "price": 16,
+        "price": 17,
         "notes": "",
         "ingredients": "white flour. unsalted butter. sugar. apple jam. whole milk. heavy whipping cream. baking powder. cinnamon powder. salt.",
         "figure": "<img alt=\"cinnamon apple scones.\" class=\"modal_img\" src=\"img_menu/scone_cinnamon_apple_01_th400.jpg\" style=\"width:100%\"/>"
@@ -534,7 +534,7 @@
             "earl grey",
             "glazed"
         ],
-        "price": 17,
+        "price": 18,
         "notes": "",
         "ingredients": "unsalted butter. eggs. sugar. white flour. powdered sugar. water. earl grey tea leaves. baking powder. salt.",
         "figure": "<img alt=\"glazed earl grey madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_earl_grey_01_th400.jpg\" style=\"width:100%\"/>"
@@ -545,7 +545,7 @@
             "lemon",
             "glazed"
         ],
-        "price": 17,
+        "price": 18,
         "notes": "",
         "ingredients": "sugar. powdered sugar. unsalted butter. eggs. white flour. lemon juice. lemon zest. baking powder. salt.",
         "figure": "<img alt=\"glazed lemon madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_lemon_01_th400.jpg\" style=\"width:100%\"/>"
@@ -556,7 +556,7 @@
             "international",
             "chocolate"
         ],
-        "price": 17,
+        "price": 18,
         "notes": "for 12",
         "ingredients": "rolled oats. sugar. unsalted butter. Swedish pearl sugar. semi-sweet chocolate. water. instant coffee. vanilla extract. salt.",
         "figure": "<img alt=\"swedish chocolate balls (pearl sugar).\" class=\"modal_img\" src=\"img_menu/swedish_chocolate_balls_pearl_sugar_01_th400.jpg\" style=\"width:100%\"/>"
@@ -568,7 +568,7 @@
             "chocolate",
             "coconut"
         ],
-        "price": 17,
+        "price": 18,
         "notes": "for 12",
         "ingredients": "rolled oats. sugar. unsalted butter. coconut flakes. cocoa powder. coconut oil. semi-sweet chocolate. water. instant coffee. vanilla extract. salt.",
         "figure": "<img alt=\"swedish chocolate balls (coconut).\" class=\"modal_img\" src=\"img_menu/swedish_chocolate_balls_coconut_01_th400.jpg\" style=\"width:100%\"/>"
@@ -578,7 +578,7 @@
             "cake",
             "international"
         ],
-        "price": 31,
+        "price": 32,
         "notes": "",
         "ingredients": "semi-sweet chocolate. heavy whipping cream. egg whites. sugar. apricot jam. unsalted butter. white flour. egg yolks. Lindt Lindor balls. vanilla extract.",
         "figure": "<img alt=\"sacher torte.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/sacher_torte_01_th400.jpg\" style=\"width:100%\"/>"
@@ -589,7 +589,7 @@
             "pumpkin",
             "dessert"
         ],
-        "price": 23,
+        "price": 24,
         "notes": "",
         "ingredients": "pumpkin. white flour. sugar. powdered sugar. eggs. heavy whipping cream. condensed milk. unsalted butter. almond flour. cornstarch. pumpkin spice. cinnamon powder. salt.",
         "figure": "<img alt=\"pumpkin tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_pumpkin_01_th400.jpg\" style=\"width:100%\"/>"
@@ -600,7 +600,7 @@
             "lemon",
             "dessert"
         ],
-        "price": 23,
+        "price": 24,
         "notes": "",
         "ingredients": "water. sugar. white flour. lemon juice. unsalted butter. powdered sugar. eggs. cornstarch. almond flour. lemon zest. salt.",
         "figure": "<img alt=\"lemon tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_lemon_01_th400.jpg\" style=\"width:100%\"/>"
@@ -611,7 +611,7 @@
             "blueberry",
             "dessert"
         ],
-        "price": 23,
+        "price": 24,
         "notes": "",
         "ingredients": "white flour. sugar. blueberries. unsalted butter. eggs. lemon juice. cornstarch. baking powder. salt.",
         "figure": "<img alt=\"blueberry crumble bar.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/crumble_blueberry_01_th400.jpg\" style=\"width:100%\"/>"
@@ -623,7 +623,7 @@
             "almond",
             "dessert"
         ],
-        "price": 23,
+        "price": 24,
         "notes": "",
         "ingredients": "unsalted butter. white flour. powdered sugar. semi-sweet chocolate. almond flour. eggs. heavy whipping cream. cocoa powder. vanilla extract.",
         "figure": "<img alt=\"chocolate almond tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_chocolate_almond_01_th400.jpg\" style=\"width:100%\"/>"
@@ -633,7 +633,7 @@
             "gift",
             "chocolate"
         ],
-        "price": 29,
+        "price": 30,
         "notes": "",
         "ingredients": "white chocolate. dark chocolate. milk chocolate. dried strawberry. almonds. dried orange. pecans. walnuts. dried cranberry. cashews. dried grapefruit. dried lemon.",
         "figure": "<img alt=\"bark chocolate bars.\" class=\"modal_img\" src=\"img_menu/bark_chocolate_02_th400.jpg\" style=\"width:100%\"/>"
@@ -643,7 +643,7 @@
             "cake",
             "dessert"
         ],
-        "price": 25,
+        "price": 26,
         "notes": "",
         "ingredients": "white flour. sugar. unsalted butter. eggs. milk. sour cream. blueberries. raspberries. blackberries. baking powder. vanilla extract. salt.",
         "figure": "<img alt=\"very berry coffee cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/coffee_cake_triple_berry_01_th400.jpg\" style=\"width:100%\"/>"
@@ -654,7 +654,7 @@
             "pecan",
             "dessert"
         ],
-        "price": 25,
+        "price": 26,
         "notes": "8\u2033 / 20\u00a0cm",
         "ingredients": "white flour. unsalted butter. powdered sugar. eggs. sugar. pecans. rice syrup. water. vanilla extract. salt.",
         "figure": "<img alt=\"pecan tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_pecan_01_th400.jpg\" style=\"width:100%\"/>"
@@ -665,7 +665,7 @@
             "apple",
             "dessert"
         ],
-        "price": 30,
+        "price": 31,
         "notes": "9\u2033 / 23\u00a0cm",
         "ingredients": "apples. water. white flour. unsalted butter. sugar. cornstarch. egg yolks. cinnamon powder. salt.",
         "figure": "<img alt=\"lattice apple pie.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/pie_lattice_apple_01_th400.jpg\" style=\"width:100%\"/>"
@@ -677,7 +677,7 @@
             "almond",
             "dessert"
         ],
-        "price": 26,
+        "price": 27,
         "notes": "8\u2033 / 20\u00a0cm",
         "ingredients": "apples. white flour. eggs. unsalted butter. powdered sugar. almond flour. sugar. vanilla extract. baking powder. salt.",
         "figure": "<img alt=\"apple & almond tart.\" class=\"modal_img\" src=\"img_menu/tart_apple_th400.jpg\" style=\"width:100%\"/>"
@@ -688,7 +688,7 @@
             "dessert",
             "chocolate"
         ],
-        "price": 23,
+        "price": 24,
         "notes": "8\u2033 / 20\u00a0cm",
         "ingredients": "sugar. white flour. eggs. unsalted butter. heavy whipping cream. cocoa powder. semi-sweet chocolate. chopped pistachios. vanilla extract. baking powder. salt.",
         "figure": "<img alt=\"chocolate cake.\" class=\"modal_img\" src=\"img_menu/cake_chocolate_th400.jpg\" style=\"width:100%\"/>"
