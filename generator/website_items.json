@@ -19,17 +19,6 @@
         "ingredients": "unsalted butter. sugar. eggs. white flour. powdered sugar. heavy whipping cream. rainbow cereal. crumbled Oreo cookies. water. baking powder. salt.",
         "figure": "<img alt=\"unicorn and cookies & cream mini gugelhupf combination.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_combo_unicorn_cookies_cream_th400.jpg\" style=\"width:100%\"/>"
     },
-    "nutella\u00ae and raspberry spiral cakes.": {
-        "categories": [
-            "cake",
-            "dessert",
-            "nutella"
-        ],
-        "price": 27,
-        "notes": "2 each",
-        "ingredients": "eggs. sugar. semi-sweet chocolate. Nutella. raspberry jam. heavy whipping cream. white flour. whole milk. canola oil. unsalted butter. chocolate syrup. Lindt Lindor balls. cocoa powder. raspberries. rice syrup. vanilla extract. baking powder. salt.",
-        "figure": "<img alt=\"nutella\u00ae and raspberry spiral cakes.\" class=\"modal_img\" src=\"img_menu/cake_spiral_nutella_raspberry_mini_th400.jpg\" style=\"width:100%\"/>"
-    },
     "chocolate almond bars.": {
         "categories": [
             "gift",
@@ -104,26 +93,6 @@
         "notes": "",
         "ingredients": "unsalted butter. egg whites. sugar. almond flour. semi-sweet chocolate. rice syrup. white flour. semi-sweet chocolate chips. heavy whipping cream. gold leaf.",
         "figure": "<img alt=\"chocolate chip tigre cakes.\" class=\"modal_img\" src=\"img_menu/tigre_chocolate_chip_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "baked chocolate donuts.": {
-        "categories": [
-            "donut",
-            "chocolate"
-        ],
-        "price": 22,
-        "notes": "",
-        "ingredients": "white flour. eggs. sugar. whole milk. unsalted butter. chocolate, coated. rice syrup. semi-sweet chocolate chips. white chocolate. vanilla extract. baking powder. salt.",
-        "figure": "<img alt=\"baked chocolate donuts.\" class=\"modal_img\" src=\"img_menu/donuts_chocolate_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "christmas baked donuts gift set.": {
-        "categories": [
-            "donut",
-            "gift"
-        ],
-        "price": 21,
-        "notes": "",
-        "ingredients": "sugar. white flour. rolled oats. eggs. powdered sugar. unsalted butter. whole milk. rice syrup. sprinkles, holiday. semi-sweet chocolate. cocoa powder. vanilla extract. water. Swedish pearl sugar. coconut flakes. food coloring (red). baking powder. instant coffee. salt. food coloring (green).",
-        "figure": "<img alt=\"christmas baked donuts gift set.\" class=\"modal_img\" src=\"img_menu/donuts_christmas_set_th400.jpg\" style=\"width:100%\"/>"
     },
     "mini orange cube cakes.": {
         "categories": [
@@ -386,7 +355,7 @@
             "chocolate",
             "dessert"
         ],
-        "price": 22,
+        "price": 23,
         "notes": "",
         "ingredients": "unsalted butter. sugar. eggs. powdered sugar. white flour. heavy whipping cream. cocoa powder. rainbow nonpareil sprinkles. water. baking powder. salt. food coloring (red).",
         "figure": "<img alt=\"mini chocolate gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_chocolate_th400.jpg\" style=\"width:100%\"/>"
@@ -447,7 +416,7 @@
             "dessert",
             "nutella"
         ],
-        "price": 34,
+        "price": 35,
         "notes": "8\u2033 / 20\u00a0cm",
         "ingredients": "eggs. sugar. white flour. whole milk. Lindt Lindor balls. canola oil. Nutella. chocolate syrup. semi-sweet chocolate. cocoa powder. vanilla extract. heavy whipping cream. unsalted butter. rice syrup. baking powder. salt.",
         "figure": "<img alt=\"nutella\u00ae spiral cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_spiral_nutella_01_th400.jpg\" style=\"width:100%\"/>"
@@ -472,17 +441,6 @@
         "notes": "",
         "ingredients": "white flour. unsalted butter. heavy whipping cream. powdered sugar. sugar. lemon juice. baking powder. lemon zest. salt.",
         "figure": "<img alt=\"glazed lemon scones.\" class=\"modal_img\" src=\"img_menu/scone_lemon_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "glazed fig scones.": {
-        "categories": [
-            "scones",
-            "fig",
-            "glazed"
-        ],
-        "price": 18,
-        "notes": "",
-        "ingredients": "white flour. unsalted butter. sliced figs. powdered sugar. whole milk. heavy whipping cream. sugar. eggs. water. baking powder. salt.",
-        "figure": "<img alt=\"glazed fig scones.\" class=\"modal_img\" src=\"img_menu/scone_fig_glazed_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "mini triple chocolate tarts.": {
         "categories": [
@@ -578,7 +536,7 @@
             "cake",
             "international"
         ],
-        "price": 32,
+        "price": 33,
         "notes": "",
         "ingredients": "semi-sweet chocolate. heavy whipping cream. egg whites. sugar. apricot jam. unsalted butter. white flour. egg yolks. Lindt Lindor balls. vanilla extract.",
         "figure": "<img alt=\"sacher torte.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/sacher_torte_01_th400.jpg\" style=\"width:100%\"/>"
