@@ -8,17 +8,6 @@
         "ingredients": "great for gifts.",
         "figure": "<a href=\"https://squareup.com/gift/0YYYRFZT95E8C/order\"><img alt=\"Gift Card.\" src=\"img_menu/gift_card.png\" style=\"width:100%\"/></a>"
     },
-    "mini unicorn gugelhupf.": {
-        "categories": [
-            "cake",
-            "gugelhupf",
-            "dessert"
-        ],
-        "price": 24,
-        "notes": "",
-        "ingredients": "unsalted butter. sugar. eggs. white flour. powdered sugar. rainbow cereal. heavy whipping cream. water. baking powder. salt.",
-        "figure": "<img alt=\"mini unicorn gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_nutella_th400.jpg\" style=\"width:100%\"/>"
-    },
     "unicorn and cookies & cream mini gugelhupf combination.": {
         "categories": [
             "cake",
@@ -40,29 +29,6 @@
         "notes": "",
         "ingredients": "sugar. white flour. unsalted butter. sliced almonds. semi-sweet chocolate. honey. rice syrup. eggs. heavy whipping cream. water. almond flour. salt.",
         "figure": "<img alt=\"chocolate almond bars.\" class=\"modal_img\" src=\"img_menu/bar_almond_florentine_chocolate_mini_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "mini snickers\u00ae gugelhupf.": {
-        "categories": [
-            "gugelhupf",
-            "cake",
-            "dessert"
-        ],
-        "price": 25,
-        "notes": "",
-        "ingredients": "white flour. unsalted butter. sugar. eggs. heavy whipping cream. Snickers. caramel sauce. semi-sweet chocolate. peanuts. Twix powder. cocoa powder. baking powder. salt.",
-        "figure": "<img alt=\"mini snickers\u00ae gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_snickers_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "mini nutella\u00ae gugelhupf.": {
-        "categories": [
-            "gugelhupf",
-            "cake",
-            "nutella",
-            "dessert"
-        ],
-        "price": 25,
-        "notes": "",
-        "ingredients": "Nutella. powdered sugar. white flour. unsalted butter. sugar. eggs. creme-filled wafers. heavy whipping cream. water. baking powder. salt.",
-        "figure": "<img alt=\"mini nutella\u00ae gugelhupf.\" class=\"modal_img\" src=\"img_menu/gugelhupf_mini_nutella_th400.jpg\" style=\"width:100%\"/>"
     },
     "canel\u00e9.": {
         "categories": [
@@ -105,24 +71,6 @@
         "ingredients": "unsalted butter. egg whites. sugar. almond flour. semi-sweet chocolate. rice syrup. white flour. semi-sweet chocolate chips. heavy whipping cream. gold leaf.",
         "figure": "<img alt=\"chocolate chip tigre cakes.\" class=\"modal_img\" src=\"img_menu/tigre_chocolate_chip_th400.jpg\" style=\"width:100%\"/>"
     },
-    "mini orange cube cakes.": {
-        "categories": [
-            "cake"
-        ],
-        "price": 24,
-        "notes": "",
-        "ingredients": "sugar. white flour. unsalted butter. eggs. powdered sugar. orange marmalade. orange. water. orange juice. heavy whipping cream. orange zest. baking powder. salt.",
-        "figure": "<img alt=\"mini orange cube cakes.\" class=\"modal_img\" src=\"img_menu/cake_mini_orange_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "mini apricot cube cakes.": {
-        "categories": [
-            "cake"
-        ],
-        "price": 24,
-        "notes": "",
-        "ingredients": "white flour. sugar. unsalted butter. eggs. apricot. powdered sugar. apricot, dried. apricot juice. heavy whipping cream. baking powder. salt. food coloring (orange).",
-        "figure": "<img alt=\"mini apricot cube cakes.\" class=\"modal_img\" src=\"img_menu/cake_mini_apricot_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "mini green grape tarts.": {
         "categories": [
             "tart"
@@ -151,16 +99,6 @@
         "notes": "",
         "ingredients": "eggs. semi-sweet chocolate chips. sugar. heavy whipping cream. white flour. whole milk. strawberries. canola oil. cocoa powder. white chocolate chips. unsalted butter. white sprinkles. vanilla extract. baking powder. salt.",
         "figure": "<img alt=\"chocolate chip chiffon cake.\" class=\"modal_img\" src=\"img_menu/cake_chocolate_chiffon_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "mini pineapple cube cakes.": {
-        "categories": [
-            "cake",
-            "pineapple"
-        ],
-        "price": 24,
-        "notes": "",
-        "ingredients": "pineapple. white flour. sugar. unsalted butter. eggs. powdered sugar. pineapple compote. pineapple juice. heavy whipping cream. water. baking powder. salt.",
-        "figure": "<img alt=\"mini pineapple cube cakes.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_mini_pineapple_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "mini dulce de leche & lotus gugelhupf.": {
         "categories": [
@@ -203,17 +141,6 @@
         "notes": "",
         "ingredients": "sugar. white flour. sour cream. unsalted butter. eggs. cinnamon powder. baking powder. vanilla extract. salt.",
         "figure": "<img alt=\"cinnamon coffee cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_cinnamon_coffee_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "kahl\u00faa mocha madeleines.": {
-        "categories": [
-            "madeleines",
-            "chocolate",
-            "mocha"
-        ],
-        "price": 19,
-        "notes": "",
-        "ingredients": "powdered sugar. white flour. unsalted butter. eggs. sugar. coffee. Kahl\\'{u}a. water. baking powder. salt.",
-        "figure": "<img alt=\"kahl\u00faa mocha madeleines.\" class=\"modal_img\" src=\"img_menu/madeleine_kahlua_mocha_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "red velvet gugelhupf.": {
         "categories": [
@@ -402,16 +329,6 @@
         "ingredients": "white flour. raspberry jam. unsalted butter. whole milk. heavy whipping cream. sugar. baking powder. salt.",
         "figure": "<img alt=\"raspberry scones.\" class=\"modal_img\" src=\"img_menu/scone_raspberry_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "blueberry scones.": {
-        "categories": [
-            "scones",
-            "blueberry"
-        ],
-        "price": 17,
-        "notes": "",
-        "ingredients": "white flour. blueberry jam. unsalted butter. whole milk. heavy whipping cream. sugar. baking powder. salt.",
-        "figure": "<img alt=\"blueberry scones.\" class=\"modal_img\" src=\"img_menu/scone_blueberry_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "mini egg pies.": {
         "categories": [
             "tart"
@@ -420,17 +337,6 @@
         "notes": "",
         "ingredients": "white flour. heavy whipping cream. whole milk. unsalted butter. sugar. egg yolks. water. corn starch. vanilla extract. salt.",
         "figure": "<img alt=\"mini egg pies.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/pie_egg_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "nutella\u00ae spiral cake.": {
-        "categories": [
-            "cake",
-            "dessert",
-            "nutella"
-        ],
-        "price": 35,
-        "notes": "8\u2033 / 20\u00a0cm",
-        "ingredients": "eggs. sugar. white flour. whole milk. Lindt Lindor balls. canola oil. Nutella. chocolate syrup. semi-sweet chocolate. cocoa powder. vanilla extract. heavy whipping cream. unsalted butter. rice syrup. baking powder. salt.",
-        "figure": "<img alt=\"nutella\u00ae spiral cake.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/cake_spiral_nutella_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "churros madeleines.": {
         "categories": [
@@ -518,17 +424,6 @@
         "notes": "",
         "ingredients": "sugar. powdered sugar. unsalted butter. eggs. white flour. lemon juice. lemon zest. baking powder. salt.",
         "figure": "<img alt=\"glazed lemon madeleines.\" class=\"modal_img\" src=\"img_menu/madeleines_lemon_01_th400.jpg\" style=\"width:100%\"/>"
-    },
-    "swedish chocolate balls (pearl sugar).": {
-        "categories": [
-            "gift",
-            "international",
-            "chocolate"
-        ],
-        "price": 18,
-        "notes": "for 12",
-        "ingredients": "rolled oats. sugar. unsalted butter. Swedish pearl sugar. semi-sweet chocolate. water. instant coffee. vanilla extract. salt.",
-        "figure": "<img alt=\"swedish chocolate balls (pearl sugar).\" class=\"modal_img\" src=\"img_menu/swedish_chocolate_balls_pearl_sugar_01_th400.jpg\" style=\"width:100%\"/>"
     },
     "swedish chocolate balls (coconut).": {
         "categories": [
