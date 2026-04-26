@@ -185,16 +185,6 @@
         "ingredients": "apples. white flour. unsalted butter. powdered sugar. sugar. almond flour. eggs. dried cranberries. vanilla extract. cinnamon powder.",
         "figure": "<img alt=\"mini apple crumble tart.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/tart_mini_apple_crumble_01_th400.jpg\" style=\"width:100%\"/>"
     },
-    "mini chocolate cherry cube cakes.": {
-        "categories": [
-            "cake",
-            "chocolate"
-        ],
-        "price": 24,
-        "notes": "",
-        "ingredients": "white flour. sugar. unsalted butter. eggs. heavy whipping cream. tart cherries. semi-sweet chocolate chips. maraschino cherries. white sprinkles. baking powder. salt.",
-        "figure": "<img alt=\"mini chocolate cherry cube cakes.\" class=\"modal_img\" src=\"img_menu/cake_mini_chocolate_cherry_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "mini kahl\u00faa mocha walnut cube cakes.": {
         "categories": [
             "cake",
