@@ -30,15 +30,6 @@
         "ingredients": "sugar. white flour. unsalted butter. sliced almonds. semi-sweet chocolate. honey. rice syrup. eggs. heavy whipping cream. water. almond flour. salt.",
         "figure": "<img alt=\"chocolate almond bars.\" class=\"modal_img\" src=\"img_menu/bar_almond_florentine_chocolate_mini_th400.jpg\" style=\"width:100%\"/>"
     },
-    "canel\u00e9.": {
-        "categories": [
-            "international"
-        ],
-        "price": 21,
-        "notes": "",
-        "ingredients": "whole milk. sugar. white flour. eggs. egg yolks. rum. unsalted butter. vanilla bean powder.",
-        "figure": "<img alt=\"canel\u00e9.\" class=\"modal_img\" onmouseout=\"unhover(this);\" onmouseover=\"hover(this);\" src=\"img_menu/canele_01_th400.jpg\" style=\"width:100%\"/>"
-    },
     "petite lemon cakes.": {
         "categories": [
             "gift"
